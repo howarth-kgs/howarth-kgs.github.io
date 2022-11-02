@@ -27,6 +27,7 @@ def url2imgfpn():
     import sys
     u= sys.argv[1]
     u= u.split('/')
+    u= reversed(u)
     def g(x):
         b= len(x)==7
         b= b and x[0]=='z'
