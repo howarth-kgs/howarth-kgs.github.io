@@ -1,0 +1,455 @@
+
+<html>
+<head>
+<style> .wrap { word-wrap: break-word; } </style>
+<style> .rwo { display: table; } </style>
+<style> .rwi { padding: 50% 0; height: 0; } </style>
+<style> .etr { display: block; transform-origin: top left; transform: rotate(90deg) translate(0, -100%); margin-top: -50%; white-space: nowrap; } </style>
+<style> .r90 { -webkit-transform: translateY(-100%) rotate(90deg); -moz-transform: translateY(-100%) rotate(90deg); -ms-transform: translateY(-100%) rotate(90deg); -o-transform: translateY(-100%) rotate(90deg); transform: translateY(-100%) rotate(90deg); -webkit-transform-origin: left bottom; -moz-transform-origin: left bottom; -ms-transform-origin: left bottom; -o-transform-origin: left bottom; transform-origin: left bottom; } </style>
+<style> .heiaut { height: auto; } </style>
+<style> .w200px { width: 200px; } </style>
+<style> .w300px { width: 300px; } </style>
+<style> .w333px { width: 333px; } </style>
+<style> .widaut { width: auto; } </style>
+<style> .r270 { transform:rotate(270deg); } </style>
+<style> .df { display:flex; } </style>
+<style> .dt { display:table; } </style>
+<style> .dtc { display:table-cell; } </style>
+<style> .dtr { display:table-row; } </style>
+<style> .pr { position: relative; } </style>
+<style> .aic { align-items:center; } </style>
+<style> .vam { vertical-align: middle; } </style>
+<style> .talc { text-align-last: center; } </style>
+<style> .linhei { line-height: 1.5; } </style>
+<style> .dib { display: inline-block; } </style>
+<style> .mla { margin-left:auto; } </style>
+<style> .mra { margin-right:auto; } </style>
+<style> .ma { margin: auto; } </style>
+<style> .ma0 { margin: auto 0; } </style>
+<style> .ma5px { margin: 5px; } </style>
+<style> .clearfix { overflow: auto; } </style>
+<style> .fL { float: left; } </style>
+<style> .fR { float: right; } </style>
+<style> .b1 { border: solid white; border-width: 20px; } </style>
+<style> .topleft { position: relative; top:100px; left:100px; background: yellow; border: solid thin #FFFFFF; width: 2000px; } </style>
+<style> .topright { position: relative; background: blue; top: 100px; } </style>
+<style> .fArial { font-family: Arial; } </style>
+<style> .fSS { font-family: Sans-serif; } </style>
+<style> .fCSMS { font-family: ", C, o, m, i, c,  , S, a, n, s,  , M, S, ", ,,  , ", C, o, m, i, c,  , S, a, n, s, ", ,,  , c, u, r, s, i, v, e; } </style>
+<style> .fVerdana { font-family: Verdana; } </style>
+<style> .fTNR { font-family: "Times New Roman"; } </style>
+<style> .c { text-align: center; } </style>
+<style> .b { font-weight: bold; } </style>
+<style> .s3em { font-size: 3em; } </style>
+<style> .s2aahem { font-size: 2.5em; } </style>
+<style> .s2em { font-size: 2em; } </style>
+<style> .s1aahem { font-size: 1.5em; } </style>
+<style> .s1em { font-size: 1em; } </style>
+<style> 
+ .bgReadingPeach { background: #EDD1B0; }
+.bgReadingOrange { background: #EDDD6E; }
+.bgReadingYellow { background: #F8FD89; }
+.bgRosyDewCream { background: #F9F1F0; }
+.bgCream { background: #FFFDD0; }
+.bgNeonYellow { background: #FBCB0A; }
+.bglightgrey { background: lightgrey; }
+.bgRetroMaroon { background: #C70A80; }
+.bgKidsPurple { background: #590696; }
+.bgRainbowTeal { background: #37E2D5; }
+.bgebebeb { background: #ebebeb; }
+.bgebebeb_Tone1 { background: #ede9e9; }
+.bgebebeb_Tone2 { background: #eee8e8; }
+.bgebebeb_Tone3 { background: #f0e6e6; }
+.bgebebeb_Tone4 { background: #f2e4e4; }
+.bgebebeb_Tone5 { background: #f3e3e3; }
+.bgebebeb_Tone6 { background: #f5e1e1; }
+.bgebebeb_Tone7 { background: #f7dfdf; }
+.bgebebeb_Tone8 { background: #f8dede; }
+.bgebebeb_Tone9 { background: #fadcdc; }
+.bgebebeb_Tone10 { background: #fcdada; }
+.bgebebeb_Tone11 { background: #fdd9d9; }
+.bgebebeb_Tone12 { background: #ffd7d7; }
+.bgJungleGreen { background: #29AB87; }
+.bgMantis { background: ; }
+.bgMiddleGreen { background: #4D8C57; }
+.bgScreaminGreen { background: #66FF66; }
+.bgDartmouthGreen { background: #00703C; }
+.bgSapGreen { background: #507D2A; }
+.bgSlimyGreen { background: #299617; }
+.bgLimeGreen { background: #32CD32; }
+.bgBitterLemon { background: #CAE00D; }
+.bgArtichokeGreen { background: #8F9779; }
+.bgGrannySmithApple { background: #A8E4A0; }
+.bgAppleGreen { background: #8DB600; }
+.bgFrenchLime { background: #9EFD38; }
+.bgAvocadon { background: #568203; }
+.bgPistachio { background: #93C572; }
+.bgOliveGreen { background: #708238; }
+.bgDarkOliveGreen { background: #556B2F; }
+.bgHunterGreen { background: #355E3B; }
+.bgAmazon { background: #3B7A57; }
+.bgDarkJungleGreen { background: #1A2421; }
+.bgDeepJungleGreen { background: #004B49; }
+.bgForestGreen { background: #014421; }
+.bgTropicalRainforest { background: #00755E; }
+.bgMyrtleGreen { background: #317873; }
+.bgPineGreen { background: #01796F; }
+.bgMintGreen { background: #98FB98; }
+.bgLawnGreen { background: #7CFC00; }
+.bgMossGreen { background: #8A9A5B; }
+.bgDarkMossGreen { background: #4A5D23; }
+.bgFernGreen { background: #4F7942; }
+.bgTeaGreen { background: #D0F0C0; }
+.bgSageGreen { background: #BCB88A; }
+.bgShamrockGreen { background: #009E60; }
+.bgLaurelGreen { background: #A9BA9D; }
+.bgSpringGreen { background: #00FF7F; }
+.bgMediumSpringGreen { background: #00FA9A; }
+.bgDarkSpringGreen { background: #177245; }
+.bgLightSeaGreen { background: #20B2AA; }
+.bgSea { background: green crayola; }
+.bgHex { background: #8DD9CC; }
+.bgRGB { background: 141, 217, 204; }
+.bgCMYK { background: 35, 0, 6, 15; }
+.bg. { background: ; }
+.bgMedium { background: aquamarine; }
+.bgDark { background: pastel green; }
+.bgOcean { background: green; }
+.bgGreen { background: cyan; }
+.bgPhthalo { background: green; }
+.bgMaximum { background: green yellow; }
+.bgLight { background: green; }
+.bgMiddle { background: blue green; }
+.bgBud { background: green; }
+.bgKombu { background: green; }
+.bgMalachite { background: ; }
+.bgZomp { background: ; }
+.bgBright { background: green; }
+.bgElectric { background: green; }
+.bgVolt { background: ; }
+.bgScreamin { background: green; }
+.bgSap { background: green; }
+.bgGO { background: green; }
+.bgSlimy { background: green; }
+.bgNeon { background: green; }
+.bgPersian { background: green; }
+.bgSpanish { background: green; }
+.bgParis { background: green; }
+.bgBritish { background: racing green; }
+.bgDartmouth { background: green; }
+.bgEton { background: green; }
+.bgSacramento { background: State green; }
+.bgCharleston { background: green; }
+.bgBrunswick { background: green; }
+.bgIndia { background: green; }
+.bgPakistan { background: green; }
+.bgCaribbean { background: green; }
+.bgRussian { background: green; }
+.bgJade { background: green; }
+.bgEmerald { background: green; }
+.bgTurquoise { background: green; }
+.bgCadmium { background: green; }
+.bgHarlequin { background: ; }
+.bgKelly { background: green; }
+.bgPaolo { background: Veronese green; }
+.bgLincoln { background: green; }
+.bgMay { background: green; }
+.bgArmy { background: green; }
+.bgMichigan { background: State University green; }
+.bgMidnight { background: green; }
+.bgCeladon { background: ; }
+.bgBottle { background: green; }
+.bgAndroid { background: green; }
+.bgViridian { background: green; }
+.bgAcid { background: green; }
+.bgCastleton { background: green; }
+.bgWintergreen { background: dream; }
+.bgYellow { background: green color wheel; }
+.bgBlue { background: green color wheel; }
+.bgGreenSheen { background: #6EAEA1; }
+.bgSheenGreen { background: #8FD400; }
+.bgSummerCloud { background: #c0fff0; }
+.bgPaleTurquoise { background: #a8ffd8; }
+.bgGlowInTheDark { background: #c0ffc0; }
+.bgEasterGreen { background: #90ff78; }
+.bgGoblinWarboss { background: #48ff48; }
+.bgGrapeTaffy { background: #f0d8f0; }
+.bgLightLavender { background: #f0c0ff; }
+.bgShade1 { background: #f2fff2; }
+.bgShade2 { background: #eaffea; }
+.bgShade3 { background: #e2fee2; }
+.bgShade4 { background: #dafeda; }
+.bgShade5 { background: #d2fed2; }
+.bgShade6 { background: #c9fec9; }
+.bgShade7 { background: #c1fec1; }
+.bgShade8 { background: #b9feb9; }
+.bgShade9 { background: #b1feb1; }
+.bgShade10 { background: #a9ffa9; }
+.bgShade11 { background: #a1ffa1; }
+.bgShade12 { background: #9f9; }
+.bgShade13 { background: #90ff90; }
+.bgShade14 { background: #8f8; }
+.bgShade15 { background: #80ff80; }
+.bgShade16 { background: #78ff78; }
+.bgShade17 { background: #70ff70; }
+.bgShade18 { background: #68ff68; }
+.bgShade19 { background: #5fff5f; }
+.bgShade20 { background: #57ff57; }
+.bgShade21 { background: #4fff4f; }
+.bgShade22 { background: #47ff47; }
+.bgShade23 { background: #3fff3f; }
+.bgShade24 { background: #37ff37; }
+.bgShade25 { background: #2eff2e; }
+.bgShade26 { background: #26ff26; }
+.bgShade27 { background: #1eff1e; }
+.bgShade28 { background: #16ff16; }
+.bgShade29 { background: #0eff0e; }
+.bgShade30 { background: #06ff06; }
+.bgShade31 { background: #00fc00; }
+.bgShade32 { background: #00f400; }
+.bgShade33 { background: #00ec00; }
+.bgShade34 { background: #00e400; }
+.bgShade35 { background: #00dc00; }
+.bgShade36 { background: #00d400; }
+.bgShade37 { background: #0c0; }
+.bgShade38 { background: #00c300; }
+.bgShade39 { background: #0b0; }
+.bgShade40 { background: #00b300; }
+.bgShade41 { background: #00ab00; }
+.bgShade42 { background: #00a300; }
+.bgShade43 { background: #009b00; }
+.bgShade44 { background: #009200; }
+.bgShade45 { background: #008a00; }
+.bgShade46 { background: #008200; }
+.bgShade47 { background: #007a00; }
+.bgShade48 { background: #007200; }
+.bgShade49 { background: #006a00; }
+.bgShade50 { background: #006100; }
+.bgShade51 { background: #005900; }
+.bgShade52 { background: #005100; }
+.bgShade53 { background: #004900; }
+.bgShade54 { background: #004100; }
+.bgShade55 { background: #003900; }
+.bgShade56 { background: #003000; }
+.bgShade57 { background: #002800; }
+.bgShade58 { background: #002000; }
+.bgShade59 { background: #001800; }
+.bgShade60 { background: #001000; }
+.bg2020ClassicBlue { background: #34568B; }
+.bg2019LivingCoral { background: #FF6F61; }
+.bg2018UltraViolet { background: #6B5B95; }
+.bg2017Greenery { background: #88B04B; }
+.bg2016RoseQuartz { background: #F7CAC9; }
+.bg2016Serenity { background: #92A8D1; }
+.bg2015Marsala { background: #955251; }
+.bg2014RadiandOrchid { background: #B565A7; }
+.bg2013Emerald { background: #009B77; }
+.bg2012TangerineTango { background: #DD4124; }
+.bg2011Honeysucle { background: #D65076; }
+.bg2010Turquoise { background: #45B8AC; }
+.bg2009Mimosa { background: #EFC050; }
+.bg2008BlueIzis { background: #5B5EA6; }
+.bg2007ChiliPepper { background: #9B2335; }
+.bg2006SandDollar { background: #DFCFBE; }
+.bg2005BlueTurquoise { background: #55B4B0; }
+.bg2004Tigerlily { background: #E15D44; }
+.bg2003AquaSky { background: #7FCDCD; }
+.bg2002TrueRed { background: #BC243C; }
+.bg2001FuchsiaRose { background: #C3447A; }
+.bg2000CeruleanBlue { background: #98B4D4; } 
+ </style>
+<meta charset="UTF-8" />
+</head>
+<body>
+<table border=1 class="mla mra" width=900px>
+<tr align="top"><td class="c s2em fSS bg2006SandDollar" colspan="6">30 Wikipedia Definitions</td></tr>
+<tr align="top"><th>#</th>
+<th>Netloc</th>
+<th>Category</th>
+<th>Name</th>
+<th>Definition</th>
+<th>Saved</th></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">1</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Show</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">39th Primetime Emmy Awards</td>
+<td class="c s2em fVerdana">Wed Nov 23 01:44:15 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Prime time Emmy Awards of 1987<BR><BR>The 39th Primetime Emmy Awards were held on Sunday, September 20, 1987.<BR><BR>The ceremony was broadcast on Fox for the first time, as the network premiered a year earlier from the Pasadena Civic Auditorium in Pasadena, California.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">2</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Place</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Adams National Historical Park</td>
+<td class="c s2em fVerdana">Fri Nov 25 01:50:22 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">National Historical Park of the United States<BR><BR>Adams National Historical Park, formerly Adams National Historic Site, in Quincy, Massachusetts, preserves the home of United States presidents John Adams and John Quincy Adams, of U.S. envoy to Great Britain, Charles Francis Adams, and of writers and historians Henry Adams and Brooks Adams.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">3</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Thing > Movie</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Avatar: The Way of Water</td>
+<td class="c s2em fVerdana">Fri Nov 25 04:05:15 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Upcoming American film by James Cameron<BR><BR>Avatar: The Way of Water is an upcoming American epic science fiction film directed by James Cameron and distributed by 20th Century Studios. <BR> The sequel to Avatar (2009), it is the second installment in the Avatar film series.<BR><BR>Cameron is producing the film with Jon Landau, and is writing the screenplay with Rick Jaffa and Amanda Silver, which is based on a story all three wrote with Josh Friedman and Shane Salerno.<BR><BR>Cast members Sam Worthington, Zoe Saldaña, Stephen Lang, Joel David Moore, CCH Pounder, Giovanni Ribisi, Dileep Rao, and Matt Gerald reprise their roles from the original film, with Sigourney Weaver returning in a different role.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">4</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Thing > Company</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">BBC</td>
+<td class="c s2em fVerdana">Thu Nov 24 22:57:15 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">British public service broadcaster<BR><BR>The British Broadcasting Corporation (BBC) is the national broadcaster of the United Kingdom, based at Broadcasting House in London, England.<BR><BR>It is the world's oldest national broadcaster, and the largest broadcaster in the world by number of employees, employing over 22,000 staff in total, of whom approximately 19,000 are in public-sector broadcasting.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">5</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Event</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Battle of Surabaya</td>
+<td class="c s2em fVerdana">Fri Nov 25 02:00:07 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Battle between British and Indonesian forces<BR><BR>The Battle of Surabaya was fought between regular infantry and militia of the Indonesian nationalist movement and British and British Indian troops as a part of the Indonesian National Revolution against the re-imposition of Dutch colonial rule. <BR> The peak of the battle was in November 1945.<BR><BR>The battle was the largest single battle of the revolution and became a national symbol of Indonesian resistance.<BR><BR>Considered a heroic effort by Indonesians, the battle helped galvanise Indonesian and international support for Indonesian independence.<BR><BR>10 November is celebrated annually as Heroes' Day (Hari Pahlawan).</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">6</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Person</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">César Azpilicueta</td>
+<td class="c s2em fVerdana">Fri Nov 25 04:21:27 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Date of Birth 28 August 1989 (still alive)<BR><BR>Spanish footballer<BR><BR>César Azpilicueta Tanco is a Spanish professional footballer who plays as a right-back or centre-back for Premier League club Chelsea and the Spain national team.<BR><BR>In this Spanish name, the first or paternal surname is Azpilicueta and the second or maternal family name is Tanco.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">7</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Person</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">David Starkey</td>
+<td class="c s2em fVerdana">Fri Nov 25 03:55:54 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Date of Birth 3 January 1945 (still alive)<BR><BR>British constitutional historian<BR><BR>David Robert Starkey CBE is an English historian and radio and television presenter, with views that he describes as conservative.<BR><BR>The only child of Quaker parents, he attended Kendal Grammar School before studying at Cambridge through a scholarship. <BR> There he specialised in Tudor history, writing a thesis on King Henry VIII's household.<BR><BR>From Cambridge, he moved to the London School of Economics, where he was a lecturer in history until 1998.<BR><BR>He has written several books on the Tudors.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">8</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Person</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Donnelly Rhodes</td>
+<td class="c s2em fVerdana">Tue Nov 22 00:22:40 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Date of Birth December 4, 1937 to Date of Death January 8, 2018<BR><BR>Henry Donnelly Rhodes was a Canadian actor, known professionally as Donnelly Rhodes.<BR><BR>He had many American television and film credits, probably best known to American audiences as the hapless escaped convict Dutch Leitner on the soap opera spoof Soap and as Phillip Chancellor II on The Young and the Restless.<BR><BR>Rhodes was well-known to Canadian audiences as Sgt. Nick Raitt in the CBC TV series Sidestreet (1975–1978) and as Grant "Doc" Roberts in another CBC TV series, Danger Bay (1984–1990).<BR><BR>He also starred as Doctor Cottle ("Doc") on Battlestar Galactica (2004–2009).</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">9</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Concept</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Erdős number</td>
+<td class="c s2em fVerdana">Wed Nov 23 01:13:41 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Closeness of someone's association with mathematician Paul Erdős<BR><BR>The Erdős number describes the "collaborative distance" between mathematician Paul Erdős and another person, as measured by authorship of mathematical papers.<BR><BR>The same principle has been applied in other fields where a particular individual has collaborated with a large and broad number of peers.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">10</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Person</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Evelyn de Rothschild</td>
+<td class="c s2em fVerdana">Fri Nov 25 01:52:35 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Date of Birth  to Date of Death <BR><BR>British financier (1931–2022)<BR><BR>Sir Evelyn Robert Adrian de Rothschild FKC (29 August 1931 – 8 November 2022) was a British financier and a member of the Rothschild family.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">11</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Concept</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Historic districts in the United States</td>
+<td class="c s2em fVerdana">Wed Nov 23 01:53:38 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Overview of historic districts in the United States<BR><BR>Historic districts in the United States are designated historic districts recognizing a group of buildings, properties, or sites by one of several entities on different levels as historically or architecturally significant.<BR><BR>Buildings, structures, objects and sites within a historic district are normally divided into two categories, contributing and non-contributing.<BR><BR>Districts vary greatly in size: some have hundreds of structures, while others have just a few.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">12</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Place</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Independence National Historical Park</td>
+<td class="c s2em fVerdana">Wed Nov 23 02:06:52 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">National historic site in Philadelphia, Pennsylvania, United States<BR><BR>Independence National Historical Park is a federally protected historic district in Philadelphia, Pennsylvania, United States that preserves several sites associated with the American Revolution and the nation's founding history.<BR><BR>Administered by the National Park Service, the 55-acre (22 ha) park comprises many of Philadelphia's most-visited historic sites within the Old City and Society Hill neighborhoods.<BR><BR>The park has been nicknamed "America's most historic square mile" because of its abundance of historic landmarks.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">13</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Thing > Company</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Infosys</td>
+<td class="c s2em fVerdana">Fri Nov 25 01:45:42 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Indian multinational technology company<BR><BR>Infosys Limited is an Indian multinational information technology company that provides business consulting, information technology and outsourcing services.<BR><BR>The company was founded in Pune and is headquartered in Bangalore.<BR><BR>Infosys is the second-largest Indian IT company, after Tata Consultancy Services, by 2020 revenue figures, and the 602nd largest public company in the world, according to the Forbes Global 2000 ranking.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">14</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Person</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">John Fetterman</td>
+<td class="c s2em fVerdana">Fri Nov 25 04:12:01 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Date of Birth August 15, 1969 (still alive)<BR><BR>American politician<BR><BR>John Karl Fetterman is an American politician from Pennsylvania.<BR><BR>A member of the Democratic Party, he is a United States senator-elect and the 34th lieutenant governor of Pennsylvania, having served in the latter role since 2019.<BR><BR>He previously served as mayor of Braddock from 2006 to 2019.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">15</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Show</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">List of Perfect Strangers episodes</td>
+<td class="c s2em fVerdana">Wed Nov 23 01:23:02 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Perfect Strangers is an American sitcom created by Dale McRaven which aired on ABC in the United States.<BR><BR>It chronicles the rocky coexistence of Larry Appleton (Mark Linn-Baker) and his distant cousin Balki Bartokomous (Bronson Pinchot).<BR><BR>The show began in the spring of 1986, and concluded with the eighth season in summer 1993.<BR><BR>Originally airing on Tuesdays and then Wednesdays in prime time, the show eventually found its niche as an anchor for ABC's original TGIF Friday night lineup.<BR><BR>The series ran for 150 episodes, concluding with the two-part series finale on August 6, 1993.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">16</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Show</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">List of Punky Brewster episodes</td>
+<td class="c s2em fVerdana">Wed Nov 23 15:59:31 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Punky Brewster is an American television series created by David W. Duclon.<BR><BR>The series revolves around a girl named Punky Brewster (Soleil Moon Frye) being raised by her foster parent Henry Warnimont (George Gaynes).<BR><BR>The show aired original episodes on NBC from September 16, 1984, to March 9, 1986, and again in first-run syndication from October 30, 1987, to May 27, 1988.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">17</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Place</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">List of the United States National Park System official units</td>
+<td class="c s2em fVerdana">Wed Nov 23 02:15:20 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">The Official Units of the National Park System of the United States is the collection of physical properties owned or administered by the National Park Service.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">18</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Person</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Melanie Wilson</td>
+<td class="c s2em fVerdana">Wed Nov 23 01:28:08 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Date of Birth 1960 (still alive)<BR><BR>Melanie Wilson is an American actress best known for her co-starring role as Jennifer Lyons-Appleton in the ABC sitcom Perfect Strangers.<BR><BR>Her other television credits include Family Matters, Step by Step, Simon & Simon and The A-Team.<BR><BR>She did a week of The $100,000 Pyramid in 1988.<BR><BR>In 2009, she appeared in the Lifetime Television network film Prayers for Bobby.<BR><BR>She is the daughter of actor Dick Wilson, the former commercial spokesman ("Mr. Whipple") for Charmin toilet paper.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">19</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Person</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Nathan Larson</td>
+<td class="c s2em fVerdana">Wed Nov 23 01:05:55 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Date of Birth September 19, 1980 to Date of Death September 18, 2022<BR><BR>Nathan Daniel Larson was an American white supremacist politician.<BR><BR>A self-described "quasi-neoreactionary libertarian", he was expelled from the Libertarian Party of Virginia in 2017.<BR><BR>Larson advocated for curtailing women's rights and decriminalizing child sexual abuse and incest.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">20</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Concept</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">National Historic Landmark</td>
+<td class="c s2em fVerdana">Wed Nov 23 02:02:56 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Building, area, or object officially recognized by the US govt. for historical significance<BR><BR>A National Historic Landmark (NHL) is a building, district, object, site, or structure that is officially recognized by the United States government for its outstanding historical significance.<BR><BR>Only some 2,500 (~3%) of over 90,000 places listed on the country's National Register of Historic Places are recognized as National Historic Landmarks.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">21</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Place</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Pasadena Civic Center District</td>
+<td class="c s2em fVerdana">Wed Nov 23 01:51:25 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Historic district in California, United States<BR><BR>The Pasadena Civic Center District is the civic center of and a historic district in Pasadena, California.<BR><BR>The district is roughly bounded by Walnut and Green Streets and Raymond and Euclid Avenues.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">22</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Place</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Pasadena Convention Center</td>
+<td class="c s2em fVerdana">Wed Nov 23 01:48:14 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">The Pasadena Convention Center is a convention center in Pasadena, California.<BR><BR>It consists of three buildings.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">23</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Place</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Porto</td>
+<td class="c s2em fVerdana">Wed Nov 23 01:17:35 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Municipality in Norte, Portugal<BR><BR>Porto or Oporto is the second-largest city in Portugal, the capital of the Porto District, and one of the Iberian Peninsula's major urban areas.<BR><BR>Porto city proper, which is the entire municipality of Porto, is small compared to its metropolitan area, with an estimated population of just 291,962 people in a municipality with only 41.42 km2.<BR><BR>Porto's metropolitan area has around 2.4 million people (2021) in an area of 2,395 km2 (925 sq mi), making it the second-largest urban area in Portugal.<BR><BR>It is recognized as a global city with a Gamma + rating from the Globalization and World Cities Research Network.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">24</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Episode</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Punky Brewster Season 1/4 Episode 21/22 Fenster Hall, part 1</td>
+<td class="c s2em fVerdana">Wed Nov 23 16:02:16 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Directed by Art Dielhenn <BR> Written by Rick Hawkins & Liz Sage & David W. Duclon <BR> Original air date March 31, 1985 <BR> Prod. code 119<BR><BR>I watched on Wed Nov 23 04:00:00 2022 at the kitchen counter.<BR><BR>T.C. comes to Fenster Hall.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">25</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Episode</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Punky Brewster Season 1/4 Episode 22/22 Fenster Hall, part 2</td>
+<td class="c s2em fVerdana">Wed Nov 23 16:33:08 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Directed by Art Dielhenn <BR> Written by Rick Hawkins & Liz Sage & David W. Duclon <BR> Original air date March 31, 1985 <BR> Prod. code 122<BR><BR>I watched on Wed Nov 23 04:30:00 2022 at the kitchen counter.<BR><BR>T.C. attempts to steal auction money from Fenster Hall.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">26</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Concept</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Session hijacking</td>
+<td class="c s2em fVerdana">Mon Nov 21 01:52:55 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">In computer science, session hijacking, sometimes also known as cookie hijacking, is the exploitation of a valid computer session—sometimes also called a session key—to gain unauthorized access to information or services in a computer system.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">27</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Thing > Literature</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Sunny Stories</td>
+<td class="c s2em fVerdana">Tue Aug 16 11:46:43 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">Sunny Stories was a children's magazine published by George Newnes Ltd in the United Kingdom in the first half of the 20th century.<BR><BR>It began as Sunny Stories for Little Folk in 1926 and was edited and written by Enid Blyton although she was only credited as the editor.<BR><BR>Owing to Blyton's increasing popularity during the 1930s the magazine was renamed Enid Blyton's Sunny Stories in January 1937 and began serving as a vehicle for Blyton's books, which appeared as serials.<BR><BR>Copies were sold for 2d (two pence).</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">28</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Thing > Book</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Titus Groan</td>
+<td class="c s2em fVerdana">Thu Nov 24 22:54:59 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">1946 Gothic novel by Mervyn Peake<BR><BR>Titus Groan is a novel by Mervyn Peake, first published in 1946.<BR><BR>It is the first novel in the Gormenghast series.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">29</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Place</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">USC Price School of Public Policy</td>
+<td class="c s2em fVerdana">Wed Nov 23 00:48:51 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">The USC Sol Price School of Public Policy (USC Price), previously known as School of Policy, Planning, and Development (SPPD), is the public policy school of the University of Southern California in Los Angeles & Sacramento, California.<BR><BR>It offers undergraduate and graduate programs, including a doctoral program and several professional and executive master's degree programs.<BR><BR>USC Price also offers the Master of Public Administration program at a campus in Sacramento.</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">30</td>
+<td class="c s2em fArial bgReadingYellow">wikipedia.org</td>
+<td class="c s2em fVerdana bgReadingPeach">Place</td>
+<td class="c s2em fSS bg2006SandDollar" colspan="2">Women's history sites (National Park Service)</td>
+<td class="c s2em fVerdana">Wed Nov 23 02:19:34 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="5">The National Park System preserves and interprets the history of women in American society.<BR><BR>Many national parks, monuments and historic sites represent America's women's history as a primary theme, while numerous others address American women's history somewhere in their programs and preservation activities.</td></tr>
+</table><BR>
+<BR>
+</body>
+</html>
