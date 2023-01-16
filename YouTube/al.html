@@ -1,0 +1,614 @@
+
+
+        <!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        
+<html>
+<head>
+<style> .wrap { word-wrap: break-word; } </style>
+<style> .rwo { display: table; } </style>
+<style> .rwi { padding: 50% 0; height: 0; } </style>
+<style> .etr { display: block; transform-origin: top left; transform: rotate(90deg) translate(0, -100%); margin-top: -50%; white-space: nowrap; } </style>
+<style> .r90 { -webkit-transform: translateY(-100%) rotate(90deg); -moz-transform: translateY(-100%) rotate(90deg); -ms-transform: translateY(-100%) rotate(90deg); -o-transform: translateY(-100%) rotate(90deg); transform: translateY(-100%) rotate(90deg); -webkit-transform-origin: left bottom; -moz-transform-origin: left bottom; -ms-transform-origin: left bottom; -o-transform-origin: left bottom; transform-origin: left bottom; } </style>
+<style> .heiaut { height: auto; } </style>
+<style> .w200px { width: 200px; } </style>
+<style> .w300px { width: 300px; } </style>
+<style> .w333px { width: 333px; } </style>
+<style> .widaut { width: auto; } </style>
+<style> .r270 { transform:rotate(270deg); } </style>
+<style> .df { display:flex; } </style>
+<style> .dt { display:table; } </style>
+<style> .dtc { display:table-cell; } </style>
+<style> .dtr { display:table-row; } </style>
+<style> .pr { position: relative; } </style>
+<style> .aic { align-items:center; } </style>
+<style> .vam { vertical-align: middle; } </style>
+<style> .talc { text-align-last: center; } </style>
+<style> .linhei { line-height: 1.5; } </style>
+<style> .dib { display: inline-block; } </style>
+<style> .mla { margin-left:auto; } </style>
+<style> .mra { margin-right:auto; } </style>
+<style> .ma { margin: auto; } </style>
+<style> .ma0 { margin: auto 0; } </style>
+<style> .ma5px { margin: 5px; } </style>
+<style> .clearfix { overflow: auto; } </style>
+<style> .fL { float: left; } </style>
+<style> .fR { float: right; } </style>
+<style> .b1 { border: solid white; border-width: 20px; } </style>
+<style> .topleft { position: relative; top:100px; left:100px; background: yellow; border: solid thin #FFFFFF; width: 2000px; } </style>
+<style> .topright { position: relative; background: blue; top: 100px; } </style>
+<style> .fArial { font-family: Arial; } </style>
+<style> .fSS { font-family: Sans-serif; } </style>
+<style> .fCSMS { font-family: ", C, o, m, i, c,  , S, a, n, s,  , M, S, ", ,,  , ", C, o, m, i, c,  , S, a, n, s, ", ,,  , c, u, r, s, i, v, e; } </style>
+<style> .fVerdana { font-family: Verdana; } </style>
+<style> .fTNR { font-family: "Times New Roman"; } </style>
+<style> .c { text-align: center; } </style>
+<style> .b { font-weight: bold; } </style>
+<style> .s3em { font-size: 3em; } </style>
+<style> .s2aahem { font-size: 2.5em; } </style>
+<style> .s2em { font-size: 2em; } </style>
+<style> .s1aahem { font-size: 1.5em; } </style>
+<style> .s1em { font-size: 1em; } </style>
+<style> 
+ .bgReadingPeach { background: #EDD1B0; }
+.bgReadingOrange { background: #EDDD6E; }
+.bgReadingYellow { background: #F8FD89; }
+.bgRosyDewCream { background: #F9F1F0; }
+.bgCream { background: #FFFDD0; }
+.bgNeonYellow { background: #FBCB0A; }
+.bglightgrey { background: lightgrey; }
+.bgRetroMaroon { background: #C70A80; }
+.bgKidsPurple { background: #590696; }
+.bgRainbowTeal { background: #37E2D5; }
+.bgebebeb { background: #ebebeb; }
+.bgebebeb_Tone1 { background: #ede9e9; }
+.bgebebeb_Tone2 { background: #eee8e8; }
+.bgebebeb_Tone3 { background: #f0e6e6; }
+.bgebebeb_Tone4 { background: #f2e4e4; }
+.bgebebeb_Tone5 { background: #f3e3e3; }
+.bgebebeb_Tone6 { background: #f5e1e1; }
+.bgebebeb_Tone7 { background: #f7dfdf; }
+.bgebebeb_Tone8 { background: #f8dede; }
+.bgebebeb_Tone9 { background: #fadcdc; }
+.bgebebeb_Tone10 { background: #fcdada; }
+.bgebebeb_Tone11 { background: #fdd9d9; }
+.bgebebeb_Tone12 { background: #ffd7d7; }
+.bgJungleGreen { background: #29AB87; }
+.bgMantis { background: ; }
+.bgMiddleGreen { background: #4D8C57; }
+.bgScreaminGreen { background: #66FF66; }
+.bgDartmouthGreen { background: #00703C; }
+.bgSapGreen { background: #507D2A; }
+.bgSlimyGreen { background: #299617; }
+.bgLimeGreen { background: #32CD32; }
+.bgBitterLemon { background: #CAE00D; }
+.bgArtichokeGreen { background: #8F9779; }
+.bgGrannySmithApple { background: #A8E4A0; }
+.bgAppleGreen { background: #8DB600; }
+.bgFrenchLime { background: #9EFD38; }
+.bgAvocadon { background: #568203; }
+.bgPistachio { background: #93C572; }
+.bgOliveGreen { background: #708238; }
+.bgDarkOliveGreen { background: #556B2F; }
+.bgHunterGreen { background: #355E3B; }
+.bgAmazon { background: #3B7A57; }
+.bgDarkJungleGreen { background: #1A2421; }
+.bgDeepJungleGreen { background: #004B49; }
+.bgForestGreen { background: #014421; }
+.bgTropicalRainforest { background: #00755E; }
+.bgMyrtleGreen { background: #317873; }
+.bgPineGreen { background: #01796F; }
+.bgMintGreen { background: #98FB98; }
+.bgLawnGreen { background: #7CFC00; }
+.bgMossGreen { background: #8A9A5B; }
+.bgDarkMossGreen { background: #4A5D23; }
+.bgFernGreen { background: #4F7942; }
+.bgTeaGreen { background: #D0F0C0; }
+.bgSageGreen { background: #BCB88A; }
+.bgShamrockGreen { background: #009E60; }
+.bgLaurelGreen { background: #A9BA9D; }
+.bgSpringGreen { background: #00FF7F; }
+.bgMediumSpringGreen { background: #00FA9A; }
+.bgDarkSpringGreen { background: #177245; }
+.bgLightSeaGreen { background: #20B2AA; }
+.bgSea { background: green crayola; }
+.bgHex { background: #8DD9CC; }
+.bgRGB { background: 141, 217, 204; }
+.bgCMYK { background: 35, 0, 6, 15; }
+.bg. { background: ; }
+.bgMedium { background: aquamarine; }
+.bgDark { background: pastel green; }
+.bgOcean { background: green; }
+.bgGreen { background: cyan; }
+.bgPhthalo { background: green; }
+.bgMaximum { background: green yellow; }
+.bgLight { background: green; }
+.bgMiddle { background: blue green; }
+.bgBud { background: green; }
+.bgKombu { background: green; }
+.bgMalachite { background: ; }
+.bgZomp { background: ; }
+.bgBright { background: green; }
+.bgElectric { background: green; }
+.bgVolt { background: ; }
+.bgScreamin { background: green; }
+.bgSap { background: green; }
+.bgGO { background: green; }
+.bgSlimy { background: green; }
+.bgNeon { background: green; }
+.bgPersian { background: green; }
+.bgSpanish { background: green; }
+.bgParis { background: green; }
+.bgBritish { background: racing green; }
+.bgDartmouth { background: green; }
+.bgEton { background: green; }
+.bgSacramento { background: State green; }
+.bgCharleston { background: green; }
+.bgBrunswick { background: green; }
+.bgIndia { background: green; }
+.bgPakistan { background: green; }
+.bgCaribbean { background: green; }
+.bgRussian { background: green; }
+.bgJade { background: green; }
+.bgEmerald { background: green; }
+.bgTurquoise { background: green; }
+.bgCadmium { background: green; }
+.bgHarlequin { background: ; }
+.bgKelly { background: green; }
+.bgPaolo { background: Veronese green; }
+.bgLincoln { background: green; }
+.bgMay { background: green; }
+.bgArmy { background: green; }
+.bgMichigan { background: State University green; }
+.bgMidnight { background: green; }
+.bgCeladon { background: ; }
+.bgBottle { background: green; }
+.bgAndroid { background: green; }
+.bgViridian { background: green; }
+.bgAcid { background: green; }
+.bgCastleton { background: green; }
+.bgWintergreen { background: dream; }
+.bgYellow { background: green color wheel; }
+.bgBlue { background: green color wheel; }
+.bgGreenSheen { background: #6EAEA1; }
+.bgSheenGreen { background: #8FD400; }
+.bgSummerCloud { background: #c0fff0; }
+.bgPaleTurquoise { background: #a8ffd8; }
+.bgGlowInTheDark { background: #c0ffc0; }
+.bgEasterGreen { background: #90ff78; }
+.bgGoblinWarboss { background: #48ff48; }
+.bgGrapeTaffy { background: #f0d8f0; }
+.bgLightLavender { background: #f0c0ff; }
+.bgShade1 { background: #f2fff2; }
+.bgShade2 { background: #eaffea; }
+.bgShade3 { background: #e2fee2; }
+.bgShade4 { background: #dafeda; }
+.bgShade5 { background: #d2fed2; }
+.bgShade6 { background: #c9fec9; }
+.bgShade7 { background: #c1fec1; }
+.bgShade8 { background: #b9feb9; }
+.bgShade9 { background: #b1feb1; }
+.bgShade10 { background: #a9ffa9; }
+.bgShade11 { background: #a1ffa1; }
+.bgShade12 { background: #9f9; }
+.bgShade13 { background: #90ff90; }
+.bgShade14 { background: #8f8; }
+.bgShade15 { background: #80ff80; }
+.bgShade16 { background: #78ff78; }
+.bgShade17 { background: #70ff70; }
+.bgShade18 { background: #68ff68; }
+.bgShade19 { background: #5fff5f; }
+.bgShade20 { background: #57ff57; }
+.bgShade21 { background: #4fff4f; }
+.bgShade22 { background: #47ff47; }
+.bgShade23 { background: #3fff3f; }
+.bgShade24 { background: #37ff37; }
+.bgShade25 { background: #2eff2e; }
+.bgShade26 { background: #26ff26; }
+.bgShade27 { background: #1eff1e; }
+.bgShade28 { background: #16ff16; }
+.bgShade29 { background: #0eff0e; }
+.bgShade30 { background: #06ff06; }
+.bgShade31 { background: #00fc00; }
+.bgShade32 { background: #00f400; }
+.bgShade33 { background: #00ec00; }
+.bgShade34 { background: #00e400; }
+.bgShade35 { background: #00dc00; }
+.bgShade36 { background: #00d400; }
+.bgShade37 { background: #0c0; }
+.bgShade38 { background: #00c300; }
+.bgShade39 { background: #0b0; }
+.bgShade40 { background: #00b300; }
+.bgShade41 { background: #00ab00; }
+.bgShade42 { background: #00a300; }
+.bgShade43 { background: #009b00; }
+.bgShade44 { background: #009200; }
+.bgShade45 { background: #008a00; }
+.bgShade46 { background: #008200; }
+.bgShade47 { background: #007a00; }
+.bgShade48 { background: #007200; }
+.bgShade49 { background: #006a00; }
+.bgShade50 { background: #006100; }
+.bgShade51 { background: #005900; }
+.bgShade52 { background: #005100; }
+.bgShade53 { background: #004900; }
+.bgShade54 { background: #004100; }
+.bgShade55 { background: #003900; }
+.bgShade56 { background: #003000; }
+.bgShade57 { background: #002800; }
+.bgShade58 { background: #002000; }
+.bgShade59 { background: #001800; }
+.bgShade60 { background: #001000; }
+.bg2020ClassicBlue { background: #34568B; }
+.bg2019LivingCoral { background: #FF6F61; }
+.bg2018UltraViolet { background: #6B5B95; }
+.bg2017Greenery { background: #88B04B; }
+.bg2016RoseQuartz { background: #F7CAC9; }
+.bg2016Serenity { background: #92A8D1; }
+.bg2015Marsala { background: #955251; }
+.bg2014RadiandOrchid { background: #B565A7; }
+.bg2013Emerald { background: #009B77; }
+.bg2012TangerineTango { background: #DD4124; }
+.bg2011Honeysucle { background: #D65076; }
+.bg2010Turquoise { background: #45B8AC; }
+.bg2009Mimosa { background: #EFC050; }
+.bg2008BlueIzis { background: #5B5EA6; }
+.bg2007ChiliPepper { background: #9B2335; }
+.bg2006SandDollar { background: #DFCFBE; }
+.bg2005BlueTurquoise { background: #55B4B0; }
+.bg2004Tigerlily { background: #E15D44; }
+.bg2003AquaSky { background: #7FCDCD; }
+.bg2002TrueRed { background: #BC243C; }
+.bg2001FuchsiaRose { background: #C3447A; }
+.bg2000CeruleanBlue { background: #98B4D4; } 
+ </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<table border=1 class="mla mra" width=900px>
+<tr align="top"><td class="c s2em fSS bg2006SandDollar" colspan="6">al</td></tr>
+<tr align="top"><th>#</th>
+<th>YouTube-title</th>
+<th>Saved</th></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">1</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alex Berneson Details How Coronavirus Deaths Are Counted" on YouTube</td>
+<td class="c s2em fVerdana">2021-06-24 15:20:49</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">2</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alan Alda Received a Troubling Diagnosis" on YouTube</td>
+<td class="c s2em fVerdana">2021-07-10 12:32:55</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">3</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright  And Beautiful by Kidzup with lyrics" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:47:38</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">4</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright And Beautiful With Lyrics | Morning Prayer" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:47:43</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">5</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright And Beautiful" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:47:50</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">6</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright and Beautiful, John Rutter" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:47:56</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">7</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright and Beautiful (John Rutter) - National Taiwan University Chorus" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:48:24</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">8</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright and Beautiful Song | Kids Songs | Kids Learning Videos - Pari TV | 4K Video" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:48:40</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">9</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright and Beautiful - Church Hymn - Jesus Song" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:48:51</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">10</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright and Beautiful | Christian Songs For Kids" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:48:55</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">11</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All things bright and beautiful (English Prayer Song)" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:48:59</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">12</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright And Beautiful: All Saints Church Oystermouth Swansea" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:49:05</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">13</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright and Beautiful" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:49:16</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">14</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright & Beautiful" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:49:42</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">15</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All things bright and beautiful (Lyric video)" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:49:47</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">16</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright and Beautiful - John Rutter, The Cambridge Singers, City of London Sinfonia" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:50:11</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">17</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "ALL THINGS BRIGHT AND BEAUTIFUL" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:50:45</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">18</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright &  Beautiful with Lyrics" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:50:52</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">19</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Things Bright and Beautiful Bible Basics" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:51:04</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">20</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "all things bright and beautiful" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:51:15</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">21</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "'A little bit of sanity' for regional New South Wales" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-13 21:46:35</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">22</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All in the Family - Archie Bunker Meets Sammy Davis" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-25 22:40:09</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">23</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alarm in Washington as China Expands Latin America Footprint With Xi Jinping's BRI" on YouTube</td>
+<td class="c s2em fVerdana">2022-02-21 07:08:15</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">24</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Aleksandr Dugin Fourth Political Theory Lecture" on YouTube</td>
+<td class="c s2em fVerdana">2022-03-22 05:10:49</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">25</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alone, in the City of Love" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-21 17:30:41</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">26</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "all the edits that I made/posted this year!!" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-21 17:42:01</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">27</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alone and Thriving l late night korean convenience store, muji kitchenware haul, spring cleaning!" on YouTube</td>
+<td class="c s2em fVerdana">2022-05-31 21:30:24</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">28</td>
+<td class="c s2em fSS bg2006SandDollar">All You Need To Know About Akshata Murty: UK PM Rishi Sunak’s Wife & Nar...</td>
+<td class="c s2em fVerdana">2022-10-25 19:35:26</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">29</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Aleister Crowley - The Great Beast 666" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-04 02:30:12</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">30</td>
+<td class="c s2em fSS bg2006SandDollar">Watch ""ALIEN SKY-MACHINE" Breaks Internet after Video Leaked | Elon Knows Something.." on YouTube</td>
+<td class="c s2em fVerdana">2022-11-04 23:38:15</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">31</td>
+<td class="c s2em fSS bg2006SandDollar">Watch ""ALF" - Final Episode - Cliffhanger - Last Scene - 1990" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-06 04:25:31</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">32</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Aliens In Turin" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-06 22:59:07</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">33</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alien Probe, Sentient Machine, Nuclear Weapon, or Junk? What is the Betz Mystery Sphere?" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-07 22:16:22</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">34</td>
+<td class="c s2em fSS bg2006SandDollar">Alien Bases On The Moon | The Amazing True Story of Ingo Swann</td>
+<td class="c s2em fVerdana">2022-11-10 15:56:19</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">35</td>
+<td class="c s2em fSS bg2006SandDollar">Alexander Skarsgård Is Too Swedish To Be Cocky</td>
+<td class="c s2em fVerdana">2022-11-11 05:09:27</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">36</td>
+<td class="c s2em fSS bg2006SandDollar">Alpha Male Tennis Legend Stands His Ground Against Angry Female Panel. (...</td>
+<td class="c s2em fVerdana">2022-11-12 18:37:59</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">37</td>
+<td class="c s2em fSS bg2006SandDollar">Alain Souchon - Bidon (1976)</td>
+<td class="c s2em fVerdana">2022-11-15 17:36:31</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">38</td>
+<td class="c s2em fSS bg2006SandDollar">Alain Souchon - Sous les jupes des filles (Clip officiel)</td>
+<td class="c s2em fVerdana">2022-11-15 17:36:59</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">39</td>
+<td class="c s2em fSS bg2006SandDollar">Alain Souchon - Foule sentimentale (Clip officiel)</td>
+<td class="c s2em fVerdana">2022-11-15 17:37:10</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">40</td>
+<td class="c s2em fSS bg2006SandDollar">Alain souchon "Allo maman bobo"</td>
+<td class="c s2em fVerdana">2022-11-15 17:37:18</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">41</td>
+<td class="c s2em fSS bg2006SandDollar">Alain Souchon ~ On avance</td>
+<td class="c s2em fVerdana">2022-11-15 17:37:25</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">42</td>
+<td class="c s2em fSS bg2006SandDollar">Alizée - Moi... Lolita (Clip Officiel HD)</td>
+<td class="c s2em fVerdana">2022-11-16 05:37:32</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">43</td>
+<td class="c s2em fSS bg2006SandDollar">ALLAH'S 3 PROMISES TO PURE MUSLIMS!</td>
+<td class="c s2em fVerdana">2022-11-16 06:10:04</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">44</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alisha Roshan" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-13 06:13:24</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">45</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All you need to know to understand 5G" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-14 22:01:10</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">46</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "ALI SAMATAR MY FIRST EVER SOLO FLIGHT!!!" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-17 11:00:59</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">47</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Al Bano & Romina Power - Felicita • TopPop" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-19 00:54:28</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">48</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "ALIEN: RESURRECTION Clips + Trailer (1997) Sigourney Weaver" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-19 21:50:48</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">49</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alexander Evanska" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-21 03:10:44</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">50</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "ALPHA FEMALE Dumps 3 GOOD MEN In Her 20's To FIND A CHAD & Is NOW SINGLE AT 35" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-22 01:44:03</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">51</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alan Joseph" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-22 02:19:39</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">52</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alexandr Dugin answers the question, "Do you think China will Act on Taiwan?"" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-22 17:23:42</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">53</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alejandra Parker" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-22 18:08:28</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">54</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alex Jones  INFOWARS 1999 - FULL MOVIE "Are You Practicing Communism?"" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-23 00:58:11</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">55</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alone" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-23 04:44:12</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">56</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alicja & Justin" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-24 04:22:24</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">57</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Shut Up Meg Scenes- Family Guy" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-25 08:27:42</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All About The Different Types of Partials" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-25 15:28:37</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">59</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Aleksandr Shabanov" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-25 21:46:37</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">60</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Always smile" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-27 02:06:55</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">61</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All of Daniel Larsons breakdowns and mishaps so far… (part 1)" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-27 02:57:23</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">62</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "algrennewsampleyutube" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-28 03:02:28</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">63</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alexander L" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-30 00:07:08</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">64</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Al Peterson" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-30 00:07:27</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">65</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>clydesdale [2k]: something in welsh ;  Thallo - Mêl :   https://youtu.be/kjwkgFryD_o</td>
+<td class="c s2em fVerdana">2022-12-31 00:18:36</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">66</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>clydesdale [2k]: something in welsh ;  Thallo - Mêl :   https://youtu.be/kjwkgFryD_o<br>aspectu [2k]: think I heard it yesterday when I heard Plao<br>aspectu [2k]: the one you posted yesterday</td>
+<td class="c s2em fVerdana">2022-12-31 00:41:02</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">67</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alaskan dog protects sister from eagle attack" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-31 15:21:25</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">68</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>teacups [2d?]: Britney Spears - If U Seek Amy ( https://youtu.be/0aEnnH6t8Ts )<br>clydesdale [2k]: never thought i would like anytthing by a girl band, but i like this ;  All Saints - Black Coffee (Official Music Video) :   https://youtu.be/v0Xej6Sz5nU<br>aspectu [2k]: I think I remember them</td>
+<td class="c s2em fVerdana">2022-12-31 21:27:46</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">69</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Saints - Black Coffee (Official Music Video)" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-31 21:30:16</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">70</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alarm In Beijing, Xi Jinping Is Furious, Shocking Uprising Against CCP In Final Stage - Gordan Chang" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-01 01:51:13</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">71</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Aldi is great.  Please move into Northern California.  We would all be appreciative." on YouTube</td>
+<td class="c s2em fVerdana">2023-01-01 08:38:27</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">72</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>clydesdale [2k]: this album gaot a grammy nomination ;  Mark Lettieri - "Pulsar" (Deep: The Baritone Sessions, Vol. 2) Official Video :<br>clydesdale [2k]: https://youtu.be/3XD4pIlFyY8?list=OLAK5uy_nQhqtfI2EzksTG-3iTSa3cpi0t45aYnh0</td>
+<td class="c s2em fVerdana">2023-01-02 00:55:02</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">73</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>clydesdale [2k]: this album gaot a grammy nomination ;  Mark Lettieri - "Pulsar" (Deep: The Baritone Sessions, Vol. 2) Official Video :<br>clydesdale [2k]: https://youtu.be/3XD4pIlFyY8?list=OLAK5uy_nQhqtfI2EzksTG-3iTSa3cpi0t45aYnh0<br>LinuxGooo [7k]: tks for sharing, Clyde<br>LinuxGooo [7k]: that guy is confusing me. :-) <br>LinuxGooo [7k]: playing his guitar like a Bass in the intro </td>
+<td class="c s2em fVerdana">2023-01-02 01:04:26</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">74</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>clydesdale [2k]: this album gaot a grammy nomination ;  Mark Lettieri - "Pulsar" (Deep: The Baritone Sessions, Vol. 2) Official Video :<br>clydesdale [2k]: https://youtu.be/3XD4pIlFyY8?list=OLAK5uy_nQhqtfI2EzksTG-3iTSa3cpi0t45aYnh0<br>LinuxGooo [7k]: tks for sharing, Clyde<br>LinuxGooo [7k]: that guy is confusing me. :-) <br>LinuxGooo [7k]: playing his guitar like a Bass in the intro <br>clydesdale [2k]: he's playing a baritone guitar. LG. that's whay it looks a bit like a bass<br>clydesdale [2k]: long neck</td>
+<td class="c s2em fVerdana">2023-01-02 01:19:48</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">75</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>clydesdale [2k]: dave matthews band - dreams of our fathers :   https://youtu.be/wF_0CgxaT_k</td>
+<td class="c s2em fVerdana">2023-01-02 21:14:51</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Allen institute Kota" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-02 21:26:38</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">77</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>clydesdale [2k]: joan armatrading - love and affection :   https://youtu.be/pWFKKtvAvak<br>aspectu [2k]: https://youtu.be/h5kG6WYC7ew</td>
+<td class="c s2em fVerdana">2023-01-03 00:58:02</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">78</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Always Respect Mother Nature 🐻" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-03 14:53:37</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">79</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>clydesdale [2k]: sugar ray - every morning :   https://youtu.be/5BcivlBazxo</td>
+<td class="c s2em fVerdana">2023-01-03 22:08:46</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">80</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alumni Stories | Amit Kumar Varma | Deep Learning Foundations and Applications" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-03 22:09:39</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">81</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>clydesdale [2k]: Homer's Reel · Capercaillie :   https://youtu.be/BhQ0BGNMrhs</td>
+<td class="c s2em fVerdana">2023-01-04 00:58:12</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">82</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Al Stewart - Year of the Cat (Official Audio)" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-05 02:42:38</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">83</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All_au_au Tun." on YouTube</td>
+<td class="c s2em fVerdana">2023-01-06 01:07:16</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">84</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Ali Laldin" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-06 13:09:25</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">85</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>clydesdale [2k]: james grantt - darkstar :   https://youtu.be/iTSbD_WAJLw<br>clydesdale [2k]: grant*<br>clydesdale [2k]: Family "My Friend The Sun" :   https://youtu.be/vXVicX3P5bk</td>
+<td class="c s2em fVerdana">2023-01-06 19:57:07</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">86</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alina Baraz & Galimatias - Fantasy" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-07 03:58:54</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">87</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alina Baraz & Galimatias - Make You Feel" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-07 03:59:02</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">88</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Al-Qaeda has this message for PM Modi, CM Yogi; 'Ghazwa-e-Hind is not a dream'" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-07 20:45:41</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">89</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br>*** You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up. *** <br><br>"Extraordinary how potent cheap music is." Noel Coward (1899-1973).<br><br>[04:05:06] clydesdale: Hall & Oates - Kiss On My List :   https://youtu.be/AYUdldNzLNA<br>[04:08:44] aspectu: the guy to the right could be Anthony Kiedis father... shorturl.at/jqr46<br>[04:10:35] aspectu: left of course...<br>[04:11:00] aspectu: https://youtu.be/Kbl0aSRzvKg<br>[04:18:04] Closed Connection<br></td>
+<td class="c s2em fVerdana">2023-01-08 07:37:16</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">90</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br>*** You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up. *** <br><br>"Extraordinary how potent cheap music is." Noel Coward (1899-1973).<br><br>[04:05:06] clydesdale: Hall & Oates - Kiss On My List :   https://youtu.be/AYUdldNzLNA<br>[04:08:44] aspectu: the guy to the right could be Anthony Kiedis father... shorturl.at/jqr46<br>[04:10:35] aspectu: left of course...<br>[04:11:00] aspectu: https://youtu.be/Kbl0aSRzvKg<br>[04:18:04] Closed Connection<br>[07:37:20] Opened Connection<br></td>
+<td class="c s2em fVerdana">2023-01-08 08:26:08</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">91</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alexander vs King Poras | Battle of Hydaspes | World History | General Studies | UPSC" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-08 08:36:07</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">92</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br>*** You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up. *** <br><br>"Extraordinary how potent cheap music is." Noel Coward (1899-1973).<br><br>[04:05:06] clydesdale: Hall & Oates - Kiss On My List :   https://youtu.be/AYUdldNzLNA<br>[04:08:44] aspectu: the guy to the right could be Anthony Kiedis father... shorturl.at/jqr46<br>[04:10:35] aspectu: left of course...<br>[04:11:00] aspectu: https://youtu.be/Kbl0aSRzvKg<br>[04:18:04] Closed Connection<br>[07:37:20] Opened Connection<br>[08:33:55] aspectu: https://youtu.be/ldr0Wdyi_OI<br>[08:57:46] aspectu: Beck - Chemical (Chloé Caillet Remix)<br>[09:11:31] aspectu: https://youtu.be/SMI-kPAeR7M<br></td>
+<td class="c s2em fVerdana">2023-01-08 09:16:25</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">93</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "alamos8" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-08 22:31:26</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">94</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br>*** You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up. *** <br><br>"Extraordinary how potent cheap music is." Noel Coward (1899-1973).<br><br>[20:25:44] Closed Connection<br>[21:30:48] Opened Connection<br>[22:05:31] clydesdale: flim flam - david grissom :   https://youtu.be/8XX3s7xpP4o<br></td>
+<td class="c s2em fVerdana">2023-01-09 22:10:33</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">95</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br>*** You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up. *** <br><br>"Extraordinary how potent cheap music is." Noel Coward (1899-1973).<br><br>[20:25:44] Closed Connection<br>[21:30:48] Opened Connection<br>[22:05:31] clydesdale: flim flam - david grissom :   https://youtu.be/8XX3s7xpP4o<br>[22:41:15] teacups: Tanerelle - Continuum : https://youtu.be/z5GbmFsViGA<br></td>
+<td class="c s2em fVerdana">2023-01-09 22:59:24</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">96</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>kasaharama [-]: if one wants to survive one has to work very hard<br>kasaharama [-]: one can't count on others<br>aspectu [3k]: true<br>aspectu [3k]: ぬいぐるみクレヨン Lush Crayon - 癌 is the new thin ( https://youtu.be/hGibqwUFFTI )<br>kasaharama [-]: one can't even count on oneself in times of difficulties<br>kasaharama [-]: so the time is now to use every moment in preparation for the future<br>aspectu [3k]: like learning french?<br>kasaharama [-]: it's useful yes<br>kasaharama [-]: those who do not feel a sense of fear and foreboding for the future and do not prepare accordingly are fools<br>kasaharama [-]: there is no happy ever after in reality<br>kasaharama [-]: there is only a steadily worsening gradient for this reality<br>kasaharama [-]: humans are never satisfied or become happy with anything - except by tormenting other humans<br>kasaharama [-]: people are only happy when they can influence the emotions of others<br>kasaharama [-]: that should be an inducation of what lies ahead<br>aspectu [3k]: kasaharama speaks the trith<br>kasaharama [-]: what is ahead is a kind of hell where people torment others to feel food<br>kasaharama [-]: *good<br>kasaharama [-]: to be one up on others is the food that makes them feel alive<br>kasaharama [-]: that is the reality of this universe<br>kasaharama [-]: but in hell they do it to levels beyond comprehension<br>kasaharama [-]: a place with no grace and no hope of improvement or escape<br>aspectu [3k]: Yoko Kanno - Cyber Bird</td>
+<td class="c s2em fVerdana">2023-01-10 15:28:21</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">97</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>kasaharama [-]: if one wants to survive one has to work very hard<br>kasaharama [-]: one can't count on others<br>aspectu [3k]: true<br>aspectu [3k]: ぬいぐるみクレヨン Lush Crayon - 癌 is the new thin ( https://youtu.be/hGibqwUFFTI )<br>kasaharama [-]: one can't even count on oneself in times of difficulties<br>kasaharama [-]: so the time is now to use every moment in preparation for the future<br>aspectu [3k]: like learning french?<br>kasaharama [-]: it's useful yes<br>kasaharama [-]: those who do not feel a sense of fear and foreboding for the future and do not prepare accordingly are fools<br>kasaharama [-]: there is no happy ever after in reality<br>kasaharama [-]: there is only a steadily worsening gradient for this reality<br>kasaharama [-]: humans are never satisfied or become happy with anything - except by tormenting other humans<br>kasaharama [-]: people are only happy when they can influence the emotions of others<br>kasaharama [-]: that should be an inducation of what lies ahead<br>aspectu [3k]: kasaharama speaks the trith<br>kasaharama [-]: what is ahead is a kind of hell where people torment others to feel food<br>kasaharama [-]: *good<br>kasaharama [-]: to be one up on others is the food that makes them feel alive<br>kasaharama [-]: that is the reality of this universe<br>kasaharama [-]: but in hell they do it to levels beyond comprehension<br>kasaharama [-]: a place with no grace and no hope of improvement or escape<br>aspectu [3k]: Yoko Kanno - Cyber Bird<br>kasaharama [-]: this world is a part of hell too<br>teacups [-]: ningen<br>kasaharama [-]: that's why humans can't be happy with anything<br>kasaharama [-]: except by dominating / killing others lifeforms<br>kasaharama [-]: we are under influence of hell which is on the other side and connected to this world<br>kasaharama [-]: everything in this universe is connected to hell which is on the otherside that we don't see<br>kasaharama [-]: this is why a utopia is impossible in this existence<br>kasaharama [-]: it will always become unstable and corruptible</td>
+<td class="c s2em fVerdana">2023-01-10 15:50:54</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">98</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>kasaharama [-]: if one wants to survive one has to work very hard<br>kasaharama [-]: one can't count on others<br>aspectu [3k]: true<br>aspectu [3k]: ぬいぐるみクレヨン Lush Crayon - 癌 is the new thin ( https://youtu.be/hGibqwUFFTI )<br>kasaharama [-]: one can't even count on oneself in times of difficulties<br>kasaharama [-]: so the time is now to use every moment in preparation for the future<br>aspectu [3k]: like learning french?<br>kasaharama [-]: it's useful yes<br>kasaharama [-]: those who do not feel a sense of fear and foreboding for the future and do not prepare accordingly are fools<br>kasaharama [-]: there is no happy ever after in reality<br>kasaharama [-]: there is only a steadily worsening gradient for this reality<br>kasaharama [-]: humans are never satisfied or become happy with anything - except by tormenting other humans<br>kasaharama [-]: people are only happy when they can influence the emotions of others<br>kasaharama [-]: that should be an inducation of what lies ahead<br>aspectu [3k]: kasaharama speaks the trith<br>kasaharama [-]: what is ahead is a kind of hell where people torment others to feel food<br>kasaharama [-]: *good<br>kasaharama [-]: to be one up on others is the food that makes them feel alive<br>kasaharama [-]: that is the reality of this universe<br>kasaharama [-]: but in hell they do it to levels beyond comprehension<br>kasaharama [-]: a place with no grace and no hope of improvement or escape<br>aspectu [3k]: Yoko Kanno - Cyber Bird<br>kasaharama [-]: this world is a part of hell too<br>teacups [-]: ningen<br>kasaharama [-]: that's why humans can't be happy with anything<br>kasaharama [-]: except by dominating / killing others lifeforms<br>kasaharama [-]: we are under influence of hell which is on the other side and connected to this world<br>kasaharama [-]: everything in this universe is connected to hell which is on the otherside that we don't see<br>kasaharama [-]: this is why a utopia is impossible in this existence<br>kasaharama [-]: it will always become unstable and corruptible<br>kasaharama [-]: i got 279 lexemes stored in my hash map<br>kasaharama [-]: soon to add French lyrics and French song titles</td>
+<td class="c s2em fVerdana">2023-01-10 16:08:46</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">99</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>aspectu [3k]: https://youtu.be/s1-0lt7b-78<br>clydesdale [2k]: Desireless - Qui sommes nous ? :   https://youtu.be/nqqJKtSlZoQ</td>
+<td class="c s2em fVerdana">2023-01-10 20:03:38</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">100</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alex Mason" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-10 23:57:27</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">101</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "ali karim" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-11 00:14:28</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">102</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alina Andrik" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 03:14:02</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">103</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Алло Магазин" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 04:18:31</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">104</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "All Tsunami Movies (To Mid 2022) | 4K" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 06:56:53</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">105</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Alan Walker x Benjamin Ingrosso - Man On The Moon (Official Music Video)" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 20:43:05</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">106</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "AL-FALAH masjid singapore" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 22:15:37</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">107</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>aspectu [3k]: 1200 Mics - Shiva's India Original Mix ( https://youtu.be/v6ueDDaw1mc ) </td>
+<td class="c s2em fVerdana">2023-01-13 07:13:29</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">108</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>aspectu [3k]: 1200 Mics - Shiva's India Original Mix ( https://youtu.be/v6ueDDaw1mc ) <br>aspectu [3k]: Dennis Brown - Man next Door (1978 Original) : https://youtu.be/XXhFiqCigw0 // Massive Attack - Man Next Door : https://youtu.be/vDnzjiqwbl0</td>
+<td class="c s2em fVerdana">2023-01-13 07:25:59</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">109</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>kasaharama [-]: i have over 4500 youtube videos to watch in the Watch Later playlist<br>kasaharama [-]: and 2000+ tabs in Chrome</td>
+<td class="c s2em fVerdana">2023-01-14 19:11:03</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">110</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>kasaharama [-]: i have over 4500 youtube videos to watch in the Watch Later playlist<br>kasaharama [-]: and 2000+ tabs in Chrome<br>kasaharama [-]: https://www.tolearnfrench.com/cgi2/myexam/voir2r.php?id=79338<br>kasaharama [-]: https://www.tolearnfrench.com/exercises/exercise-french-2/exercise-french-79338.php<br>kasaharama [-]: i found some French tests to learn grammar from<br>aspectu [3k]: Hellquist - Eterni ( https://youtu.be/UkcG4nfv5Yc )<br>kasaharama [-]: this server seems dead today<br>kasaharama [-]: did Kingu get booted or something?<br>kasaharama [-]: he is usually around this time<br>clydesdale [2k]: not many people use this room<br>kasaharama [-]: https://twitter.com/ThexyBeatht_2/status/1614010866105749504<br>kasaharama [-]: a weird twitter thread<br>kasaharama [-]: i browse a lot of twitter these days for amusement<br>kasaharama [-]: the people on twitter sure know how to brighten the day</td>
+<td class="c s2em fVerdana">2023-01-14 20:06:02</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">111</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>kasaharama [-]: zzzz<br>kasaharama [-]: i think language is the key to success<br>teacups [-]: when Kingu comes I'll suggest Behemoth - Slaves Shall Serve ( https://youtu.be/f1y192BaUPE )<br>SamSpade [2d]: buffalo soldier<br>SamSpade [2d]: bob marley<br>teacups [-]: yes</td>
+<td class="c s2em fVerdana">2023-01-14 23:01:57</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">112</td>
+<td class="c s2em fSS bg2006SandDollar">All kinds of Music<br><br>"Guess what, I've got a fever, and the only prescription, ... is more cowbell"<br><br> ***  You can type the Artist or Composer and the Song or Album or Piece you are listening to as it comes up.  *** <br><br>"Extraordinary how potent cheap music is."  Noel Coward (1899-1973).<br><br><br><br>aspectu [3k]: 80K Death Toll - Blame The Victim ( https://youtu.be/bAIHITX63Hc )</td>
+<td class="c s2em fVerdana">2023-01-15 00:15:37</td></tr>
+</table><BR>
+<BR>
+</body>
+</html>

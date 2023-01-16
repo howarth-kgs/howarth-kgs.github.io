@@ -1,0 +1,545 @@
+
+
+        <!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        
+<html>
+<head>
+<style> .wrap { word-wrap: break-word; } </style>
+<style> .rwo { display: table; } </style>
+<style> .rwi { padding: 50% 0; height: 0; } </style>
+<style> .etr { display: block; transform-origin: top left; transform: rotate(90deg) translate(0, -100%); margin-top: -50%; white-space: nowrap; } </style>
+<style> .r90 { -webkit-transform: translateY(-100%) rotate(90deg); -moz-transform: translateY(-100%) rotate(90deg); -ms-transform: translateY(-100%) rotate(90deg); -o-transform: translateY(-100%) rotate(90deg); transform: translateY(-100%) rotate(90deg); -webkit-transform-origin: left bottom; -moz-transform-origin: left bottom; -ms-transform-origin: left bottom; -o-transform-origin: left bottom; transform-origin: left bottom; } </style>
+<style> .heiaut { height: auto; } </style>
+<style> .w200px { width: 200px; } </style>
+<style> .w300px { width: 300px; } </style>
+<style> .w333px { width: 333px; } </style>
+<style> .widaut { width: auto; } </style>
+<style> .r270 { transform:rotate(270deg); } </style>
+<style> .df { display:flex; } </style>
+<style> .dt { display:table; } </style>
+<style> .dtc { display:table-cell; } </style>
+<style> .dtr { display:table-row; } </style>
+<style> .pr { position: relative; } </style>
+<style> .aic { align-items:center; } </style>
+<style> .vam { vertical-align: middle; } </style>
+<style> .talc { text-align-last: center; } </style>
+<style> .linhei { line-height: 1.5; } </style>
+<style> .dib { display: inline-block; } </style>
+<style> .mla { margin-left:auto; } </style>
+<style> .mra { margin-right:auto; } </style>
+<style> .ma { margin: auto; } </style>
+<style> .ma0 { margin: auto 0; } </style>
+<style> .ma5px { margin: 5px; } </style>
+<style> .clearfix { overflow: auto; } </style>
+<style> .fL { float: left; } </style>
+<style> .fR { float: right; } </style>
+<style> .b1 { border: solid white; border-width: 20px; } </style>
+<style> .topleft { position: relative; top:100px; left:100px; background: yellow; border: solid thin #FFFFFF; width: 2000px; } </style>
+<style> .topright { position: relative; background: blue; top: 100px; } </style>
+<style> .fArial { font-family: Arial; } </style>
+<style> .fSS { font-family: Sans-serif; } </style>
+<style> .fCSMS { font-family: ", C, o, m, i, c,  , S, a, n, s,  , M, S, ", ,,  , ", C, o, m, i, c,  , S, a, n, s, ", ,,  , c, u, r, s, i, v, e; } </style>
+<style> .fVerdana { font-family: Verdana; } </style>
+<style> .fTNR { font-family: "Times New Roman"; } </style>
+<style> .c { text-align: center; } </style>
+<style> .b { font-weight: bold; } </style>
+<style> .s3em { font-size: 3em; } </style>
+<style> .s2aahem { font-size: 2.5em; } </style>
+<style> .s2em { font-size: 2em; } </style>
+<style> .s1aahem { font-size: 1.5em; } </style>
+<style> .s1em { font-size: 1em; } </style>
+<style> 
+ .bgReadingPeach { background: #EDD1B0; }
+.bgReadingOrange { background: #EDDD6E; }
+.bgReadingYellow { background: #F8FD89; }
+.bgRosyDewCream { background: #F9F1F0; }
+.bgCream { background: #FFFDD0; }
+.bgNeonYellow { background: #FBCB0A; }
+.bglightgrey { background: lightgrey; }
+.bgRetroMaroon { background: #C70A80; }
+.bgKidsPurple { background: #590696; }
+.bgRainbowTeal { background: #37E2D5; }
+.bgebebeb { background: #ebebeb; }
+.bgebebeb_Tone1 { background: #ede9e9; }
+.bgebebeb_Tone2 { background: #eee8e8; }
+.bgebebeb_Tone3 { background: #f0e6e6; }
+.bgebebeb_Tone4 { background: #f2e4e4; }
+.bgebebeb_Tone5 { background: #f3e3e3; }
+.bgebebeb_Tone6 { background: #f5e1e1; }
+.bgebebeb_Tone7 { background: #f7dfdf; }
+.bgebebeb_Tone8 { background: #f8dede; }
+.bgebebeb_Tone9 { background: #fadcdc; }
+.bgebebeb_Tone10 { background: #fcdada; }
+.bgebebeb_Tone11 { background: #fdd9d9; }
+.bgebebeb_Tone12 { background: #ffd7d7; }
+.bgJungleGreen { background: #29AB87; }
+.bgMantis { background: ; }
+.bgMiddleGreen { background: #4D8C57; }
+.bgScreaminGreen { background: #66FF66; }
+.bgDartmouthGreen { background: #00703C; }
+.bgSapGreen { background: #507D2A; }
+.bgSlimyGreen { background: #299617; }
+.bgLimeGreen { background: #32CD32; }
+.bgBitterLemon { background: #CAE00D; }
+.bgArtichokeGreen { background: #8F9779; }
+.bgGrannySmithApple { background: #A8E4A0; }
+.bgAppleGreen { background: #8DB600; }
+.bgFrenchLime { background: #9EFD38; }
+.bgAvocadon { background: #568203; }
+.bgPistachio { background: #93C572; }
+.bgOliveGreen { background: #708238; }
+.bgDarkOliveGreen { background: #556B2F; }
+.bgHunterGreen { background: #355E3B; }
+.bgAmazon { background: #3B7A57; }
+.bgDarkJungleGreen { background: #1A2421; }
+.bgDeepJungleGreen { background: #004B49; }
+.bgForestGreen { background: #014421; }
+.bgTropicalRainforest { background: #00755E; }
+.bgMyrtleGreen { background: #317873; }
+.bgPineGreen { background: #01796F; }
+.bgMintGreen { background: #98FB98; }
+.bgLawnGreen { background: #7CFC00; }
+.bgMossGreen { background: #8A9A5B; }
+.bgDarkMossGreen { background: #4A5D23; }
+.bgFernGreen { background: #4F7942; }
+.bgTeaGreen { background: #D0F0C0; }
+.bgSageGreen { background: #BCB88A; }
+.bgShamrockGreen { background: #009E60; }
+.bgLaurelGreen { background: #A9BA9D; }
+.bgSpringGreen { background: #00FF7F; }
+.bgMediumSpringGreen { background: #00FA9A; }
+.bgDarkSpringGreen { background: #177245; }
+.bgLightSeaGreen { background: #20B2AA; }
+.bgSea { background: green crayola; }
+.bgHex { background: #8DD9CC; }
+.bgRGB { background: 141, 217, 204; }
+.bgCMYK { background: 35, 0, 6, 15; }
+.bg. { background: ; }
+.bgMedium { background: aquamarine; }
+.bgDark { background: pastel green; }
+.bgOcean { background: green; }
+.bgGreen { background: cyan; }
+.bgPhthalo { background: green; }
+.bgMaximum { background: green yellow; }
+.bgLight { background: green; }
+.bgMiddle { background: blue green; }
+.bgBud { background: green; }
+.bgKombu { background: green; }
+.bgMalachite { background: ; }
+.bgZomp { background: ; }
+.bgBright { background: green; }
+.bgElectric { background: green; }
+.bgVolt { background: ; }
+.bgScreamin { background: green; }
+.bgSap { background: green; }
+.bgGO { background: green; }
+.bgSlimy { background: green; }
+.bgNeon { background: green; }
+.bgPersian { background: green; }
+.bgSpanish { background: green; }
+.bgParis { background: green; }
+.bgBritish { background: racing green; }
+.bgDartmouth { background: green; }
+.bgEton { background: green; }
+.bgSacramento { background: State green; }
+.bgCharleston { background: green; }
+.bgBrunswick { background: green; }
+.bgIndia { background: green; }
+.bgPakistan { background: green; }
+.bgCaribbean { background: green; }
+.bgRussian { background: green; }
+.bgJade { background: green; }
+.bgEmerald { background: green; }
+.bgTurquoise { background: green; }
+.bgCadmium { background: green; }
+.bgHarlequin { background: ; }
+.bgKelly { background: green; }
+.bgPaolo { background: Veronese green; }
+.bgLincoln { background: green; }
+.bgMay { background: green; }
+.bgArmy { background: green; }
+.bgMichigan { background: State University green; }
+.bgMidnight { background: green; }
+.bgCeladon { background: ; }
+.bgBottle { background: green; }
+.bgAndroid { background: green; }
+.bgViridian { background: green; }
+.bgAcid { background: green; }
+.bgCastleton { background: green; }
+.bgWintergreen { background: dream; }
+.bgYellow { background: green color wheel; }
+.bgBlue { background: green color wheel; }
+.bgGreenSheen { background: #6EAEA1; }
+.bgSheenGreen { background: #8FD400; }
+.bgSummerCloud { background: #c0fff0; }
+.bgPaleTurquoise { background: #a8ffd8; }
+.bgGlowInTheDark { background: #c0ffc0; }
+.bgEasterGreen { background: #90ff78; }
+.bgGoblinWarboss { background: #48ff48; }
+.bgGrapeTaffy { background: #f0d8f0; }
+.bgLightLavender { background: #f0c0ff; }
+.bgShade1 { background: #f2fff2; }
+.bgShade2 { background: #eaffea; }
+.bgShade3 { background: #e2fee2; }
+.bgShade4 { background: #dafeda; }
+.bgShade5 { background: #d2fed2; }
+.bgShade6 { background: #c9fec9; }
+.bgShade7 { background: #c1fec1; }
+.bgShade8 { background: #b9feb9; }
+.bgShade9 { background: #b1feb1; }
+.bgShade10 { background: #a9ffa9; }
+.bgShade11 { background: #a1ffa1; }
+.bgShade12 { background: #9f9; }
+.bgShade13 { background: #90ff90; }
+.bgShade14 { background: #8f8; }
+.bgShade15 { background: #80ff80; }
+.bgShade16 { background: #78ff78; }
+.bgShade17 { background: #70ff70; }
+.bgShade18 { background: #68ff68; }
+.bgShade19 { background: #5fff5f; }
+.bgShade20 { background: #57ff57; }
+.bgShade21 { background: #4fff4f; }
+.bgShade22 { background: #47ff47; }
+.bgShade23 { background: #3fff3f; }
+.bgShade24 { background: #37ff37; }
+.bgShade25 { background: #2eff2e; }
+.bgShade26 { background: #26ff26; }
+.bgShade27 { background: #1eff1e; }
+.bgShade28 { background: #16ff16; }
+.bgShade29 { background: #0eff0e; }
+.bgShade30 { background: #06ff06; }
+.bgShade31 { background: #00fc00; }
+.bgShade32 { background: #00f400; }
+.bgShade33 { background: #00ec00; }
+.bgShade34 { background: #00e400; }
+.bgShade35 { background: #00dc00; }
+.bgShade36 { background: #00d400; }
+.bgShade37 { background: #0c0; }
+.bgShade38 { background: #00c300; }
+.bgShade39 { background: #0b0; }
+.bgShade40 { background: #00b300; }
+.bgShade41 { background: #00ab00; }
+.bgShade42 { background: #00a300; }
+.bgShade43 { background: #009b00; }
+.bgShade44 { background: #009200; }
+.bgShade45 { background: #008a00; }
+.bgShade46 { background: #008200; }
+.bgShade47 { background: #007a00; }
+.bgShade48 { background: #007200; }
+.bgShade49 { background: #006a00; }
+.bgShade50 { background: #006100; }
+.bgShade51 { background: #005900; }
+.bgShade52 { background: #005100; }
+.bgShade53 { background: #004900; }
+.bgShade54 { background: #004100; }
+.bgShade55 { background: #003900; }
+.bgShade56 { background: #003000; }
+.bgShade57 { background: #002800; }
+.bgShade58 { background: #002000; }
+.bgShade59 { background: #001800; }
+.bgShade60 { background: #001000; }
+.bg2020ClassicBlue { background: #34568B; }
+.bg2019LivingCoral { background: #FF6F61; }
+.bg2018UltraViolet { background: #6B5B95; }
+.bg2017Greenery { background: #88B04B; }
+.bg2016RoseQuartz { background: #F7CAC9; }
+.bg2016Serenity { background: #92A8D1; }
+.bg2015Marsala { background: #955251; }
+.bg2014RadiandOrchid { background: #B565A7; }
+.bg2013Emerald { background: #009B77; }
+.bg2012TangerineTango { background: #DD4124; }
+.bg2011Honeysucle { background: #D65076; }
+.bg2010Turquoise { background: #45B8AC; }
+.bg2009Mimosa { background: #EFC050; }
+.bg2008BlueIzis { background: #5B5EA6; }
+.bg2007ChiliPepper { background: #9B2335; }
+.bg2006SandDollar { background: #DFCFBE; }
+.bg2005BlueTurquoise { background: #55B4B0; }
+.bg2004Tigerlily { background: #E15D44; }
+.bg2003AquaSky { background: #7FCDCD; }
+.bg2002TrueRed { background: #BC243C; }
+.bg2001FuchsiaRose { background: #C3447A; }
+.bg2000CeruleanBlue { background: #98B4D4; } 
+ </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<table border=1 class="mla mra" width=900px>
+<tr align="top"><td class="c s2em fSS bg2006SandDollar" colspan="6">br</td></tr>
+<tr align="top"><th>#</th>
+<th>YouTube-title</th>
+<th>Saved</th></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">1</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brian Dennehy on drinking" on YouTube</td>
+<td class="c s2em fVerdana">2021-06-25 23:44:41</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">2</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brotherhood Of Death (1976) Full Movie" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-08 22:16:52</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">3</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Breaking the Buck Southern Slavery" on YouTube</td>
+<td class="c s2em fVerdana">2022-02-21 07:15:50</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">4</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "12 Brutal Secrets That Women Will Never Tell Men" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-21 06:26:24</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">5</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "6 Brutal Facts Men Need to Accept to Live Their Best Life" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-21 06:31:46</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">6</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brain Surgeon REVEALS How To Heal Trauma & DESTROY NEGATIVE THOUGHTS! | Dr. Rahul Jandial" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-30 04:02:43</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">7</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Breaking Bad - Saul Meets Walter" on YouTube</td>
+<td class="c s2em fVerdana">2022-05-31 23:47:40</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">8</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "British Raj Woman has LOTS of Indian friends, actually" on YouTube</td>
+<td class="c s2em fVerdana">2022-05-31 23:53:57</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">9</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Bryan Adams & Luciano Pavarotti - 'O Sole Mio" on YouTube</td>
+<td class="c s2em fVerdana">2022-06-01 04:06:45</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">10</td>
+<td class="c s2em fSS bg2006SandDollar">British Plugs and Outlets Are On Another Level</td>
+<td class="c s2em fVerdana">2022-10-22 08:51:20</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">11</td>
+<td class="c s2em fSS bg2006SandDollar">BREAKING: Boris Johnson pulls out of Tory leadership race</td>
+<td class="c s2em fVerdana">2022-10-24 03:07:11</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">12</td>
+<td class="c s2em fSS bg2006SandDollar">BREAKING: Jacob Rees-Mogg resigns as Business Secretary</td>
+<td class="c s2em fVerdana">2022-10-25 19:18:42</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">13</td>
+<td class="c s2em fSS bg2006SandDollar">British radio host suddenly dies on air during breakfast show | New York...</td>
+<td class="c s2em fVerdana">2022-10-28 01:36:21</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">14</td>
+<td class="c s2em fSS bg2006SandDollar">BRING BACK APU | Akaash Singh Comedy Special</td>
+<td class="c s2em fVerdana">2022-10-28 19:40:12</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">15</td>
+<td class="c s2em fSS bg2006SandDollar">11 Brutal Truths Men Over 40 Need to Accept to Live Their Best Lives</td>
+<td class="c s2em fVerdana">2022-10-29 07:09:44</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">16</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BREAKTHROUGH: Einstein's Relativity Passed The Most Difficult Test Yet" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-01 01:38:48</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">17</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BRICS Amassing HUGE Gold Reserves!!!" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-02 16:21:54</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">18</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Briahna Joy Gray: The Democratic Party Is DEAD" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-02 16:24:09</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">19</td>
+<td class="c s2em fSS bg2006SandDollar">Britney Spears - Do Somethin' (Official Video)</td>
+<td class="c s2em fVerdana">2022-11-10 05:13:03</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">20</td>
+<td class="c s2em fSS bg2006SandDollar">🚨 BREAKING: Liz Truss Announces Increase In Taxation 😂 🤦‍♂️ 😡</td>
+<td class="c s2em fVerdana">2022-11-12 16:38:44</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">21</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy at Blockbuster 🎬 You Had To Be There" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-12 21:12:31</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">22</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy’s Mysterious Death" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-12 21:13:15</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">23</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "A brilliant question ever asked 😳//#shorts" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-12 23:04:34</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">24</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy's BIZARRE Sudden Death.. Here's What REALLY Happened" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-12 23:18:32</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">25</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy's Heartbreaking New Year's Resolution Before Her Death" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-12 23:19:00</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">26</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy before she was famous" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-12 23:27:59</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">27</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy on Late Show with David Letterman (October 18, 2001)" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-12 23:37:21</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">28</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy, Dysautonomia (Pots syndrome), Her Brother" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-12 23:40:29</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">29</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Britney Spears’ House Was SO Haunted It Nearly Killed Her. The Next Owner? Brittany Murphy" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-13 00:28:21</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">30</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy on Kimmel  2007" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-13 00:28:38</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">31</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy and Husband Simon Monjack LOVEING LIFE" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-13 00:28:46</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">32</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy on Late Show with David Letterman (March 29, 2005)" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-13 00:35:03</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">33</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy on The Tonight Show with Jay Leno" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-13 00:35:11</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">34</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy: 20 years, 37 clips (from 1995 to 2014)" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-13 00:35:58</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">35</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BROCKBEATS - Delight days (Millennium Actress)" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-13 04:11:00</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">36</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brittany Murphy Case Analysis | Was Simon Monjack Responsible for Brittany's Death?" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-14 06:00:46</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">37</td>
+<td class="c s2em fSS bg2006SandDollar">Brazilian Rocket</td>
+<td class="c s2em fVerdana">2022-12-16 01:44:30</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">38</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BRITISH GUY REACTS TO UK vs INDIA MILITARY COMPARISON 2022 (and it does not go well...)" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-16 01:51:49</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">39</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Breathless" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-18 10:10:31</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">40</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brandi Carlile - The NeverEnding Story of Brandi Carlile 🪄" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-18 10:23:56</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">41</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Breakthrough Starshot: Sending Probes at a Fifth of the Speed of Light" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-19 21:46:37</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">42</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Breathwork : A simple, Relaxing and Regenerative 20minute practice" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-20 20:18:58</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">43</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Briahna Joy Gray: Is Tucker RIGHT That CIA Killed JFK? Twitter Files EXPOSE Deep State-Twitter Link" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-22 00:25:11</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">44</td>
+<td class="c s2em fSS bg2006SandDollar"><br><br>￼<br><br>FR<br><br>Se connecter<br><br>Avant d'accéder à Google<br><br>Nous utilisons des cookies et d'autres données pour :<br><br>Proposer les services Google et s'assurer qu'ils fonctionnent correctement<br><br>Suivre les interruptions de service et protéger contre le spam, les fraudes et les abus<br><br>Mesurer l'engagement de l'audience et les statistiques des sites pour comprendre la façon dont nos services sont utilisés et pour améliorer leur qualité<br><br>Si vous cliquez sur "Tout accepter", nous utiliserons également des cookies et d'autres données pour :<br><br>Développer de nouveaux services et les améliorer<br><br>Diffuser des annonces et évaluer leur efficacité<br><br>Proposer des contenus personnalisés en fonction de vos paramètres<br><br>Afficher des annonces personnalisées en fonction de vos paramètres<br><br>Si vous cliquez sur "Tout refuser", nous n'utiliserons pas de cookies pour ces fins supplémentaires.<br><br>Les contenus non personnalisés dépendent, par exemple, du contenu du site que vous consultez, de l'activité de votre session de recherche en cours et de votre position. Les annonces non personnalisées dépendent du contenu du site que vous consultez et de votre position approximative. Les annonces et les contenus personnalisés peuvent aussi inclure des résultats plus pertinents, des recommandations et des annonces adaptées en fonction de votre activité passée sur ce navigateur, comme vos précédentes recherches sur Google. Le cas échéant, nous adaptons également l’expérience en fonction de l’âge de l’utilisateur à l'aide de cookies et de données.<br><br>Cliquez sur "Plus d'options" pour afficher plus d'informations, y compris sur la manière de gérer vos paramètres de confidentialité. Vous pouvez aussi consulter la page g.co/privacytools à tout moment.<br><br>Tout accepter<br><br>Tout refuser<br><br>Plus d'options<br><br>Confidentialité<br><br>·<br><br>Conditions d'utilisation<br><br>Lire la suite<br><br>￼<br><br>￼<br><br>Modes de recherche<br><br>Tous<br><br>Images<br><br>Actualités<br><br>Vidéos<br><br>Maps<br><br>Shopping<br><br>Livres<br><br>Flights<br><br>Finance<br><br>Outils de recherche<br><br>￼<br><br>Conseil : Recherchez des résultats uniquement en français. Vous pouvez indiquer votre langue de recherche sur la page Préférences.<br><br>Résultats de recherche<br><br>Résultats Web<br><br>￼<br><br>Instagram<br><br>https://www.instagram.com › nowhi...<br><br>Jason Köhne (@nowhiteguiltnwg) • Instagram photos and videos<br><br>Jason Köhne. Hated by Nazis, author, YouTuber, Int. conf speaker, fmr DC ConInc., and Captain General Swashbuckler ‍☠️ ‍☠️ My show Going Free Sundays ...<br><br>Résultats Twitter<br><br>Twitter › NoWhiteGuiltNWG<br><br>￼<br><br>Jason Köhne🇺🇸🇺🇲🇺🇲🦅🎄🎁🎄<br><br>￼<br><br>C'est très offensant. Les Westmen créent la civilisation occidentale - FULL STOP! Les précieuses contributions des Juifs fidèles à l'Occident sont louées, tout comme les contributions des autres races. Mais l'Occident existerait sans les Juifs, tout comme la culture juive existerait sans les Blancs.<br><br>Twitter · il y a 6 heures<br><br>Traduit par Google<br><br>Afficher l'original<br><br>￼<br><br>C'était La Nuit Avant Noël Par Clement Clarke Moore. Lu par Jason Kohne. Regardez le reste sur youtu.be/8GmEZUO63DY<br><br>Twitter · il y a 6 heures<br><br>Traduit par Google<br><br>Afficher l'original<br><br>Résultats Web<br><br>￼<br><br>IMDb<br><br>https://m.imdb.com › name<br><br>Jason Köhne<br><br>Discover the stars who skyrocketed on IMDb's STARmeter chart this year, and explore more of the Best of 2022; including top trailers, posters, and photos.<br><br>￼<br><br>Facebook<br><br>https://m.facebook.com › jason.koh...<br><br>Jason Köhne<br><br>No photo description available. Jason Köhne, profile picture. Jason Köhne. Friends · Photos.<br><br>￼<br><br>Amazon<br><br>https://www.amazon.fr › Mr.-Jason-...<br><br>Mr. Jason Köhne: Livres, Biographie, écrits, livres audio, Kindle<br><br>Important Note: If you order a physical copy of this book, please protect our most vulnerable by following the advice of the medical community.<br><br>￼<br><br>TikTok<br><br>https://www.tiktok.com › discover<br><br>Jason Köhne｜TikTok Search<br><br>Discover short videos related to Jason Köhne on TikTok. Videos. jasonkorner. 586. Disappointed with the police reaction to yesterday's robbery/carjacking at ...<br><br>￼<br><br>LinkedIn<br><br>https://www.linkedin.com › jason-k...<br><br>Jason Kohne - Detachment Sergeant - 10th FRST<br><br>In charge of 16 medics, in support of the 1st Battalion 3rd US Infantry Regiment at Fort Myers. Providing medical readiness to 900+ service members and ...<br><br>￼<br><br>Amazon.com<br><br>https://www.amazon.com › Mr.-Jas...<br><br>Top Mr. Jason Köhne titles<br><br>Titles By Mr. Jason Köhne. 1 31 1. Prometheus Rising: Take Back Your Destiny · Go Free: A Guide to Aligning with the Archetype of Westernkind.<br><br>￼<br><br>Wikipedia<br><br>https://en.m.wikipedia.org › wiki<br><br>Millennial Woes<br><br>Colin Robertson, known as Millennial Woes or simply Woes, is a Scottish former YouTuber, white supremacist, and antisemitic conspiracy theorist.<br><br>￼<br><br>books.google.com<br><br>https://books.google.com › about<br><br>Go Free: A Guide to Aligning with the Archetype of Westernkind<br><br>Medical science and common sense tell us that destructive beliefs cause noticeable and unnoticeable stressors, which cause and exacerbate a complex array of ...<br><br>Remarques sur les résultats filtrés<br><br>Certains résultats peuvent avoir été supprimés conformément à la loi européenne sur la protection des données. En savoir plus<br><br>Page Navigation<br><br><br></td>
+<td class="c s2em fVerdana">2022-12-23 10:59:20</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">45</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BREAKING NEWS! Complaint filed against Sheezan Khan in Tunisha Sharma’s suicide case" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-24 23:03:31</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">46</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brandon Gaither" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-25 21:40:23</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">47</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brad Pitt" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-27 10:08:25</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">48</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brother with a beautiful voice" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-28 02:14:52</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">49</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brick Danger" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-28 12:51:19</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">50</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brazilian football icon Pele has died at the age of 82" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-30 01:39:32</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">51</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brazilian soccer legend Pelé dies at 82 | CBS Sports HQ" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-30 08:30:45</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">52</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brazilian soccer legend Pelé dead at 82" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-30 08:36:00</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">53</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brazilian football legend Pele dies at age 82, leaves an unparalleled legacy" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-30 08:37:17</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">54</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brazilian football legend Pele passes away | Pele Death News Updates | Black Pearl Pele Dead" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-30 08:38:06</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">55</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brazilian football icon Pele dies at age 82 | DW News" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-30 19:50:30</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">56</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "British Couple Reacts to Putin's war on Ukraine, explained" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-31 03:00:28</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">57</td>
+<td class="c s2em fSS bg2006SandDollar">brzezinski doctrine - Google Search</td>
+<td class="c s2em fVerdana">2022-12-31 13:37:11</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brexit two years later: Why the UK is struggling | DW News" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-31 17:22:45</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">59</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BREAKING: Explosions reported in Kyiv" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-31 19:44:52</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">60</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BRASIL ITALIA FINAL WORLD CUP 1970" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-31 20:24:37</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">61</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BRAZIL  SCOTLAND 1 ROUND WORLD CUP 1982" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-31 21:11:54</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">62</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "De Bruyne was abandoned, but when the money came, his family wanted to take him back" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-01 17:32:26</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">63</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BRADGE SCHIET OP RAAF?! #bradgetv #ONVERTOOND #shocking" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-01 19:32:13</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">64</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "British Patriotic Song: Rule, Britannia!" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-02 10:42:05</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">65</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brexit regret, or Bregret, spreads in UK" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-03 20:38:02</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">66</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "A brief biography of Joseph Stalin | Russian Revolution | World History | General Studies | UPSC CSE" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-04 11:28:08</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">67</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "bro knew he was gonna win" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-05 10:13:42</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">68</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BREAKING The World’s Largest Rocket Fuel Tank #shorts" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-05 19:41:42</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">69</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Bro showed no mercy" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-06 03:17:35</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">70</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BREAKING NEWS: Official Announcement | HBO Cancels New Game of Thrones Prequel Shows?" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-06 11:33:54</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">71</td>
+<td class="c s2em fSS bg2006SandDollar">Watch<br>Play<br>Chat<br>Search<br>Ceionius [?]<br>Feedback<br>Contribute<br>Svenska rummet<br>9 users<br>×<br>한국모임실<br>7 users<br>×<br>La stanza italiana<br>21 users<br>×<br>Salle française<br>110 users<br>×<br>English Game Room<br>329 users<br>×<br>English Chat Room<br>16 users<br>×<br>Help Room<br>234 users<br>×<br>Rengo Room<br>19 users<br>×<br>Echo Chamber: Music<br>5 users<br>×<br>繁中棋社<br>11 users<br>×<br>Sala Patagónica<br>1 users<br>×<br>Join Room...<br>Välkommen till svenska rummet!<br><br>✽ Svenska goförbundets hemsida med bland annat forum och nyheter: https://www.goforbundet.se<br>✽ Missa inte Göteborg open 2022! Se https://gbgopen.goforbundet.se Välkommen!<br>pem [-]<--- allitererar alltid :)<br>mohsart [-]https://www.youtube.com/watch?v=eb3ysMtu8t0 tex<br>mohsart [-]bitvis låter det som svensk folkmusik<br><br>Fredda [8d]💤<br>hvk [3d]💤<br>Ignat [4k]💤<br>cockroach [5k]💤<br>avk [6k]<br>arndt [?]🌟💤<br>Ceionius [?]<br>mohsart [-]<br>pem [-]</td>
+<td class="c s2em fVerdana">2023-01-06 23:16:24</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">72</td>
+<td class="c s2em fSS bg2006SandDollar">Watch<br>Play<br>Chat<br>Search<br>Ceionius [?]<br>Feedback<br>Contribute<br>Svenska rummet<br>9 users<br>×<br>한국모임실<br>7 users<br>×<br>La stanza italiana<br>21 users<br>×<br>Salle française<br>109 users<br>×<br>English Game Room<br>327 users<br>×<br>English Chat Room<br>17 users<br>×<br>Help Room<br>235 users<br>×<br>Rengo Room<br>20 users<br>×<br>Echo Chamber: Music<br>6 users<br>×<br>繁中棋社<br>11 users<br>×<br>Sala Patagónica<br>1 users<br>×<br>Join Room...<br>Välkommen till svenska rummet!<br><br>✽ Svenska goförbundets hemsida med bland annat forum och nyheter: https://www.goforbundet.se<br>✽ Missa inte Göteborg open 2022! Se https://gbgopen.goforbundet.se Välkommen!<br>pem [-]<--- allitererar alltid :)<br>mohsart [-]https://www.youtube.com/watch?v=eb3ysMtu8t0 tex<br>mohsart [-]bitvis låter det som svensk folkmusik<br><br>Fredda [8d]💤<br>hvk [3d]💤<br>Ignat [4k]💤<br>cockroach [5k]💤<br>avk [6k]<br>arndt [?]🌟💤<br>Ceionius [?]<br>mohsart [-]<br>pem [-]</td>
+<td class="c s2em fVerdana">2023-01-06 23:17:08</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">73</td>
+<td class="c s2em fSS bg2006SandDollar">Watch<br>Play<br>Chat<br>Search<br>Ceionius [?]<br>Feedback<br>Contribute<br>Svenska rummet<br>7 users<br>×<br>한국모임실<br>8 users<br>×<br>La stanza italiana<br>21 users<br>×<br>Salle française<br>102 users<br>×<br>English Game Room<br>308 users<br>×<br>Help Room<br>213 users<br>×<br>Rengo Room<br>18 users<br>×<br>Echo Chamber: Music<br>6 users<br>×<br>繁中棋社<br>13 users<br>×<br>Dsaun's Friends<br>3 users<br>×<br>Pitch Shifter<br>4 users<br>×<br>Sala Patagónica<br>1 users<br>×<br>hvk [3d]<br>Online<br>×<br>Join Room...<br>Välkommen till svenska rummet!<br><br>✽ Svenska goförbundets hemsida med bland annat forum och nyheter: https://www.goforbundet.se<br>✽ Missa inte Göteborg open 2022! Se https://gbgopen.goforbundet.se Välkommen!<br>pem [-]<--- allitererar alltid :)<br>mohsart [-]https://www.youtube.com/watch?v=eb3ysMtu8t0 tex<br>mohsart [-]bitvis låter det som svensk folkmusik<br>pem [-]onödig snö som inte borde ha fallit föll också<br>mohsart [-]inte så kallt idag, men snöblandat regn och för mycket vind gjorde att det kändes väldigt kallt<br>mohsart [-]det verkar finnas en (konspirations-) teori att covid sprids avsiktligt i kina<br>mohsart [-]nån testade kranvattnet som visade positivt<br>pem [-]öh... varför skulle nån göra det?<br>mohsart [-]ja det kan man fråga sig<br><br>hvk [3d]<br>john123 [3k]<br>Ignat [4k]💤<br>cockroach [5k]<br>Ceionius [?]<br>mohsart [-]<br>pem [-]</td>
+<td class="c s2em fVerdana">2023-01-06 23:40:45</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">74</td>
+<td class="c s2em fSS bg2006SandDollar">(>" "<br>-( ' -' )-<br>(,,)-- Forêt enchantée , vous êtes dedans, bienvenue !<br>En cas de confinement : demandez l'accès à un admin ;)<br><br>(\‿/) (\‿/)<br>( ◕.◕) (^.^ ) < Tétoufoutu !<br>c(")(") ┬──┬ (")(")ɔ<br>("`-''-/").___..--''"`-._<br>`6_ 6 ) `-. ( ).`-.__.`)<br>(_Y_.)' ._ ) `._ `. ``-..-'<br>_..`--'_..-_/ /--'_.' ,'<br>(((' (((-((('' (((( <br><br>https://baduk.club/map ajoutez-vous ou votre club :D<br><br>https://www.youtube.com/watch?v=v8lI28hfFSk règles<br><br>https://nsa40.casimages.com/img/2021/08/17/mini_210817013940562945.png<br><br>Août 2021 : Au Sri-Lanka, on a interdit la conduite d'un éléphant en état d'ivresse. (l'homme ou l'animal ?)<br><br>https://www.eurogofed.org/proqualification/index_2021.html<br><br>TedYBear : go hard or go home<br>leloup : go, go, go goéland<br><br>Have a happy good meals for everybody in 2022<br><br>N'essayer jamais d'apprendre à chanter à un cochon.<br>Vous allez perdre votre temps et ennuyer le cochon.<br><br>🦇 https://fb.watch/hJHpVWxngL/ 🦇<br><br>[04:18:04] Closed Connection<br>[07:37:20] Opened Connection<br></td>
+<td class="c s2em fVerdana">2023-01-08 08:22:50</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">75</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brasileiro Márcio Freire é a primeira vítima mortal do canhão de ondas da Nazaré" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-09 01:58:34</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brazil's president condemns storming of presidential palace" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-09 15:45:02</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">77</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "British PM Rishi Sunak ducks question on family's NHS enrolment | World News | English News | WION" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-10 17:25:25</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">78</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brazil riot: Bolsonaro supporters accused of ‘terrorist acts’ after storming capital" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-10 17:27:13</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">79</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brazil: Who are the protesters and why have they ransacked govt buildings?" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-10 17:27:49</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">80</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brazil riots vs. January 6th: What are the similarities & differences? | DW News" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-10 17:28:11</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">81</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brilliant Tamil maths teacher" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-11 21:23:05</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">82</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "British troops guilty of crimes in Japan could be hanged" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 00:38:50</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">83</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brexit two years later: Why the UK is struggling | DW News" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 01:17:40</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">84</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brian Cox - Is The Whole Universe Inside a Black Hole?" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 06:32:05</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">85</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brain Man: The Boy With The Incredible Brain (Super Genius Documentary) | Real Stories" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-13 05:24:55</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">86</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brutal HIIT Workout - Bodyweight Only HIIT Workout to Burn Fat and Build Endurance" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-14 13:48:31</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">87</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Breaking News | Congress President Asks Public About Getting 2 Crore Jobs, 'Yes' Roars Crowd" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-15 05:27:40</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">88</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Brutal Torture of Gay Men under Nazi Regime - Nazi Germany" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-16 01:57:42</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">89</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "British-Iranian national accused of being UK spy executed in Iran" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-16 02:54:46</td></tr>
+</table><BR>
+<BR>
+</body>
+</html>

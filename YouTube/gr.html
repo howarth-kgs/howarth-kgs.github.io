@@ -1,0 +1,662 @@
+
+
+        <!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        
+<html>
+<head>
+<style> .wrap { word-wrap: break-word; } </style>
+<style> .rwo { display: table; } </style>
+<style> .rwi { padding: 50% 0; height: 0; } </style>
+<style> .etr { display: block; transform-origin: top left; transform: rotate(90deg) translate(0, -100%); margin-top: -50%; white-space: nowrap; } </style>
+<style> .r90 { -webkit-transform: translateY(-100%) rotate(90deg); -moz-transform: translateY(-100%) rotate(90deg); -ms-transform: translateY(-100%) rotate(90deg); -o-transform: translateY(-100%) rotate(90deg); transform: translateY(-100%) rotate(90deg); -webkit-transform-origin: left bottom; -moz-transform-origin: left bottom; -ms-transform-origin: left bottom; -o-transform-origin: left bottom; transform-origin: left bottom; } </style>
+<style> .heiaut { height: auto; } </style>
+<style> .w200px { width: 200px; } </style>
+<style> .w300px { width: 300px; } </style>
+<style> .w333px { width: 333px; } </style>
+<style> .widaut { width: auto; } </style>
+<style> .r270 { transform:rotate(270deg); } </style>
+<style> .df { display:flex; } </style>
+<style> .dt { display:table; } </style>
+<style> .dtc { display:table-cell; } </style>
+<style> .dtr { display:table-row; } </style>
+<style> .pr { position: relative; } </style>
+<style> .aic { align-items:center; } </style>
+<style> .vam { vertical-align: middle; } </style>
+<style> .talc { text-align-last: center; } </style>
+<style> .linhei { line-height: 1.5; } </style>
+<style> .dib { display: inline-block; } </style>
+<style> .mla { margin-left:auto; } </style>
+<style> .mra { margin-right:auto; } </style>
+<style> .ma { margin: auto; } </style>
+<style> .ma0 { margin: auto 0; } </style>
+<style> .ma5px { margin: 5px; } </style>
+<style> .clearfix { overflow: auto; } </style>
+<style> .fL { float: left; } </style>
+<style> .fR { float: right; } </style>
+<style> .b1 { border: solid white; border-width: 20px; } </style>
+<style> .topleft { position: relative; top:100px; left:100px; background: yellow; border: solid thin #FFFFFF; width: 2000px; } </style>
+<style> .topright { position: relative; background: blue; top: 100px; } </style>
+<style> .fArial { font-family: Arial; } </style>
+<style> .fSS { font-family: Sans-serif; } </style>
+<style> .fCSMS { font-family: ", C, o, m, i, c,  , S, a, n, s,  , M, S, ", ,,  , ", C, o, m, i, c,  , S, a, n, s, ", ,,  , c, u, r, s, i, v, e; } </style>
+<style> .fVerdana { font-family: Verdana; } </style>
+<style> .fTNR { font-family: "Times New Roman"; } </style>
+<style> .c { text-align: center; } </style>
+<style> .b { font-weight: bold; } </style>
+<style> .s3em { font-size: 3em; } </style>
+<style> .s2aahem { font-size: 2.5em; } </style>
+<style> .s2em { font-size: 2em; } </style>
+<style> .s1aahem { font-size: 1.5em; } </style>
+<style> .s1em { font-size: 1em; } </style>
+<style> 
+ .bgReadingPeach { background: #EDD1B0; }
+.bgReadingOrange { background: #EDDD6E; }
+.bgReadingYellow { background: #F8FD89; }
+.bgRosyDewCream { background: #F9F1F0; }
+.bgCream { background: #FFFDD0; }
+.bgNeonYellow { background: #FBCB0A; }
+.bglightgrey { background: lightgrey; }
+.bgRetroMaroon { background: #C70A80; }
+.bgKidsPurple { background: #590696; }
+.bgRainbowTeal { background: #37E2D5; }
+.bgebebeb { background: #ebebeb; }
+.bgebebeb_Tone1 { background: #ede9e9; }
+.bgebebeb_Tone2 { background: #eee8e8; }
+.bgebebeb_Tone3 { background: #f0e6e6; }
+.bgebebeb_Tone4 { background: #f2e4e4; }
+.bgebebeb_Tone5 { background: #f3e3e3; }
+.bgebebeb_Tone6 { background: #f5e1e1; }
+.bgebebeb_Tone7 { background: #f7dfdf; }
+.bgebebeb_Tone8 { background: #f8dede; }
+.bgebebeb_Tone9 { background: #fadcdc; }
+.bgebebeb_Tone10 { background: #fcdada; }
+.bgebebeb_Tone11 { background: #fdd9d9; }
+.bgebebeb_Tone12 { background: #ffd7d7; }
+.bgJungleGreen { background: #29AB87; }
+.bgMantis { background: ; }
+.bgMiddleGreen { background: #4D8C57; }
+.bgScreaminGreen { background: #66FF66; }
+.bgDartmouthGreen { background: #00703C; }
+.bgSapGreen { background: #507D2A; }
+.bgSlimyGreen { background: #299617; }
+.bgLimeGreen { background: #32CD32; }
+.bgBitterLemon { background: #CAE00D; }
+.bgArtichokeGreen { background: #8F9779; }
+.bgGrannySmithApple { background: #A8E4A0; }
+.bgAppleGreen { background: #8DB600; }
+.bgFrenchLime { background: #9EFD38; }
+.bgAvocadon { background: #568203; }
+.bgPistachio { background: #93C572; }
+.bgOliveGreen { background: #708238; }
+.bgDarkOliveGreen { background: #556B2F; }
+.bgHunterGreen { background: #355E3B; }
+.bgAmazon { background: #3B7A57; }
+.bgDarkJungleGreen { background: #1A2421; }
+.bgDeepJungleGreen { background: #004B49; }
+.bgForestGreen { background: #014421; }
+.bgTropicalRainforest { background: #00755E; }
+.bgMyrtleGreen { background: #317873; }
+.bgPineGreen { background: #01796F; }
+.bgMintGreen { background: #98FB98; }
+.bgLawnGreen { background: #7CFC00; }
+.bgMossGreen { background: #8A9A5B; }
+.bgDarkMossGreen { background: #4A5D23; }
+.bgFernGreen { background: #4F7942; }
+.bgTeaGreen { background: #D0F0C0; }
+.bgSageGreen { background: #BCB88A; }
+.bgShamrockGreen { background: #009E60; }
+.bgLaurelGreen { background: #A9BA9D; }
+.bgSpringGreen { background: #00FF7F; }
+.bgMediumSpringGreen { background: #00FA9A; }
+.bgDarkSpringGreen { background: #177245; }
+.bgLightSeaGreen { background: #20B2AA; }
+.bgSea { background: green crayola; }
+.bgHex { background: #8DD9CC; }
+.bgRGB { background: 141, 217, 204; }
+.bgCMYK { background: 35, 0, 6, 15; }
+.bg. { background: ; }
+.bgMedium { background: aquamarine; }
+.bgDark { background: pastel green; }
+.bgOcean { background: green; }
+.bgGreen { background: cyan; }
+.bgPhthalo { background: green; }
+.bgMaximum { background: green yellow; }
+.bgLight { background: green; }
+.bgMiddle { background: blue green; }
+.bgBud { background: green; }
+.bgKombu { background: green; }
+.bgMalachite { background: ; }
+.bgZomp { background: ; }
+.bgBright { background: green; }
+.bgElectric { background: green; }
+.bgVolt { background: ; }
+.bgScreamin { background: green; }
+.bgSap { background: green; }
+.bgGO { background: green; }
+.bgSlimy { background: green; }
+.bgNeon { background: green; }
+.bgPersian { background: green; }
+.bgSpanish { background: green; }
+.bgParis { background: green; }
+.bgBritish { background: racing green; }
+.bgDartmouth { background: green; }
+.bgEton { background: green; }
+.bgSacramento { background: State green; }
+.bgCharleston { background: green; }
+.bgBrunswick { background: green; }
+.bgIndia { background: green; }
+.bgPakistan { background: green; }
+.bgCaribbean { background: green; }
+.bgRussian { background: green; }
+.bgJade { background: green; }
+.bgEmerald { background: green; }
+.bgTurquoise { background: green; }
+.bgCadmium { background: green; }
+.bgHarlequin { background: ; }
+.bgKelly { background: green; }
+.bgPaolo { background: Veronese green; }
+.bgLincoln { background: green; }
+.bgMay { background: green; }
+.bgArmy { background: green; }
+.bgMichigan { background: State University green; }
+.bgMidnight { background: green; }
+.bgCeladon { background: ; }
+.bgBottle { background: green; }
+.bgAndroid { background: green; }
+.bgViridian { background: green; }
+.bgAcid { background: green; }
+.bgCastleton { background: green; }
+.bgWintergreen { background: dream; }
+.bgYellow { background: green color wheel; }
+.bgBlue { background: green color wheel; }
+.bgGreenSheen { background: #6EAEA1; }
+.bgSheenGreen { background: #8FD400; }
+.bgSummerCloud { background: #c0fff0; }
+.bgPaleTurquoise { background: #a8ffd8; }
+.bgGlowInTheDark { background: #c0ffc0; }
+.bgEasterGreen { background: #90ff78; }
+.bgGoblinWarboss { background: #48ff48; }
+.bgGrapeTaffy { background: #f0d8f0; }
+.bgLightLavender { background: #f0c0ff; }
+.bgShade1 { background: #f2fff2; }
+.bgShade2 { background: #eaffea; }
+.bgShade3 { background: #e2fee2; }
+.bgShade4 { background: #dafeda; }
+.bgShade5 { background: #d2fed2; }
+.bgShade6 { background: #c9fec9; }
+.bgShade7 { background: #c1fec1; }
+.bgShade8 { background: #b9feb9; }
+.bgShade9 { background: #b1feb1; }
+.bgShade10 { background: #a9ffa9; }
+.bgShade11 { background: #a1ffa1; }
+.bgShade12 { background: #9f9; }
+.bgShade13 { background: #90ff90; }
+.bgShade14 { background: #8f8; }
+.bgShade15 { background: #80ff80; }
+.bgShade16 { background: #78ff78; }
+.bgShade17 { background: #70ff70; }
+.bgShade18 { background: #68ff68; }
+.bgShade19 { background: #5fff5f; }
+.bgShade20 { background: #57ff57; }
+.bgShade21 { background: #4fff4f; }
+.bgShade22 { background: #47ff47; }
+.bgShade23 { background: #3fff3f; }
+.bgShade24 { background: #37ff37; }
+.bgShade25 { background: #2eff2e; }
+.bgShade26 { background: #26ff26; }
+.bgShade27 { background: #1eff1e; }
+.bgShade28 { background: #16ff16; }
+.bgShade29 { background: #0eff0e; }
+.bgShade30 { background: #06ff06; }
+.bgShade31 { background: #00fc00; }
+.bgShade32 { background: #00f400; }
+.bgShade33 { background: #00ec00; }
+.bgShade34 { background: #00e400; }
+.bgShade35 { background: #00dc00; }
+.bgShade36 { background: #00d400; }
+.bgShade37 { background: #0c0; }
+.bgShade38 { background: #00c300; }
+.bgShade39 { background: #0b0; }
+.bgShade40 { background: #00b300; }
+.bgShade41 { background: #00ab00; }
+.bgShade42 { background: #00a300; }
+.bgShade43 { background: #009b00; }
+.bgShade44 { background: #009200; }
+.bgShade45 { background: #008a00; }
+.bgShade46 { background: #008200; }
+.bgShade47 { background: #007a00; }
+.bgShade48 { background: #007200; }
+.bgShade49 { background: #006a00; }
+.bgShade50 { background: #006100; }
+.bgShade51 { background: #005900; }
+.bgShade52 { background: #005100; }
+.bgShade53 { background: #004900; }
+.bgShade54 { background: #004100; }
+.bgShade55 { background: #003900; }
+.bgShade56 { background: #003000; }
+.bgShade57 { background: #002800; }
+.bgShade58 { background: #002000; }
+.bgShade59 { background: #001800; }
+.bgShade60 { background: #001000; }
+.bg2020ClassicBlue { background: #34568B; }
+.bg2019LivingCoral { background: #FF6F61; }
+.bg2018UltraViolet { background: #6B5B95; }
+.bg2017Greenery { background: #88B04B; }
+.bg2016RoseQuartz { background: #F7CAC9; }
+.bg2016Serenity { background: #92A8D1; }
+.bg2015Marsala { background: #955251; }
+.bg2014RadiandOrchid { background: #B565A7; }
+.bg2013Emerald { background: #009B77; }
+.bg2012TangerineTango { background: #DD4124; }
+.bg2011Honeysucle { background: #D65076; }
+.bg2010Turquoise { background: #45B8AC; }
+.bg2009Mimosa { background: #EFC050; }
+.bg2008BlueIzis { background: #5B5EA6; }
+.bg2007ChiliPepper { background: #9B2335; }
+.bg2006SandDollar { background: #DFCFBE; }
+.bg2005BlueTurquoise { background: #55B4B0; }
+.bg2004Tigerlily { background: #E15D44; }
+.bg2003AquaSky { background: #7FCDCD; }
+.bg2002TrueRed { background: #BC243C; }
+.bg2001FuchsiaRose { background: #C3447A; }
+.bg2000CeruleanBlue { background: #98B4D4; } 
+ </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<table border=1 class="mla mra" width=900px>
+<tr align="top"><td class="c s2em fSS bg2006SandDollar" colspan="6">gr</td></tr>
+<tr align="top"><th>#</th>
+<th>YouTube-title</th>
+<th>Saved</th></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">1</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Ronaldo takes the fizz out of Coke" on YouTube</td>
+<td class="c s2em fVerdana">2021-06-24 15:09:48</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">2</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Jacob Zuma sentenced to 15 months in jail" on YouTube</td>
+<td class="c s2em fVerdana">2021-07-01 15:50:15</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">3</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Greatest Hits 70s Oldies Music - Best Music Hits 70s Playlist - Oldies But Goodies Of 1970s" on YouTube</td>
+<td class="c s2em fVerdana">2021-07-05 01:08:52</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">4</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Greatest Hits 1960s Oldies But Goodies Of All Time - The Best Songs Of 60s Music Hits Playlist Ever" on YouTube</td>
+<td class="c s2em fVerdana">2021-07-05 01:09:40</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">5</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Greatest Hits 1960s One Hits Wonder Of All Time - The Best Of 60s Old Music Hits Playlist Ever" on YouTube</td>
+<td class="c s2em fVerdana">2021-07-05 01:10:18</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">6</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Greatest Hits 1960s One Hits Wonder Of All Time - The Best Of 60s Old Music Hits Playlist Collection" on YouTube</td>
+<td class="c s2em fVerdana">2021-07-05 01:11:12</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">7</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grizzly bear takes shotgun blast at point-blank range and keeps charging | New York Post" on YouTube</td>
+<td class="c s2em fVerdana">2021-07-27 04:58:10</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">8</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Chinese citizens are fleeing Xi Jinping's rule" on YouTube</td>
+<td class="c s2em fVerdana">2021-07-30 17:34:27</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">9</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Group Home - Supa Star (Official Video) [Explicit]" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-06 02:45:08</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">10</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: The fall of Panjshir has Pakistan written all over it" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-07 00:25:23</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">11</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas | "BBC behaving shamelessly": South Asian Expert Christine Fair" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-07 01:32:50</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">12</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grand Coulee Dam: A Man-Made Marvel (Full Movie)" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-23 12:57:09</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">13</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas US Edition: Blinken-Qureshi meet: Diplomacy or Duplicity?" on YouTube</td>
+<td class="c s2em fVerdana">2021-09-25 22:03:44</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">14</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Graham Norton Weighs In on Will Smith/Chris Rock Oscars Slap..." on YouTube</td>
+<td class="c s2em fVerdana">2022-03-31 01:47:37</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">15</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas| BBC's deceit: The Diana Interview" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-22 01:47:53</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">16</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Rishi Sunak's fall from grace" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-30 02:08:57</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">17</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Who is winning the war in Ukraine?" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-30 02:09:06</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">18</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Russia stops exporting gas to Poland & Bulgaria" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-30 02:34:10</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">19</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: How Mark Zuckerberg lost his fortune" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-30 02:34:25</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">20</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Indonesia bans export of palm oil" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-30 02:52:28</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">21</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Tories want Rishi Sunak to be UK'S next Prime Minister" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-30 03:46:43</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">22</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: German companies to buy Russian gas in roubles" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-30 03:55:14</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">23</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: 56 British MPs face sexual misconduct claims" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-30 03:55:31</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">24</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Graham reveals what should happen if Putin uses nuclear weapons" on YouTube</td>
+<td class="c s2em fVerdana">2022-04-30 04:07:03</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">25</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas | Iran: 5 dead in massive anti-government protests" on YouTube</td>
+<td class="c s2em fVerdana">2022-05-18 13:41:20</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">26</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Thailand is giving away 1 million cannabis plants" on YouTube</td>
+<td class="c s2em fVerdana">2022-05-19 12:23:57</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">27</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: MI6 makes a wild claim, says Putin could be dead" on YouTube</td>
+<td class="c s2em fVerdana">2022-05-31 07:34:39</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">28</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Joe Biden welcomes BTS to the White House" on YouTube</td>
+<td class="c s2em fVerdana">2022-06-02 00:02:12</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">29</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: The US is now India's biggest trade partner. China disagrees" on YouTube</td>
+<td class="c s2em fVerdana">2022-06-02 00:07:48</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">30</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Denmark prepares to take on Russia" on YouTube</td>
+<td class="c s2em fVerdana">2022-06-02 04:52:59</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">31</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas Plus: The plastic surgery debate" on YouTube</td>
+<td class="c s2em fVerdana">2022-06-18 23:30:08</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">32</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Pakistan launches 'austerity drive'" on YouTube</td>
+<td class="c s2em fVerdana">2022-06-19 13:10:38</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">33</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: Global investors offload Chinese investment worth $2.5 billion</td>
+<td class="c s2em fVerdana">2022-10-26 01:00:26</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">34</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: Saudi Arabia slams Biden for releasing fuel reserves</td>
+<td class="c s2em fVerdana">2022-10-27 06:20:18</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">35</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: Why Adidas dumped Kanye West</td>
+<td class="c s2em fVerdana">2022-10-27 10:31:12</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">36</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: Parag Agrawal sacked, escorted out by security</td>
+<td class="c s2em fVerdana">2022-10-29 01:02:01</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">37</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: What is Musk's plan for Twitter?</td>
+<td class="c s2em fVerdana">2022-10-29 07:14:39</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">38</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas Plus: The untold story of Rishi Sunak</td>
+<td class="c s2em fVerdana">2022-10-30 03:56:17</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">39</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Anti-NATO protests erupt in Paris" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-01 00:36:56</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">40</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Why did Biden lose his temper on Zelensky?" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-02 17:59:32</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">41</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Threat of Iranian attack: Saudi Arabia on high alert" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-03 07:35:08</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">42</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Russian Senator claims Pak & Ukraine are developing nukes" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-03 07:36:28</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">43</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: A screenshot triggers a rally in Chinese markets" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-04 05:58:28</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">44</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Photo of Twitter employee sleeping on office floor divides the internet" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-04 23:35:02</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">45</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: India's National Capital Region enveloped in toxic smog" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-05 15:49:29</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">46</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Iran's Supreme Leader seeks "revenge" from the US" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-06 06:33:27</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">47</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Sri Lankan Cricketer Danushka Gunathilaka charged with Rape" on YouTube</td>
+<td class="c s2em fVerdana">2022-11-08 05:47:21</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">48</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: China's super-rich suffer massive losses</td>
+<td class="c s2em fVerdana">2022-11-09 02:47:41</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">49</td>
+<td class="c s2em fSS bg2006SandDollar">Greta Thunberg As You've Never Seen Her Before: Memes, Beans and Climate...</td>
+<td class="c s2em fVerdana">2022-11-09 06:47:49</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">50</td>
+<td class="c s2em fSS bg2006SandDollar">Greatest Moments from Series 1 - Part 2 | Yes, Prime Minister | BBC Come...</td>
+<td class="c s2em fVerdana">2022-11-09 07:00:19</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">51</td>
+<td class="c s2em fSS bg2006SandDollar">Greta Thunberg Chats To Kids About The Climate Crisis | The Russell Howa...</td>
+<td class="c s2em fVerdana">2022-11-09 07:00:41</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">52</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: Twitter in a debt trap after Musk takeover?</td>
+<td class="c s2em fVerdana">2022-11-09 23:06:07</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">53</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: Can Musk's moves bankrupt Twitter?</td>
+<td class="c s2em fVerdana">2022-11-12 09:06:55</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">54</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: US to Europe: Conflict over Taiwan can cause global shock</td>
+<td class="c s2em fVerdana">2022-11-12 09:19:08</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">55</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: Will a recession begin from the Silicon Valley?</td>
+<td class="c s2em fVerdana">2022-11-17 20:36:46</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">56</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: G20 Summit: Proof of a polarised world?</td>
+<td class="c s2em fVerdana">2022-11-18 01:22:10</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">57</td>
+<td class="c s2em fSS bg2006SandDollar">Gravitas: A giant leap forward for India's space sector</td>
+<td class="c s2em fVerdana">2022-11-19 04:53:42</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Portugal likely to scrap 'Golden Visa' scheme" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-15 06:45:15</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">59</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas | Reports: Jack Ma is hiding out in Tokyo" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-15 06:46:37</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">60</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Chinese citizens are fleeing Xi Jinping's crackdown" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-16 01:50:48</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">61</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas Plus: The Islamic Revolutionary Guard Corps" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-16 01:50:55</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">62</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grace Oncology" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-17 18:08:15</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">63</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grace Oncology - Doctor Hollis D'Souza" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-17 18:08:43</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">64</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grenouer - Alone in the Dark - [UNCENSORED - AGE RESTRICTED]" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-18 04:23:55</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">65</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grocery Expenses of Indian Couple in America 🇺🇸 Atta crisis| See USA facilities through us|VLog" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-18 06:17:04</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">66</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: World Cup Final: What happened to the outrage?" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-20 05:03:06</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">67</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Pope orders Vatican to return Parthenon marbles" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-20 14:37:44</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">68</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "A Grateful, Giving, Happy Heart, with Tara Brach" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-20 16:21:21</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">69</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas Plus: Who's winning the Chip War?" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-21 02:11:50</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">70</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas Plus: The British monarchy and its many tales of racism, corruption and insignificance" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-21 02:13:47</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">71</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: U.S. moves to ban TikTok" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-21 03:30:54</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">72</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Wuhan Virus returns: Is India prepared?" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-22 00:27:30</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">73</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Great Jewish Proverbs and Sayings that Fascinate with their Wisdom | Quotes, Aphorisms" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-22 17:11:12</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">74</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Ukraine War: Is a potential peace deal possible?" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-24 01:04:03</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">75</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Medicine Shortage 'humiliates' China" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-24 03:54:27</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas:  Enough Fentanyl to kill every American seized in 2022" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-24 14:08:04</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">77</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Green Bunny in A Bongo " on YouTube</td>
+<td class="c s2em fVerdana">2022-12-24 23:03:08</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">78</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas Plus | Explained: China's deadliest Wuhan Virus wave" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-24 23:12:12</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">79</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grochmalski: Szydził z Polaków i Kaczyńskiego. Rogozin ranny w luksusowym hotelu|Dziennikarski Poker" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-24 23:43:11</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">80</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Group Guided Meditation with Ayya Jitindriya ~ Monday 26th December @ 8am AEDT" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-26 00:17:05</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">81</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: China's bogus vaccines: How China fooled the world" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-28 00:57:34</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">82</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: South Korea retaliates after Kim's 'air invasion'" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-28 10:59:57</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">83</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Jordan's King Abdullah II warns Israel" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-30 13:28:18</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">84</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grenvallion" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-31 03:25:48</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">85</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grateful Dead - Touch Of Grey (Official Music Video) [HD]" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-31 06:28:44</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">86</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Greg Lake - I Believe In Father Christmas (Official 4K Video)" on YouTube</td>
+<td class="c s2em fVerdana">2022-12-31 06:31:02</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">87</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Watch Greene leaves Biden SPEECHLESS with BRUTAL no Ukraine aide call...shows DIRTY corruption proof" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-01 01:32:13</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">88</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: What is the dearMoon project?" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-01 01:43:22</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">89</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "grant quinones" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-01 08:43:43</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">90</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "6 Great Black Americans On 1963 Primetime TV. An Amazing Dialogue" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-01 16:09:27</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">91</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Greater Poland Uprising - Book Picks - Veteran Care I BEYOND THE GREAT WAR" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-01 16:10:10</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grandview, U S A with Patrick Swayze" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-01 22:26:26</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">93</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "GREATEST NO GOAL EVER? - Pelé 🇧🇷 - Brazil vs Uruguay (FIFA World Cup Mexico 1970) | #Shorts" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-02 10:11:28</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">94</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grizzly bear survival mode #shorts #shortvideo #attack #film" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-02 11:00:53</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">95</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grace Dekker" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-03 16:09:23</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">96</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grim Reaper" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-04 11:22:12</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">97</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Wuhan Virus: China threatens 'countermeasures' over travel restrictions" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-05 02:21:34</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">98</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gregorian chant - Deum verum" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-05 19:40:48</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">99</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gregorian Chants - Sung by Monks of the Abbey of ST Ottilien" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-05 19:42:58</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">100</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "GREGORIAN CHANTS @432 Hz | 1 Hour of Healing Music" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-05 19:44:06</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">101</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gregorian Chants at 432Hz | 3 Hours of Healing Music" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-05 19:46:33</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">102</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Pope Benedict XVI laid to rest" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-06 01:41:30</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">103</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: The UK is no more a great place to live" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-07 03:44:07</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">104</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas Plus: Explained: The China-Taiwan conflict" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-07 03:46:48</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">105</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: China reveals new nuclear submarine ahead of Congress" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-07 04:03:29</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">106</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "'Grateful to...': Rishi Sunak on Prince Harry's Afghan confession, Taliban fume | Watch" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-07 08:37:33</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">107</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Prince Harry claims he killed 25 people in Afghanistan" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-07 08:45:18</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">108</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: More rot within the European Union" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-07 09:14:36</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">109</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Web 3.0: Bridging the gap between digital & real world" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-07 09:14:46</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">110</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Web 3.0: Bridging the gap between digital & real world" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-07 09:16:43</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">111</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Iranian celebrity chef detained for sharing cutlet recipe" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-09 01:47:28</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">112</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: PLA facing critical shortage of skilled troops" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-09 15:45:27</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">113</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Who deserves to be on the no-fly list?" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-09 15:46:00</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">114</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Why are Tech Giants laying off thousands?" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-10 17:32:04</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">115</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: What happens when China invades Taiwan? Here are the results of war game simulations" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-11 01:36:59</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">116</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Is there a rebellion against Pope Francis" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-11 05:38:56</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">117</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: What makes a passport powerful?" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 01:03:52</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">118</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Is Pakistan exporting nuclear terror again?" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 01:15:28</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">119</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: America's worsening opioid epidemic" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 01:17:57</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">120</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Russia claims to have captured another town in Ukraine" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-12 05:26:35</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">121</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: Bangladesh's hypocrisy on display?" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-13 07:07:04</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">122</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Grease Opening Party at Studio 54" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-13 08:23:34</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">123</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: China's population is shrinking. Here's why Beijing is scared" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-14 09:30:35</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">124</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: One and done, say parents" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-14 09:43:26</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">125</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Greta Thunberg leads thousands of protesters demonstrating against German coal mine expansion" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-16 02:44:21</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">126</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Growing up inside the royal family's inner circle | Lady Glenconner" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-16 02:45:55</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">127</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas: ISIS versus the Taliban: A new battle for survival" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-16 02:53:30</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue">128</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Gravitas LIVE | Ukraine war: Is Putin's ceasefire a trap? | World News | English News | WION" on YouTube</td>
+<td class="c s2em fVerdana">2023-01-16 08:37:26</td></tr>
+</table><BR>
+<BR>
+</body>
+</html>
