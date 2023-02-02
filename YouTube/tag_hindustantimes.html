@@ -1,0 +1,511 @@
+
+
+        <!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        
+<html>
+<head>
+<style> .wrap { word-wrap: break-word; } </style>
+<style> .rwo { display: table; } </style>
+<style> .rwi { padding: 50% 0; height: 0; } </style>
+<style> .etr { display: block; transform-origin: top left; transform: rotate(90deg) translate(0, -100%); margin-top: -50%; white-space: nowrap; } </style>
+<style> .r90 { -webkit-transform: translateY(-100%) rotate(90deg); -moz-transform: translateY(-100%) rotate(90deg); -ms-transform: translateY(-100%) rotate(90deg); -o-transform: translateY(-100%) rotate(90deg); transform: translateY(-100%) rotate(90deg); -webkit-transform-origin: left bottom; -moz-transform-origin: left bottom; -ms-transform-origin: left bottom; -o-transform-origin: left bottom; transform-origin: left bottom; } </style>
+<style> .heiaut { height: auto; } </style>
+<style> .w200px { width: 200px; } </style>
+<style> .w300px { width: 300px; } </style>
+<style> .w333px { width: 333px; } </style>
+<style> .widaut { width: auto; } </style>
+<style> .r270 { transform:rotate(270deg); } </style>
+<style> .df { display:flex; } </style>
+<style> .dt { display:table; } </style>
+<style> .dtc { display:table-cell; } </style>
+<style> .dtr { display:table-row; } </style>
+<style> .pr { position: relative; } </style>
+<style> .aic { align-items:center; } </style>
+<style> .vam { vertical-align: middle; } </style>
+<style> .talc { text-align-last: center; } </style>
+<style> .linhei { line-height: 1.5; } </style>
+<style> .dib { display: inline-block; } </style>
+<style> .mla { margin-left:auto; } </style>
+<style> .mra { margin-right:auto; } </style>
+<style> .ma { margin: auto; } </style>
+<style> .ma0 { margin: auto 0; } </style>
+<style> .ma5px { margin: 5px; } </style>
+<style> .clearfix { overflow: auto; } </style>
+<style> .fL { float: left; } </style>
+<style> .fR { float: right; } </style>
+<style> .b1 { border: solid white; border-width: 20px; } </style>
+<style> .topleft { position: relative; top:100px; left:100px; background: yellow; border: solid thin #FFFFFF; width: 2000px; } </style>
+<style> .topright { position: relative; background: blue; top: 100px; } </style>
+<style> .fArial { font-family: Arial; } </style>
+<style> .fSS { font-family: Sans-serif; } </style>
+<style> .fCSMS { font-family: ", C, o, m, i, c,  , S, a, n, s,  , M, S, ", ,,  , ", C, o, m, i, c,  , S, a, n, s, ", ,,  , c, u, r, s, i, v, e; } </style>
+<style> .fVerdana { font-family: Verdana; } </style>
+<style> .fTNR { font-family: "Times New Roman"; } </style>
+<style> .c { text-align: center; } </style>
+<style> .b { font-weight: bold; } </style>
+<style> .s3em { font-size: 3em; } </style>
+<style> .s2aahem { font-size: 2.5em; } </style>
+<style> .s2em { font-size: 2em; } </style>
+<style> .s1aahem { font-size: 1.5em; } </style>
+<style> .s1em { font-size: 1em; } </style>
+<style> 
+ .bgReadingPeach { background: #EDD1B0; }
+.bgReadingOrange { background: #EDDD6E; }
+.bgReadingYellow { background: #F8FD89; }
+.bgRosyDewCream { background: #F9F1F0; }
+.bgCream { background: #FFFDD0; }
+.bgNeonYellow { background: #FBCB0A; }
+.bglightgrey { background: lightgrey; }
+.bgRetroMaroon { background: #C70A80; }
+.bgKidsPurple { background: #590696; }
+.bgRainbowTeal { background: #37E2D5; }
+.bgebebeb { background: #ebebeb; }
+.bgebebeb_Tone1 { background: #ede9e9; }
+.bgebebeb_Tone2 { background: #eee8e8; }
+.bgebebeb_Tone3 { background: #f0e6e6; }
+.bgebebeb_Tone4 { background: #f2e4e4; }
+.bgebebeb_Tone5 { background: #f3e3e3; }
+.bgebebeb_Tone6 { background: #f5e1e1; }
+.bgebebeb_Tone7 { background: #f7dfdf; }
+.bgebebeb_Tone8 { background: #f8dede; }
+.bgebebeb_Tone9 { background: #fadcdc; }
+.bgebebeb_Tone10 { background: #fcdada; }
+.bgebebeb_Tone11 { background: #fdd9d9; }
+.bgebebeb_Tone12 { background: #ffd7d7; }
+.bgJungleGreen { background: #29AB87; }
+.bgMantis { background: ; }
+.bgMiddleGreen { background: #4D8C57; }
+.bgScreaminGreen { background: #66FF66; }
+.bgDartmouthGreen { background: #00703C; }
+.bgSapGreen { background: #507D2A; }
+.bgSlimyGreen { background: #299617; }
+.bgLimeGreen { background: #32CD32; }
+.bgBitterLemon { background: #CAE00D; }
+.bgArtichokeGreen { background: #8F9779; }
+.bgGrannySmithApple { background: #A8E4A0; }
+.bgAppleGreen { background: #8DB600; }
+.bgFrenchLime { background: #9EFD38; }
+.bgAvocadon { background: #568203; }
+.bgPistachio { background: #93C572; }
+.bgOliveGreen { background: #708238; }
+.bgDarkOliveGreen { background: #556B2F; }
+.bgHunterGreen { background: #355E3B; }
+.bgAmazon { background: #3B7A57; }
+.bgDarkJungleGreen { background: #1A2421; }
+.bgDeepJungleGreen { background: #004B49; }
+.bgForestGreen { background: #014421; }
+.bgTropicalRainforest { background: #00755E; }
+.bgMyrtleGreen { background: #317873; }
+.bgPineGreen { background: #01796F; }
+.bgMintGreen { background: #98FB98; }
+.bgLawnGreen { background: #7CFC00; }
+.bgMossGreen { background: #8A9A5B; }
+.bgDarkMossGreen { background: #4A5D23; }
+.bgFernGreen { background: #4F7942; }
+.bgTeaGreen { background: #D0F0C0; }
+.bgSageGreen { background: #BCB88A; }
+.bgShamrockGreen { background: #009E60; }
+.bgLaurelGreen { background: #A9BA9D; }
+.bgSpringGreen { background: #00FF7F; }
+.bgMediumSpringGreen { background: #00FA9A; }
+.bgDarkSpringGreen { background: #177245; }
+.bgLightSeaGreen { background: #20B2AA; }
+.bgSea { background: green crayola; }
+.bgHex { background: #8DD9CC; }
+.bgRGB { background: 141, 217, 204; }
+.bgCMYK { background: 35, 0, 6, 15; }
+.bg. { background: ; }
+.bgMedium { background: aquamarine; }
+.bgDark { background: pastel green; }
+.bgOcean { background: green; }
+.bgGreen { background: cyan; }
+.bgPhthalo { background: green; }
+.bgMaximum { background: green yellow; }
+.bgLight { background: green; }
+.bgMiddle { background: blue green; }
+.bgBud { background: green; }
+.bgKombu { background: green; }
+.bgMalachite { background: ; }
+.bgZomp { background: ; }
+.bgBright { background: green; }
+.bgElectric { background: green; }
+.bgVolt { background: ; }
+.bgScreamin { background: green; }
+.bgSap { background: green; }
+.bgGO { background: green; }
+.bgSlimy { background: green; }
+.bgNeon { background: green; }
+.bgPersian { background: green; }
+.bgSpanish { background: green; }
+.bgParis { background: green; }
+.bgBritish { background: racing green; }
+.bgDartmouth { background: green; }
+.bgEton { background: green; }
+.bgSacramento { background: State green; }
+.bgCharleston { background: green; }
+.bgBrunswick { background: green; }
+.bgIndia { background: green; }
+.bgPakistan { background: green; }
+.bgCaribbean { background: green; }
+.bgRussian { background: green; }
+.bgJade { background: green; }
+.bgEmerald { background: green; }
+.bgTurquoise { background: green; }
+.bgCadmium { background: green; }
+.bgHarlequin { background: ; }
+.bgKelly { background: green; }
+.bgPaolo { background: Veronese green; }
+.bgLincoln { background: green; }
+.bgMay { background: green; }
+.bgArmy { background: green; }
+.bgMichigan { background: State University green; }
+.bgMidnight { background: green; }
+.bgCeladon { background: ; }
+.bgBottle { background: green; }
+.bgAndroid { background: green; }
+.bgViridian { background: green; }
+.bgAcid { background: green; }
+.bgCastleton { background: green; }
+.bgWintergreen { background: dream; }
+.bgYellow { background: green color wheel; }
+.bgBlue { background: green color wheel; }
+.bgGreenSheen { background: #6EAEA1; }
+.bgSheenGreen { background: #8FD400; }
+.bgSummerCloud { background: #c0fff0; }
+.bgPaleTurquoise { background: #a8ffd8; }
+.bgGlowInTheDark { background: #c0ffc0; }
+.bgEasterGreen { background: #90ff78; }
+.bgGoblinWarboss { background: #48ff48; }
+.bgGrapeTaffy { background: #f0d8f0; }
+.bgLightLavender { background: #f0c0ff; }
+.bgShade1 { background: #f2fff2; }
+.bgShade2 { background: #eaffea; }
+.bgShade3 { background: #e2fee2; }
+.bgShade4 { background: #dafeda; }
+.bgShade5 { background: #d2fed2; }
+.bgShade6 { background: #c9fec9; }
+.bgShade7 { background: #c1fec1; }
+.bgShade8 { background: #b9feb9; }
+.bgShade9 { background: #b1feb1; }
+.bgShade10 { background: #a9ffa9; }
+.bgShade11 { background: #a1ffa1; }
+.bgShade12 { background: #9f9; }
+.bgShade13 { background: #90ff90; }
+.bgShade14 { background: #8f8; }
+.bgShade15 { background: #80ff80; }
+.bgShade16 { background: #78ff78; }
+.bgShade17 { background: #70ff70; }
+.bgShade18 { background: #68ff68; }
+.bgShade19 { background: #5fff5f; }
+.bgShade20 { background: #57ff57; }
+.bgShade21 { background: #4fff4f; }
+.bgShade22 { background: #47ff47; }
+.bgShade23 { background: #3fff3f; }
+.bgShade24 { background: #37ff37; }
+.bgShade25 { background: #2eff2e; }
+.bgShade26 { background: #26ff26; }
+.bgShade27 { background: #1eff1e; }
+.bgShade28 { background: #16ff16; }
+.bgShade29 { background: #0eff0e; }
+.bgShade30 { background: #06ff06; }
+.bgShade31 { background: #00fc00; }
+.bgShade32 { background: #00f400; }
+.bgShade33 { background: #00ec00; }
+.bgShade34 { background: #00e400; }
+.bgShade35 { background: #00dc00; }
+.bgShade36 { background: #00d400; }
+.bgShade37 { background: #0c0; }
+.bgShade38 { background: #00c300; }
+.bgShade39 { background: #0b0; }
+.bgShade40 { background: #00b300; }
+.bgShade41 { background: #00ab00; }
+.bgShade42 { background: #00a300; }
+.bgShade43 { background: #009b00; }
+.bgShade44 { background: #009200; }
+.bgShade45 { background: #008a00; }
+.bgShade46 { background: #008200; }
+.bgShade47 { background: #007a00; }
+.bgShade48 { background: #007200; }
+.bgShade49 { background: #006a00; }
+.bgShade50 { background: #006100; }
+.bgShade51 { background: #005900; }
+.bgShade52 { background: #005100; }
+.bgShade53 { background: #004900; }
+.bgShade54 { background: #004100; }
+.bgShade55 { background: #003900; }
+.bgShade56 { background: #003000; }
+.bgShade57 { background: #002800; }
+.bgShade58 { background: #002000; }
+.bgShade59 { background: #001800; }
+.bgShade60 { background: #001000; }
+.bg2020ClassicBlue { background: #34568B; }
+.bg2019LivingCoral { background: #FF6F61; }
+.bg2018UltraViolet { background: #6B5B95; }
+.bg2017Greenery { background: #88B04B; }
+.bg2016RoseQuartz { background: #F7CAC9; }
+.bg2016Serenity { background: #92A8D1; }
+.bg2015Marsala { background: #955251; }
+.bg2014RadiandOrchid { background: #B565A7; }
+.bg2013Emerald { background: #009B77; }
+.bg2012TangerineTango { background: #DD4124; }
+.bg2011Honeysucle { background: #D65076; }
+.bg2010Turquoise { background: #45B8AC; }
+.bg2009Mimosa { background: #EFC050; }
+.bg2008BlueIzis { background: #5B5EA6; }
+.bg2007ChiliPepper { background: #9B2335; }
+.bg2006SandDollar { background: #DFCFBE; }
+.bg2005BlueTurquoise { background: #55B4B0; }
+.bg2004Tigerlily { background: #E15D44; }
+.bg2003AquaSky { background: #7FCDCD; }
+.bg2002TrueRed { background: #BC243C; }
+.bg2001FuchsiaRose { background: #C3447A; }
+.bg2000CeruleanBlue { background: #98B4D4; } 
+ </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<table border=0 class="mla mra">
+<tr> <td> <table border=1 class="mla mra">
+<tr align="top"><td class="c s2em fSS bg2006SandDollar" colspan="6">58 YouTube links grouped by tag.hindustantimes</td></tr>
+<tr align="top"><th>#</th>
+<th>YouTube-title</th>
+<th>Saved</th></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">1/58</td>
+<td class="c s2em fSS bg2006SandDollar">Pak on the brink of mass deaths? 'Only two days of medicine stock left i...</td>
+<td class="c s2em fVerdana">Fri Jan 20 22:00:22 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtube.com/watch?v=2hebaVmnHiw&feature=share <BR> tag.hindustantimes tag.short tag.news <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">2/58</td>
+<td class="c s2em fSS bg2006SandDollar">Pak’s peace farce exposed; Sharif govt rakes up Kashmir, puts onus of ta...</td>
+<td class="c s2em fVerdana">Fri Jan 20 22:01:20 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtube.com/watch?v=ChR4e7tshSU&feature=share <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">3/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch dramatic footage of Russian Su-25, GRAD firing missiles at Ukraine...</td>
+<td class="c s2em fVerdana">Fri Jan 20 22:02:35 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtube.com/watch?v=y8T-oLM-zOQ&feature=share <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">4/58</td>
+<td class="c s2em fSS bg2006SandDollar">Putin's 'secret army' defeats Ukrainian forces? Wagner Group claims cont...</td>
+<td class="c s2em fVerdana">Fri Jan 20 22:03:47 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtube.com/watch?v=pIGoPlmX9w0&feature=share <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">5/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Russia strafes Ukraine, rules out peace talks after Zelensky calls Putin a 'nobody' | Watch" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 27 07:56:22 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ykJSDPTyydk <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">6/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "India, China armies could clash again at LAC; Police warning at top meet attended by PM Modi" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 27 20:08:47 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/BWptzpmZros <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">7/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Israel fumes at rocket fire from Palestine, strikes Gaza after deadly West Bank raids | Watch" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 27 20:09:00 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/QZLVDDIZce4 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">8/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "‘Then come nukes’: Trump mocks as Zelensky demands missiles, jets from U.S.-led West after tanks" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 27 20:09:11 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/qyYczDgf1Qw <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">9/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "J&K police counters Rahul Gandhi's security lapse claim in Kashmir; 'We were never informed...'" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 27 20:09:22 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/qpFFFKpAAts <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">10/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "PM Modi’s ‘Out Of Syllabus’ answer sparks laughter riot | Watch glimpses of Pariksha Pe Charcha" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 27 20:09:37 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Chk44ivOGO4 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">11/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Putin's Iran drone usage in Ukraine war upsets Israel; Tells NATO to act | ‘Threat At EU Doorstep’" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 27 20:11:01 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/fcz5v04KZt8 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">12/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Russia openly says Britain looted Indians to become Rich | Rishi Sunak's Tank supply to Ukraine" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 16 02:26:18 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/PcDSQtQZ67U <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">13/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Putin's War Divides West: U.S. plans to trick Germany into arming Ukraine with 'Leopards'" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 23 12:56:24 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WaOTqTWRwUw <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">14/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Putin’s Army storms Ukraine positions with rapid artillery strike; Wagner boss warns Russian enemies" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 23 12:57:17 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/evHXeO98E9I <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">15/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Putin’s ally warns Russia’s war will give birth to anti-U.S. military bloc | ‘Fed up of America’" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 23 13:03:06 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/puanE3xVqtU <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">16/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Quran protests burn Sweden's NATO dream; Turkey cancels crucial meet I Details" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 23 17:51:34 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/FUghGXSjzRI <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">17/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "NATO nation snubs U.S.; Putin wins Erdogan’s praise amid sanctions row | ‘Respect For Russia’" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 30 15:10:17 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/NM_Ow9_OJz4 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">18/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "North Korea rips Russia's arms deal claims; 'U.S. fabricating non-existent thing' I Details" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 30 15:11:59 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/hkz7B1evJD0 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">19/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Putin roars as UK tries to hack Russian govt entities; 'Cyberstrike under NATO guidance' | Watch" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 30 15:14:13 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/clNOMzVaBJI <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">20/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Xi Jinping's expansionist ambitions in Afghanistan hindered; ISIS-K targets Chinese projects" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 30 15:22:27 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/I5tH6NO8eKc <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">21/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "U.S. weapons failing in Donetsk? Russia intercepts 16 Himars, Uragan rockets in 24 hours I Watch" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 30 15:24:08 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Y_QPGZq3I10 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">22/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Israel strikes Iranian military facility? Mossad hand suspected behind drone attack" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 30 18:16:31 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/JkEs9VHE8Rk <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">23/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Zelensky’s men forced to ‘retreat’; Watch how Russian Army ‘pinned down’ Ukraine forces near Bakhmut" on YouTube</td>
+<td class="c s2em fVerdana">Sat Jan 21 07:09:50 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/6RoXHILDbps <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">24/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "'Muslims would've left India if..': UK MP blasts BBC over Modi documentary" on YouTube</td>
+<td class="c s2em fVerdana">Sat Jan 21 07:16:39 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/05e5OHALBXM <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">25/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Pak ally Azerbaijan cries foul over Indian arms supply to Armenia; 'Unfriendly move...'" on YouTube</td>
+<td class="c s2em fVerdana">Sat Jan 21 19:02:34 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/UXdyn7Vv2Rg <BR> tag.hindustantimes tag.downloaded <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">26/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Zelensky slams his EU friends as Western allies 'fail' Ukraine over tanks; 'Indecision killing us'" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 22 08:23:07 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/_l5CYqUqvzY <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">27/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jaishankar slams Europe's 'hypocrisy' on Russia's war; Watch savage reply over India’s position" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 22 08:28:44 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/4-MJh1NpNok <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">28/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "'Pro-Putin' Croatia lashes EU for 'overreach', Warns against Brexit-like situation amid Ukraine war" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 22 23:42:08 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/KCYwIXm2fl0 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">29/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Putin, NATO cross swords; After Estonia, Russia boots Latvian envoy over Ukraine 'provocation'" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 19:14:01 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/VC90dfsNZYs <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">30/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jaishankar shows mirror to West amid BBC controversy; 'Hindu nationalist...' | Watch" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 19:15:13 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/9FQxET9weFU <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">31/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "'Training to kill Russians': Mozart group's explosive admission amid Putin's blitz in Ukraine" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 19:15:24 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/tr8qTzUGekE <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">32/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Iran's military factory in flames after drone strike; Tehran claims one UAV eliminated | Watch" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 19:15:55 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/gwzFHR3fXoo <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">33/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Kremlin lashes U.S, Ukraine for HIMARS strike on civil hospital; 'Heinous War Crimes' | Details" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 19:16:04 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ntMOJ2tv1Cg <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">34/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "NATO to directly fight Putin's army? Top official's big signal for Russia amid Ukraine onslaught" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 22:33:31 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/3CmCxDJ6qW4 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">35/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "NIA acts against Pak proxies in Kashmir; Hurriyat Conference's Srinagar office attached | Details" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 22:34:01 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/F58v_VJJX-U <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">36/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Pak's fight for flour escalates; Sharif govt confirms 2.37 million metric tons wheat deficit" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 22:34:10 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/tu7fhTgwLpY <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">37/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Israel's 'revenge' plan after Jerusalem attacks out; Netanyahu to enhance Jewish settlements" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 22:34:19 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Wj6EDEMlQzQ <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">38/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Finland alleges Russia hand in Quran burning protest; Sweden's NATO dream hangs in balance" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 22:34:32 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ihbD1Ij6Dr4 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">39/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "BBC Series Row: PM Modi's big call for unity against 'divisive' anti-India attempts | Watch" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 22:34:51 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/hZ1Th09-N3w <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">40/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jaishankar's savage take on 'rogue nation' Pak; 'Like Pandavas, even India can't...' | Watch" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 22:35:14 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/mIx-Haqo_rM <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">41/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Pak: Petrol, diesel gets more costlier as Sharif govt begs for IMF help I Details" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 22:36:10 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/1sFCQLMucSI <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">42/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jaishankar rips Congress, sets record straight on border clash with China, 'I get my news from...'" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 22:36:40 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/tZUITGCA6Ns <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">43/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Putin's Su-35 shoots down Ukraine warplane; Heavy fighting in Donetsk's Vuhledar I Details" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 29 22:36:48 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WjZzFVoWyhs <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">44/58</td>
+<td class="c s2em fSS bg2006SandDollar">War 'fatigue' setting in? NATO ally's big warning as Russia protests tan...</td>
+<td class="c s2em fVerdana">Thu Jan 19 13:53:50 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtube.com/watch?v=eSnNNbjZwyc&feature=share <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">45/58</td>
+<td class="c s2em fSS bg2006SandDollar">'Colonial mindset': India decries anti-Modi BBC series calling it a 'pro...</td>
+<td class="c s2em fVerdana">Thu Jan 19 23:35:23 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtube.com/watch?v=pu7PVakDjFs&feature=share <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">46/58</td>
+<td class="c s2em fSS bg2006SandDollar">China's new border provocation near Uttarakhand; Satellite images reveal...</td>
+<td class="c s2em fVerdana">Thu Jan 19 23:39:54 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtube.com/watch?v=c5Wke4oPbPE&feature=share <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">47/58</td>
+<td class="c s2em fSS bg2006SandDollar">How Russia rebuked Zelensky on ‘bizarre’ claim about Putin’s health and ...</td>
+<td class="c s2em fVerdana">Thu Jan 19 23:40:13 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtube.com/watch?v=5Zqw_dPwevs&feature=share <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">48/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "'Germany at war with Russia': Explosive admission by Minister after NATO plays defensive" on YouTube</td>
+<td class="c s2em fVerdana">Thu Jan 26 14:23:27 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/KrknOOYhlKg <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">49/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Israel, U.S. fighter jets, nuke bombers, warships in action | Major drills amid Iran tensions" on YouTube</td>
+<td class="c s2em fVerdana">Thu Jan 26 16:05:42 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/JMy-1gPPb6o <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">50/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Biden scared of Putin’s Chef? Russia’s Wagner group boss warns U.S. amid Ukraine war" on YouTube</td>
+<td class="c s2em fVerdana">Thu Jan 26 16:06:50 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/2K5dkB0E6FM <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">51/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "U.S. reacts to India's crackdown on BBC Film critical of PM Modi; 'We support...'" on YouTube</td>
+<td class="c s2em fVerdana">Thu Jan 26 16:27:10 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/i28XpxWHkFY <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">52/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Indian Navy flies Soviet-made 'Dolphin' Aircraft for the first and last time on R-Day | Watch" on YouTube</td>
+<td class="c s2em fVerdana">Thu Jan 26 16:32:42 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/CrNk4LSTvv0 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">53/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Putin vows to 'burn' British tanks sent by Sunak to Ukraine | 'Tool for anti-Russia goals…'" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jan 17 00:02:22 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/oMsWZz9E6G0 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">54/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Indian economy to grow fastest at 6.1%, IMF calls it bright spot | Here’s How Low U.S., UK stand" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jan 31 15:53:59 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/GIYZiiKzGp0 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">55/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "German FM called ‘insane’ by leaders from NATO nation for ‘war with Russia’ remark | Details" on YouTube</td>
+<td class="c s2em fVerdana">Wed Feb 1 19:29:31 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/X_1n-CDgPT8 <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">56/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Indian consumers to pay more for gold, silver, cigarettes | Check what gets costlier and cheaper" on YouTube</td>
+<td class="c s2em fVerdana">Wed Feb 1 19:31:33 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/qgbWRjwA0hE <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">57/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Pak PM trolled for 'Bharatanatyam'; Video goes viral as Sharif rhymes on-stage" on YouTube</td>
+<td class="c s2em fVerdana">Wed Jan 25 15:11:14 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/DNX2nPY8Dio <BR> tag.hindustantimes <BR></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">58/58</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Russian drones hunt, tank unleashes ‘hell fire’ on Ukraine troops in the woods | Watch" on YouTube</td>
+<td class="c s2em fVerdana">Wed Jan 25 15:15:53 2023 </td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-2Io7IWwe5Y <BR> tag.hindustantimes <BR></td></tr>
+</table><BR> </td> </tr>
+</table><BR>
+</body>
+</html>
