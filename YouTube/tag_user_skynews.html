@@ -1,0 +1,727 @@
+
+
+        <!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        
+<html>
+<head>
+<style> .wrap { word-wrap: break-word; } </style>
+<style> .rwo { display: table; } </style>
+<style> .rwi { padding: 50% 0; height: 0; } </style>
+<style> .etr { display: block; transform-origin: top left; transform: rotate(90deg) translate(0, -100%); margin-top: -50%; white-space: nowrap; } </style>
+<style> .r90 { -webkit-transform: translateY(-100%) rotate(90deg); -moz-transform: translateY(-100%) rotate(90deg); -ms-transform: translateY(-100%) rotate(90deg); -o-transform: translateY(-100%) rotate(90deg); transform: translateY(-100%) rotate(90deg); -webkit-transform-origin: left bottom; -moz-transform-origin: left bottom; -ms-transform-origin: left bottom; -o-transform-origin: left bottom; transform-origin: left bottom; } </style>
+<style> .heiaut { height: auto; } </style>
+<style> .w200px { width: 200px; } </style>
+<style> .w300px { width: 300px; } </style>
+<style> .w333px { width: 333px; } </style>
+<style> .widaut { width: auto; } </style>
+<style> .r270 { transform:rotate(270deg); } </style>
+<style> .df { display:flex; } </style>
+<style> .dt { display:table; } </style>
+<style> .dtc { display:table-cell; } </style>
+<style> .dtr { display:table-row; } </style>
+<style> .pr { position: relative; } </style>
+<style> .aic { align-items:center; } </style>
+<style> .vam { vertical-align: middle; } </style>
+<style> .talc { text-align-last: center; } </style>
+<style> .linhei { line-height: 1.5; } </style>
+<style> .dib { display: inline-block; } </style>
+<style> .mla { margin-left:auto; } </style>
+<style> .mra { margin-right:auto; } </style>
+<style> .ma { margin: auto; } </style>
+<style> .ma0 { margin: auto 0; } </style>
+<style> .ma5px { margin: 5px; } </style>
+<style> .clearfix { overflow: auto; } </style>
+<style> .fL { float: left; } </style>
+<style> .fR { float: right; } </style>
+<style> .b1 { border: solid white; border-width: 20px; } </style>
+<style> .topleft { position: relative; top:100px; left:100px; background: yellow; border: solid thin #FFFFFF; width: 2000px; } </style>
+<style> .topright { position: relative; background: blue; top: 100px; } </style>
+<style> .fArial { font-family: Arial; } </style>
+<style> .fSS { font-family: Sans-serif; } </style>
+<style> .fCSMS { font-family: ", C, o, m, i, c,  , S, a, n, s,  , M, S, ", ,,  , ", C, o, m, i, c,  , S, a, n, s, ", ,,  , c, u, r, s, i, v, e; } </style>
+<style> .fVerdana { font-family: Verdana; } </style>
+<style> .fTNR { font-family: "Times New Roman"; } </style>
+<style> .c { text-align: center; } </style>
+<style> .b { font-weight: bold; } </style>
+<style> .s3em { font-size: 3em; } </style>
+<style> .s2aahem { font-size: 2.5em; } </style>
+<style> .s2em { font-size: 2em; } </style>
+<style> .s1aahem { font-size: 1.5em; } </style>
+<style> .s1em { font-size: 1em; } </style>
+<style> 
+ .bgReadingPeach { background: #EDD1B0; }
+.bgReadingOrange { background: #EDDD6E; }
+.bgReadingYellow { background: #F8FD89; }
+.bgRosyDewCream { background: #F9F1F0; }
+.bgCream { background: #FFFDD0; }
+.bgNeonYellow { background: #FBCB0A; }
+.bglightgrey { background: lightgrey; }
+.bgRetroMaroon { background: #C70A80; }
+.bgKidsPurple { background: #590696; }
+.bgRainbowTeal { background: #37E2D5; }
+.bgebebeb { background: #ebebeb; }
+.bgebebeb_Tone1 { background: #ede9e9; }
+.bgebebeb_Tone2 { background: #eee8e8; }
+.bgebebeb_Tone3 { background: #f0e6e6; }
+.bgebebeb_Tone4 { background: #f2e4e4; }
+.bgebebeb_Tone5 { background: #f3e3e3; }
+.bgebebeb_Tone6 { background: #f5e1e1; }
+.bgebebeb_Tone7 { background: #f7dfdf; }
+.bgebebeb_Tone8 { background: #f8dede; }
+.bgebebeb_Tone9 { background: #fadcdc; }
+.bgebebeb_Tone10 { background: #fcdada; }
+.bgebebeb_Tone11 { background: #fdd9d9; }
+.bgebebeb_Tone12 { background: #ffd7d7; }
+.bgJungleGreen { background: #29AB87; }
+.bgMantis { background: ; }
+.bgMiddleGreen { background: #4D8C57; }
+.bgScreaminGreen { background: #66FF66; }
+.bgDartmouthGreen { background: #00703C; }
+.bgSapGreen { background: #507D2A; }
+.bgSlimyGreen { background: #299617; }
+.bgLimeGreen { background: #32CD32; }
+.bgBitterLemon { background: #CAE00D; }
+.bgArtichokeGreen { background: #8F9779; }
+.bgGrannySmithApple { background: #A8E4A0; }
+.bgAppleGreen { background: #8DB600; }
+.bgFrenchLime { background: #9EFD38; }
+.bgAvocadon { background: #568203; }
+.bgPistachio { background: #93C572; }
+.bgOliveGreen { background: #708238; }
+.bgDarkOliveGreen { background: #556B2F; }
+.bgHunterGreen { background: #355E3B; }
+.bgAmazon { background: #3B7A57; }
+.bgDarkJungleGreen { background: #1A2421; }
+.bgDeepJungleGreen { background: #004B49; }
+.bgForestGreen { background: #014421; }
+.bgTropicalRainforest { background: #00755E; }
+.bgMyrtleGreen { background: #317873; }
+.bgPineGreen { background: #01796F; }
+.bgMintGreen { background: #98FB98; }
+.bgLawnGreen { background: #7CFC00; }
+.bgMossGreen { background: #8A9A5B; }
+.bgDarkMossGreen { background: #4A5D23; }
+.bgFernGreen { background: #4F7942; }
+.bgTeaGreen { background: #D0F0C0; }
+.bgSageGreen { background: #BCB88A; }
+.bgShamrockGreen { background: #009E60; }
+.bgLaurelGreen { background: #A9BA9D; }
+.bgSpringGreen { background: #00FF7F; }
+.bgMediumSpringGreen { background: #00FA9A; }
+.bgDarkSpringGreen { background: #177245; }
+.bgLightSeaGreen { background: #20B2AA; }
+.bgSea { background: green crayola; }
+.bgHex { background: #8DD9CC; }
+.bgRGB { background: 141, 217, 204; }
+.bgCMYK { background: 35, 0, 6, 15; }
+.bg. { background: ; }
+.bgMedium { background: aquamarine; }
+.bgDark { background: pastel green; }
+.bgOcean { background: green; }
+.bgGreen { background: cyan; }
+.bgPhthalo { background: green; }
+.bgMaximum { background: green yellow; }
+.bgLight { background: green; }
+.bgMiddle { background: blue green; }
+.bgBud { background: green; }
+.bgKombu { background: green; }
+.bgMalachite { background: ; }
+.bgZomp { background: ; }
+.bgBright { background: green; }
+.bgElectric { background: green; }
+.bgVolt { background: ; }
+.bgScreamin { background: green; }
+.bgSap { background: green; }
+.bgGO { background: green; }
+.bgSlimy { background: green; }
+.bgNeon { background: green; }
+.bgPersian { background: green; }
+.bgSpanish { background: green; }
+.bgParis { background: green; }
+.bgBritish { background: racing green; }
+.bgDartmouth { background: green; }
+.bgEton { background: green; }
+.bgSacramento { background: State green; }
+.bgCharleston { background: green; }
+.bgBrunswick { background: green; }
+.bgIndia { background: green; }
+.bgPakistan { background: green; }
+.bgCaribbean { background: green; }
+.bgRussian { background: green; }
+.bgJade { background: green; }
+.bgEmerald { background: green; }
+.bgTurquoise { background: green; }
+.bgCadmium { background: green; }
+.bgHarlequin { background: ; }
+.bgKelly { background: green; }
+.bgPaolo { background: Veronese green; }
+.bgLincoln { background: green; }
+.bgMay { background: green; }
+.bgArmy { background: green; }
+.bgMichigan { background: State University green; }
+.bgMidnight { background: green; }
+.bgCeladon { background: ; }
+.bgBottle { background: green; }
+.bgAndroid { background: green; }
+.bgViridian { background: green; }
+.bgAcid { background: green; }
+.bgCastleton { background: green; }
+.bgWintergreen { background: dream; }
+.bgYellow { background: green color wheel; }
+.bgBlue { background: green color wheel; }
+.bgGreenSheen { background: #6EAEA1; }
+.bgSheenGreen { background: #8FD400; }
+.bgSummerCloud { background: #c0fff0; }
+.bgPaleTurquoise { background: #a8ffd8; }
+.bgGlowInTheDark { background: #c0ffc0; }
+.bgEasterGreen { background: #90ff78; }
+.bgGoblinWarboss { background: #48ff48; }
+.bgGrapeTaffy { background: #f0d8f0; }
+.bgLightLavender { background: #f0c0ff; }
+.bgShade1 { background: #f2fff2; }
+.bgShade2 { background: #eaffea; }
+.bgShade3 { background: #e2fee2; }
+.bgShade4 { background: #dafeda; }
+.bgShade5 { background: #d2fed2; }
+.bgShade6 { background: #c9fec9; }
+.bgShade7 { background: #c1fec1; }
+.bgShade8 { background: #b9feb9; }
+.bgShade9 { background: #b1feb1; }
+.bgShade10 { background: #a9ffa9; }
+.bgShade11 { background: #a1ffa1; }
+.bgShade12 { background: #9f9; }
+.bgShade13 { background: #90ff90; }
+.bgShade14 { background: #8f8; }
+.bgShade15 { background: #80ff80; }
+.bgShade16 { background: #78ff78; }
+.bgShade17 { background: #70ff70; }
+.bgShade18 { background: #68ff68; }
+.bgShade19 { background: #5fff5f; }
+.bgShade20 { background: #57ff57; }
+.bgShade21 { background: #4fff4f; }
+.bgShade22 { background: #47ff47; }
+.bgShade23 { background: #3fff3f; }
+.bgShade24 { background: #37ff37; }
+.bgShade25 { background: #2eff2e; }
+.bgShade26 { background: #26ff26; }
+.bgShade27 { background: #1eff1e; }
+.bgShade28 { background: #16ff16; }
+.bgShade29 { background: #0eff0e; }
+.bgShade30 { background: #06ff06; }
+.bgShade31 { background: #00fc00; }
+.bgShade32 { background: #00f400; }
+.bgShade33 { background: #00ec00; }
+.bgShade34 { background: #00e400; }
+.bgShade35 { background: #00dc00; }
+.bgShade36 { background: #00d400; }
+.bgShade37 { background: #0c0; }
+.bgShade38 { background: #00c300; }
+.bgShade39 { background: #0b0; }
+.bgShade40 { background: #00b300; }
+.bgShade41 { background: #00ab00; }
+.bgShade42 { background: #00a300; }
+.bgShade43 { background: #009b00; }
+.bgShade44 { background: #009200; }
+.bgShade45 { background: #008a00; }
+.bgShade46 { background: #008200; }
+.bgShade47 { background: #007a00; }
+.bgShade48 { background: #007200; }
+.bgShade49 { background: #006a00; }
+.bgShade50 { background: #006100; }
+.bgShade51 { background: #005900; }
+.bgShade52 { background: #005100; }
+.bgShade53 { background: #004900; }
+.bgShade54 { background: #004100; }
+.bgShade55 { background: #003900; }
+.bgShade56 { background: #003000; }
+.bgShade57 { background: #002800; }
+.bgShade58 { background: #002000; }
+.bgShade59 { background: #001800; }
+.bgShade60 { background: #001000; }
+.bg2020ClassicBlue { background: #34568B; }
+.bg2019LivingCoral { background: #FF6F61; }
+.bg2018UltraViolet { background: #6B5B95; }
+.bg2017Greenery { background: #88B04B; }
+.bg2016RoseQuartz { background: #F7CAC9; }
+.bg2016Serenity { background: #92A8D1; }
+.bg2015Marsala { background: #955251; }
+.bg2014RadiandOrchid { background: #B565A7; }
+.bg2013Emerald { background: #009B77; }
+.bg2012TangerineTango { background: #DD4124; }
+.bg2011Honeysucle { background: #D65076; }
+.bg2010Turquoise { background: #45B8AC; }
+.bg2009Mimosa { background: #EFC050; }
+.bg2008BlueIzis { background: #5B5EA6; }
+.bg2007ChiliPepper { background: #9B2335; }
+.bg2006SandDollar { background: #DFCFBE; }
+.bg2005BlueTurquoise { background: #55B4B0; }
+.bg2004Tigerlily { background: #E15D44; }
+.bg2003AquaSky { background: #7FCDCD; }
+.bg2002TrueRed { background: #BC243C; }
+.bg2001FuchsiaRose { background: #C3447A; }
+.bg2000CeruleanBlue { background: #98B4D4; } 
+ </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<table border=0 class="mla mra">
+<tr> <td> <table border=1 class="mla mra">
+<tr align="top"><td class="c s2em fSS bg2006SandDollar" colspan="3">112 YouTube Video Definitions <BR> are tagged by "tag.user.skynews"</td></tr>
+<tr align="top"><th>#</th>
+<th>YouTube-Video</th>
+<th>Saved</th></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">1/112</td>
+<td class="c s2em fSS bg2006SandDollar">Actor Tamer Hassan says quake-hit cities 'need manpower'</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/J735edkddX8 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">2/112</td>
+<td class="c s2em fSS bg2006SandDollar">BREAKING： Hundreds dead after earthquake hits Turkey and Syria</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Ab84UaOaWtk <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">3/112</td>
+<td class="c s2em fSS bg2006SandDollar">British-Turkish actor Tamer Hassan says his family was rescued from the rubble in Turkey</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/y8TfYAqvHAE <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">4/112</td>
+<td class="c s2em fSS bg2006SandDollar">Building collapses after quake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/t1nC0AOP_X4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">5/112</td>
+<td class="c s2em fSS bg2006SandDollar">Children rescued from rubble after earthquake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/luXVjn1nkdc <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">6/112</td>
+<td class="c s2em fSS bg2006SandDollar">Death toll from Turkey-Syria earthquake passes 20,000</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/QeKtjpLDMFU <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">7/112</td>
+<td class="c s2em fSS bg2006SandDollar">Disaster Zone： The Turkey-Syria Earthquake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/G6El5prdnAU <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">8/112</td>
+<td class="c s2em fSS bg2006SandDollar">Disaster Zone： The Turkey-Syria Earthquake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/N4jLR5jmoC0 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">9/112</td>
+<td class="c s2em fSS bg2006SandDollar">Drone shows earthquake damage in Turkey</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/YWrbtLw6cT4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">10/112</td>
+<td class="c s2em fSS bg2006SandDollar">Earthquake survivors queue for essentials and food</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/gqN9JddIJcs <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">11/112</td>
+<td class="c s2em fSS bg2006SandDollar">In full： Special programme on the deadly earthquakes in Turkey and Syria</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/UTVbSQ2K0Lc <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">12/112</td>
+<td class="c s2em fSS bg2006SandDollar">In full： Turkish president addresses earthquake survivors in Adiyaman</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Lx1viJ1hEv0 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">13/112</td>
+<td class="c s2em fSS bg2006SandDollar">In full： UN delivers update on Syria earthquake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/2UQNsHYFzOg <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">14/112</td>
+<td class="c s2em fSS bg2006SandDollar">In full： WHO delivers update on Turkey earthquake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/kWod-j_lSEw <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">15/112</td>
+<td class="c s2em fSS bg2006SandDollar">Love Island star makes quake victims plea</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/YIYPZoNC-IU <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">16/112</td>
+<td class="c s2em fSS bg2006SandDollar">More than 20,000 people confirmed dead in Turkey-Syria earthquakes</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/2BB5NowTZhM <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">17/112</td>
+<td class="c s2em fSS bg2006SandDollar">News at Ten： Mark Austin presents from Turkey as earthquake death toll passes 7,300</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/78GeoQKmagE <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">18/112</td>
+<td class="c s2em fSS bg2006SandDollar">News at Ten： More than 20,500 confirmed dead after Turkey-Syria earthquake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/4BIcQzVTCTQ <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">19/112</td>
+<td class="c s2em fSS bg2006SandDollar">News at 10： Zelenskyy visits the UK, and rescuers scramble to rescue earthquake survivors</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/H4w2uqzJGTw <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">20/112</td>
+<td class="c s2em fSS bg2006SandDollar">People in Turkey dig for survivors with their bare hands</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/GR82R996Umc <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">21/112</td>
+<td class="c s2em fSS bg2006SandDollar">Port of Iskenderun in Turkey burns after major earthquake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/6_c5l792WEI <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">22/112</td>
+<td class="c s2em fSS bg2006SandDollar">President Erdogan： 'It is not possible to explain the grief we have'</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/LNofRWQKfeE <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">23/112</td>
+<td class="c s2em fSS bg2006SandDollar">Quake expert： 'The worst kind of earthquake'</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/0SuaTsPHuoE <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">24/112</td>
+<td class="c s2em fSS bg2006SandDollar">Search efforts in Syria 'about to end' following deadly earthquake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ZplN2kzWvSQ <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">25/112</td>
+<td class="c s2em fSS bg2006SandDollar">Search under way after Turkey hit by 6.4 magnitude earthquake two weeks after disaster</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/2_VHfzLSvUU <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">26/112</td>
+<td class="c s2em fSS bg2006SandDollar">Seven-month-old is pulled from rubble 139 hours after earthquake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ov9_lsgByh0 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">27/112</td>
+<td class="c s2em fSS bg2006SandDollar">Sky News Breakfast： Devastation and desperation in earthquake epicentre</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/_VuknXPNgR4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">28/112</td>
+<td class="c s2em fSS bg2006SandDollar">Sky News Breakfast： Putin makes major speech, a year on since war began</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ylUuV3Y6KDE <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">29/112</td>
+<td class="c s2em fSS bg2006SandDollar">Sky News Breakfast： Race to find survivors after Turkey-Syria earthquake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Do5qJijWueo <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">30/112</td>
+<td class="c s2em fSS bg2006SandDollar">Sky News Breakfast： The UK sends aid to Turkey as the international push gathers steam</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/j0SuI_SU-qE <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">31/112</td>
+<td class="c s2em fSS bg2006SandDollar">Special programme on the deadly earthquakes in Turkey and Syria</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/m1wtTsaAWSA <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">32/112</td>
+<td class="c s2em fSS bg2006SandDollar">Syria earthquake： Outrage over slow response as children continue to die</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/4SBj1jV-uvE <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">33/112</td>
+<td class="c s2em fSS bg2006SandDollar">Syria earthquake： Rebel leader calls for urgent international help</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/0Tj6U4ix8PQ <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">34/112</td>
+<td class="c s2em fSS bg2006SandDollar">Syria earthquake： Sky's Alex Crawford witnesses mass graves being dug</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/aejJ7DVr4No <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">35/112</td>
+<td class="c s2em fSS bg2006SandDollar">Teen rescued after being trapped in rubble for 94 hours</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/XZHDtFeZUAQ <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">36/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey earthquake： Anger and grief in the Turkish city of Adiyaman</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/3JNFMSug9qw <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">37/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey earthquake： Further misery for southern Turkey after fresh tremors</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/CwUsYMinMok <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">38/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey earthquake： President Erdogan 'too slow' to act</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/s41qfIu3PoM <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">39/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey earthquake： Sisters 'lost hope' before being rescued from rubble after four days</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/wP74eXrWDG4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">40/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey quake： Horror, happiness and heartache for a refugee family<BR>Watch "Turkey quake: Horror, happiness and heartache for a refugee family" on YouTube</td>
+<td class="c s2em fVerdana">Sat Feb 11 22:26:13 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.news tag.skynews tag.user.skynews<BR>https://youtu.be/H6_IIEJ69d8<BR>tag.short tag.news</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">41/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： 'Anything I can do, I'm there' says Love Island star Ekin-Su</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/BQtvova3Pn8 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">42/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Before and after pictures show extent of devastation</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/_uQQE57b0_o <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">43/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Building collapses next to rescuers</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/qQy_IsHFDL4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">44/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Buildings crumble as deadly earthquakes hit</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/0jZE4p1SOvg <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">45/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： 'Can you hear me？' - Rescuers try to speak to survivors</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/t8l-8dKwDE0 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">46/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Children rescued from rubble</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Ghj2JVjQRZE <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">47/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Crowds cheers as entire family are rescued from rubble</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/zIdWTE3LdLE <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">48/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： 'Crucial we get aid to Syria as well as Turkey' - Labour</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/KOR9UoWiTJI <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">49/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Dramatic CCTV shows building shake for more than a minute</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/D75kpeDB-2k <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">50/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Drone footage shows buildings flattened in Idlib</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/T1duxTgl0Qc <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">51/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Drone footage shows fault line</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/9g3T2vTTdw4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">52/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Drone shows impact in Syrian town of Jindires</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ue7lfguF_04 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">53/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Drone shows scale of damage in Syrian town</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ezNX7xMs9l4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">54/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Emotional scenes as children are rescued</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/YGhZqTFlFBo <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">55/112</td>
+<td class="c s2em fSS bg2006SandDollar">The Turkey-Syria earthquake, explained</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/576WMMTioJU <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">56/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Families wait for news of loved ones</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/qzmth24Lt48 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">57/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Family of 25 live in tent with no heating</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/odiPya61YDc <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">58/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Footage shows scale of disaster in Antakya</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/MrfI_6_YKpM <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">59/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： How are UK charities responding？</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/fiHfrt0i_gI <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">60/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： How will aid reach the hardest hit places？</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/6atKivmhSbw <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">61/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： 'Huge long-term impact on people's health', says WHO</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/a1HA-z0v4vM <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">62/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： 'Let us dig ourselves!' - Hope turns to grief for survivors<BR>Watch "Turkey-Syria earthquake: 'Let us dig ourselves!' - Hope turns to grief for survivors" on YouTube</td>
+<td class="c s2em fVerdana">Sat Feb 11 22:58:09 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.news tag.skynews tag.user.skynews<BR>https://youtu.be/2ezTcbhUaqI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">63/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Man from Wales heartbroken over family deaths</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/cQBHUoE_7Ps <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">64/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Married couple rescued from the rubble in Iskenderun</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/IxgRkxwbOuA <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">65/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Mountain villages endure freezing conditions without aid</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ckAX7NMOv5c <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">66/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： People run for their lives as building collapses</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/MvPy3B2ce-o <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">67/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： 'Please help us!'： Fury as locals search for loved ones in rubble</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/CB3S6taAp5o <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">68/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： President Erdogan hugs a quake survivor in Adiyaman</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/uXaNJbkCz_s <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">69/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Rescue turns to recovery</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/nFpGoRfzGJA <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">70/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria Earthquake： Rescue window is now closing, says UN co-ordinator<BR>Watch "Turkey-Syria Earthquake: Rescue window is now closing, says UN co-ordinator" on YouTube</td>
+<td class="c s2em fVerdana">Sat Feb 11 22:53:45 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.news tag.skynews tag.user.skynews<BR>https://youtu.be/66tlKRpS00Q</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">71/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： Baby rescued alive after 68 hours in rubble</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/hnWE4rolt_A <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">72/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： Bodies lie in streets as British rescue team arrives with sniffer dogs</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/OF4YrTxYn10 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">73/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： British rescuers find two survivors 72 hours after quake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/rCIXe7cpLCQ <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">74/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Search for family members continues in quake-hit Kahramanmaras</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/zNklwpvoqPI <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">75/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： 'It's absolute chaos here' says podcaster</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/DiTDItPyKVg <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">76/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Six-storey building collapses following quake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-Umm6IMcOG4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">77/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Sky News joins quake aid effort</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/fL5p12eKw-Q <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">78/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria Earthquake： Special programme</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/SPUi07eohNA <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">79/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： 'Scale of human loss is hard to comprehend' - PM</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/NL_DSUIE5CM <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">80/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： Sports centre provides shelter for displaced people</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/6g6UD-YoVHc <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">81/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： Survivors bury their dead loved ones</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/IyPB4gdx8y4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">82/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Stories of relief, hope and despair linger</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/FebKYU4TbCI <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">83/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： Turkey deals with a narrowing chance to find survivors</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/HzJhKMN_Sww <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">84/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： Turkish President says initial response to quake was slow</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/x9sX0D953Fk <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">85/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： Two young women pulled alive from rubble</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/TGN-thbDI-o <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">86/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Survivor caring for 10 orphans</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/t7Pkr8LQ1h8 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">87/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： 'We will do everything we can' says Rishi Sunak</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/wrezX992AOk <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">88/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： 'What about us？' - Syrians beg world for help</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/phxQ-wzzRrM <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">89/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquakes： Why did buildings collapse？</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/mvx2T50BCg4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">90/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Syrian refugees desperate to return home for help</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pV7ylTqXIuc <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">91/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： 'The scene is one of utter devastation here'</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ir37kFgQSRg <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">92/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria Earthquake： Two rescued after spending almost five days trapped under rubble<BR>Watch "Turkey-Syria Earthquake: Two rescued after spending over four days trapped under rubble" on YouTube</td>
+<td class="c s2em fVerdana">Sun Feb 12 14:29:16 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.news tag.skynews tag.user.skynews<BR>https://youtu.be/X5PQCv_lhaQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">93/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： UK charities raise more than £60m for aid appeal</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/fkPP3K2YfQg <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">94/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： UK deploys experts to help recovery effort</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/A5pxWvhAf3Q <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">95/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： UK 'ready' to send more assistance when requested</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/m0LS8c2OVTg <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">96/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： UK will send 'large search and rescue team', says Foreign Sec</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/47iOlYslyOU <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">97/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Voices heard from inside collapsed buildings</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-D62Ycp0Pz0 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">98/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： War-torn Syria struggles to cope with disaster</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/D8IFEbsWFB4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">99/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： 'We have come to help' says volunteer</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/E3_UaI1tLWg <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">100/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： 'We have family missing' - says actor Tamer Hassan</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/wmier8siFSQ <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">101/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： What are the challenges facing rescuers？</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/QapxBK2sQ2c <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">102/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： WHO 'committed to supporting the Syrian people'</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/owuzOBm5Vew <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">103/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Why the first 72 hours are crucial for search and rescue operations</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/62HxY9TcODs <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">104/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Why was it so severe？</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/HE255F_YnXI <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">105/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria earthquake： Young child escapes death by inches in Jinderis</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/N6QfDXThQH0 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">106/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria quake： Charities call for aid from international community</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/QzoTqYTLJHI <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">107/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria quake： 'Infrastructure in Syria was already very weak'</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/s9gDSSWAck4 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">108/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria quake： 'Moments of real joy now few and far between' - Sky's Alex Crawford</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/GUVPbnD0Gn0 <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">109/112</td>
+<td class="c s2em fSS bg2006SandDollar">Turkey-Syria quake： 'My children are in the building' - Father rescued but family still missing<BR>Watch "Turkey-Syria quake: 'My children are in the building' - Father rescued but family still missing" on YouTube</td>
+<td class="c s2em fVerdana">Fri Feb 10 20:31:43 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.news tag.skynews tag.user.skynews<BR>https://youtu.be/rA26SepCgEY</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">110/112</td>
+<td class="c s2em fSS bg2006SandDollar">UN update on humanitarian effort in Syria</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/4IvIoukHEnY <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">111/112</td>
+<td class="c s2em fSS bg2006SandDollar">WHO shares update on Turkey-Syria earthquake</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WcfpmjzSoGQ <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">112/112</td>
+<td class="c s2em fSS bg2006SandDollar">Woman faces aftermath of earthquake alone after losing her husband in Syria</td>
+<td class="c s2em fVerdana">Sun Feb 26 20:57:04 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7hZX3r-ITkU <BR> tag.news tag.skynews tag.user.skynews</td></tr>
+</table><BR> </td> </tr>
+</table><BR>
+</body>
+</html>
