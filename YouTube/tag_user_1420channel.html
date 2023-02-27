@@ -1,0 +1,575 @@
+
+
+        <!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        
+<html>
+<head>
+<style> .wrap { word-wrap: break-word; } </style>
+<style> .rwo { display: table; } </style>
+<style> .rwi { padding: 50% 0; height: 0; } </style>
+<style> .etr { display: block; transform-origin: top left; transform: rotate(90deg) translate(0, -100%); margin-top: -50%; white-space: nowrap; } </style>
+<style> .r90 { -webkit-transform: translateY(-100%) rotate(90deg); -moz-transform: translateY(-100%) rotate(90deg); -ms-transform: translateY(-100%) rotate(90deg); -o-transform: translateY(-100%) rotate(90deg); transform: translateY(-100%) rotate(90deg); -webkit-transform-origin: left bottom; -moz-transform-origin: left bottom; -ms-transform-origin: left bottom; -o-transform-origin: left bottom; transform-origin: left bottom; } </style>
+<style> .heiaut { height: auto; } </style>
+<style> .w200px { width: 200px; } </style>
+<style> .w300px { width: 300px; } </style>
+<style> .w333px { width: 333px; } </style>
+<style> .widaut { width: auto; } </style>
+<style> .r270 { transform:rotate(270deg); } </style>
+<style> .df { display:flex; } </style>
+<style> .dt { display:table; } </style>
+<style> .dtc { display:table-cell; } </style>
+<style> .dtr { display:table-row; } </style>
+<style> .pr { position: relative; } </style>
+<style> .aic { align-items:center; } </style>
+<style> .vam { vertical-align: middle; } </style>
+<style> .talc { text-align-last: center; } </style>
+<style> .linhei { line-height: 1.5; } </style>
+<style> .dib { display: inline-block; } </style>
+<style> .mla { margin-left:auto; } </style>
+<style> .mra { margin-right:auto; } </style>
+<style> .ma { margin: auto; } </style>
+<style> .ma0 { margin: auto 0; } </style>
+<style> .ma5px { margin: 5px; } </style>
+<style> .clearfix { overflow: auto; } </style>
+<style> .fL { float: left; } </style>
+<style> .fR { float: right; } </style>
+<style> .b1 { border: solid white; border-width: 20px; } </style>
+<style> .topleft { position: relative; top:100px; left:100px; background: yellow; border: solid thin #FFFFFF; width: 2000px; } </style>
+<style> .topright { position: relative; background: blue; top: 100px; } </style>
+<style> .fArial { font-family: Arial; } </style>
+<style> .fSS { font-family: Sans-serif; } </style>
+<style> .fCSMS { font-family: ", C, o, m, i, c,  , S, a, n, s,  , M, S, ", ,,  , ", C, o, m, i, c,  , S, a, n, s, ", ,,  , c, u, r, s, i, v, e; } </style>
+<style> .fVerdana { font-family: Verdana; } </style>
+<style> .fTNR { font-family: "Times New Roman"; } </style>
+<style> .c { text-align: center; } </style>
+<style> .b { font-weight: bold; } </style>
+<style> .s3em { font-size: 3em; } </style>
+<style> .s2aahem { font-size: 2.5em; } </style>
+<style> .s2em { font-size: 2em; } </style>
+<style> .s1aahem { font-size: 1.5em; } </style>
+<style> .s1em { font-size: 1em; } </style>
+<style> 
+ .bgReadingPeach { background: #EDD1B0; }
+.bgReadingOrange { background: #EDDD6E; }
+.bgReadingYellow { background: #F8FD89; }
+.bgRosyDewCream { background: #F9F1F0; }
+.bgCream { background: #FFFDD0; }
+.bgNeonYellow { background: #FBCB0A; }
+.bglightgrey { background: lightgrey; }
+.bgRetroMaroon { background: #C70A80; }
+.bgKidsPurple { background: #590696; }
+.bgRainbowTeal { background: #37E2D5; }
+.bgebebeb { background: #ebebeb; }
+.bgebebeb_Tone1 { background: #ede9e9; }
+.bgebebeb_Tone2 { background: #eee8e8; }
+.bgebebeb_Tone3 { background: #f0e6e6; }
+.bgebebeb_Tone4 { background: #f2e4e4; }
+.bgebebeb_Tone5 { background: #f3e3e3; }
+.bgebebeb_Tone6 { background: #f5e1e1; }
+.bgebebeb_Tone7 { background: #f7dfdf; }
+.bgebebeb_Tone8 { background: #f8dede; }
+.bgebebeb_Tone9 { background: #fadcdc; }
+.bgebebeb_Tone10 { background: #fcdada; }
+.bgebebeb_Tone11 { background: #fdd9d9; }
+.bgebebeb_Tone12 { background: #ffd7d7; }
+.bgJungleGreen { background: #29AB87; }
+.bgMantis { background: ; }
+.bgMiddleGreen { background: #4D8C57; }
+.bgScreaminGreen { background: #66FF66; }
+.bgDartmouthGreen { background: #00703C; }
+.bgSapGreen { background: #507D2A; }
+.bgSlimyGreen { background: #299617; }
+.bgLimeGreen { background: #32CD32; }
+.bgBitterLemon { background: #CAE00D; }
+.bgArtichokeGreen { background: #8F9779; }
+.bgGrannySmithApple { background: #A8E4A0; }
+.bgAppleGreen { background: #8DB600; }
+.bgFrenchLime { background: #9EFD38; }
+.bgAvocadon { background: #568203; }
+.bgPistachio { background: #93C572; }
+.bgOliveGreen { background: #708238; }
+.bgDarkOliveGreen { background: #556B2F; }
+.bgHunterGreen { background: #355E3B; }
+.bgAmazon { background: #3B7A57; }
+.bgDarkJungleGreen { background: #1A2421; }
+.bgDeepJungleGreen { background: #004B49; }
+.bgForestGreen { background: #014421; }
+.bgTropicalRainforest { background: #00755E; }
+.bgMyrtleGreen { background: #317873; }
+.bgPineGreen { background: #01796F; }
+.bgMintGreen { background: #98FB98; }
+.bgLawnGreen { background: #7CFC00; }
+.bgMossGreen { background: #8A9A5B; }
+.bgDarkMossGreen { background: #4A5D23; }
+.bgFernGreen { background: #4F7942; }
+.bgTeaGreen { background: #D0F0C0; }
+.bgSageGreen { background: #BCB88A; }
+.bgShamrockGreen { background: #009E60; }
+.bgLaurelGreen { background: #A9BA9D; }
+.bgSpringGreen { background: #00FF7F; }
+.bgMediumSpringGreen { background: #00FA9A; }
+.bgDarkSpringGreen { background: #177245; }
+.bgLightSeaGreen { background: #20B2AA; }
+.bgSea { background: green crayola; }
+.bgHex { background: #8DD9CC; }
+.bgRGB { background: 141, 217, 204; }
+.bgCMYK { background: 35, 0, 6, 15; }
+.bg. { background: ; }
+.bgMedium { background: aquamarine; }
+.bgDark { background: pastel green; }
+.bgOcean { background: green; }
+.bgGreen { background: cyan; }
+.bgPhthalo { background: green; }
+.bgMaximum { background: green yellow; }
+.bgLight { background: green; }
+.bgMiddle { background: blue green; }
+.bgBud { background: green; }
+.bgKombu { background: green; }
+.bgMalachite { background: ; }
+.bgZomp { background: ; }
+.bgBright { background: green; }
+.bgElectric { background: green; }
+.bgVolt { background: ; }
+.bgScreamin { background: green; }
+.bgSap { background: green; }
+.bgGO { background: green; }
+.bgSlimy { background: green; }
+.bgNeon { background: green; }
+.bgPersian { background: green; }
+.bgSpanish { background: green; }
+.bgParis { background: green; }
+.bgBritish { background: racing green; }
+.bgDartmouth { background: green; }
+.bgEton { background: green; }
+.bgSacramento { background: State green; }
+.bgCharleston { background: green; }
+.bgBrunswick { background: green; }
+.bgIndia { background: green; }
+.bgPakistan { background: green; }
+.bgCaribbean { background: green; }
+.bgRussian { background: green; }
+.bgJade { background: green; }
+.bgEmerald { background: green; }
+.bgTurquoise { background: green; }
+.bgCadmium { background: green; }
+.bgHarlequin { background: ; }
+.bgKelly { background: green; }
+.bgPaolo { background: Veronese green; }
+.bgLincoln { background: green; }
+.bgMay { background: green; }
+.bgArmy { background: green; }
+.bgMichigan { background: State University green; }
+.bgMidnight { background: green; }
+.bgCeladon { background: ; }
+.bgBottle { background: green; }
+.bgAndroid { background: green; }
+.bgViridian { background: green; }
+.bgAcid { background: green; }
+.bgCastleton { background: green; }
+.bgWintergreen { background: dream; }
+.bgYellow { background: green color wheel; }
+.bgBlue { background: green color wheel; }
+.bgGreenSheen { background: #6EAEA1; }
+.bgSheenGreen { background: #8FD400; }
+.bgSummerCloud { background: #c0fff0; }
+.bgPaleTurquoise { background: #a8ffd8; }
+.bgGlowInTheDark { background: #c0ffc0; }
+.bgEasterGreen { background: #90ff78; }
+.bgGoblinWarboss { background: #48ff48; }
+.bgGrapeTaffy { background: #f0d8f0; }
+.bgLightLavender { background: #f0c0ff; }
+.bgShade1 { background: #f2fff2; }
+.bgShade2 { background: #eaffea; }
+.bgShade3 { background: #e2fee2; }
+.bgShade4 { background: #dafeda; }
+.bgShade5 { background: #d2fed2; }
+.bgShade6 { background: #c9fec9; }
+.bgShade7 { background: #c1fec1; }
+.bgShade8 { background: #b9feb9; }
+.bgShade9 { background: #b1feb1; }
+.bgShade10 { background: #a9ffa9; }
+.bgShade11 { background: #a1ffa1; }
+.bgShade12 { background: #9f9; }
+.bgShade13 { background: #90ff90; }
+.bgShade14 { background: #8f8; }
+.bgShade15 { background: #80ff80; }
+.bgShade16 { background: #78ff78; }
+.bgShade17 { background: #70ff70; }
+.bgShade18 { background: #68ff68; }
+.bgShade19 { background: #5fff5f; }
+.bgShade20 { background: #57ff57; }
+.bgShade21 { background: #4fff4f; }
+.bgShade22 { background: #47ff47; }
+.bgShade23 { background: #3fff3f; }
+.bgShade24 { background: #37ff37; }
+.bgShade25 { background: #2eff2e; }
+.bgShade26 { background: #26ff26; }
+.bgShade27 { background: #1eff1e; }
+.bgShade28 { background: #16ff16; }
+.bgShade29 { background: #0eff0e; }
+.bgShade30 { background: #06ff06; }
+.bgShade31 { background: #00fc00; }
+.bgShade32 { background: #00f400; }
+.bgShade33 { background: #00ec00; }
+.bgShade34 { background: #00e400; }
+.bgShade35 { background: #00dc00; }
+.bgShade36 { background: #00d400; }
+.bgShade37 { background: #0c0; }
+.bgShade38 { background: #00c300; }
+.bgShade39 { background: #0b0; }
+.bgShade40 { background: #00b300; }
+.bgShade41 { background: #00ab00; }
+.bgShade42 { background: #00a300; }
+.bgShade43 { background: #009b00; }
+.bgShade44 { background: #009200; }
+.bgShade45 { background: #008a00; }
+.bgShade46 { background: #008200; }
+.bgShade47 { background: #007a00; }
+.bgShade48 { background: #007200; }
+.bgShade49 { background: #006a00; }
+.bgShade50 { background: #006100; }
+.bgShade51 { background: #005900; }
+.bgShade52 { background: #005100; }
+.bgShade53 { background: #004900; }
+.bgShade54 { background: #004100; }
+.bgShade55 { background: #003900; }
+.bgShade56 { background: #003000; }
+.bgShade57 { background: #002800; }
+.bgShade58 { background: #002000; }
+.bgShade59 { background: #001800; }
+.bgShade60 { background: #001000; }
+.bg2020ClassicBlue { background: #34568B; }
+.bg2019LivingCoral { background: #FF6F61; }
+.bg2018UltraViolet { background: #6B5B95; }
+.bg2017Greenery { background: #88B04B; }
+.bg2016RoseQuartz { background: #F7CAC9; }
+.bg2016Serenity { background: #92A8D1; }
+.bg2015Marsala { background: #955251; }
+.bg2014RadiandOrchid { background: #B565A7; }
+.bg2013Emerald { background: #009B77; }
+.bg2012TangerineTango { background: #DD4124; }
+.bg2011Honeysucle { background: #D65076; }
+.bg2010Turquoise { background: #45B8AC; }
+.bg2009Mimosa { background: #EFC050; }
+.bg2008BlueIzis { background: #5B5EA6; }
+.bg2007ChiliPepper { background: #9B2335; }
+.bg2006SandDollar { background: #DFCFBE; }
+.bg2005BlueTurquoise { background: #55B4B0; }
+.bg2004Tigerlily { background: #E15D44; }
+.bg2003AquaSky { background: #7FCDCD; }
+.bg2002TrueRed { background: #BC243C; }
+.bg2001FuchsiaRose { background: #C3447A; }
+.bg2000CeruleanBlue { background: #98B4D4; } 
+ </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<table border=0 class="mla mra">
+<tr> <td> <table border=1 class="mla mra">
+<tr align="top"><td class="c s2em fSS bg2006SandDollar" colspan="3">74 YouTube Video Definitions <BR> are tagged by "tag.user.1420channel"</td></tr>
+<tr align="top"><th>#</th>
+<th>YouTube-Video</th>
+<th>Saved</th></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">1/74</td>
+<td class="c s2em fSS bg2006SandDollar">Are we winning？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/9Ovy0hkjizI <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">2/74</td>
+<td class="c s2em fSS bg2006SandDollar">Are you a Zombie？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/BXC1fztCRsM <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">3/74</td>
+<td class="c s2em fSS bg2006SandDollar">Are you glad that we annexed Ukrainian regions？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/dr7udHMfKTM <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">4/74</td>
+<td class="c s2em fSS bg2006SandDollar">Are you ready for the 2nd wave of mobilization？ Russians answer.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/n1V90z8C-r8 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">5/74</td>
+<td class="c s2em fSS bg2006SandDollar">Are you ready to die in Ukraine？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/GinidKAV5PA <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">6/74</td>
+<td class="c s2em fSS bg2006SandDollar">Are you ready to get drafted (conscripted)？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WnKMLM7Hvqc <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">7/74</td>
+<td class="c s2em fSS bg2006SandDollar">Can you say the word WAR？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/OPQXKiNZq6k <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">8/74</td>
+<td class="c s2em fSS bg2006SandDollar">Did they send your friends to the conflict？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ai8_KTqpwqs <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">9/74</td>
+<td class="c s2em fSS bg2006SandDollar">Did you know that we spent $82+ billions on the war？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pFAFHIhtAjM <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">10/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do rural Russians know why their kids are sent to Ukraine？ Part 1.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/b4mtXdGgnkc <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">11/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do rural Russians know why their kids are sent to Ukraine？ Part 2.<BR>Do rural Russians know why their kids are sent to Ukraine? Part 2.</td>
+<td class="c s2em fVerdana">Wed Oct 12 03:17:12 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine<BR>https://youtube.com/watch?v=HqPUZlTlYa0&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">12/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do rural Russians think the war is going well？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/UViVH0ZZ6A0 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">13/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do Russians blame the US for special operation？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-N917eVPyD4 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">14/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do Russians expect the World War 3？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/TJIYxUUUJYU <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">15/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do Russians think that Putin is a war criminal？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/XwQgVJ7WliE <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">16/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do Russians want a war？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/BbR19ZMpSF0 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">17/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do Russians want Ukraine？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/F-wWm68Ze4M <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">18/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do Russians want Ukraine to be Russian？<BR>Watch "Do Russians want Ukraine to be Russian?" on YouTube</td>
+<td class="c s2em fVerdana">Mon Apr 11 13:00:34 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine<BR>https://youtu.be/7ZJxQzAa4eY</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">19/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you believe that Ukraine could attack us first？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/IqEPuoBSEnc <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">20/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you feel guilty？ 100 Russians.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/izGQ4hOZWrA <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">21/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you feel like cannon fodder？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/SHbvH92z-ME <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">22/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you feel responsible for THIS？ 100 Russians.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/qYLKEFfQyJw <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">23/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you have friends⧸family in Ukraine？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/63VD-CnOHJA <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">24/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you know how many of our soldiers died？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/KqVZ4xIyvx0 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">25/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you know how much we spend on the war？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/31_GPD1gBho <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">26/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you really think we’re fighting NATO？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/chmOR_vOzPE <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">27/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you remember what people are dying for in Ukraine？ It’s been 11 months now.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/tm68x5Jm1SA <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">28/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you remember what we do in Ukraine？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/oreTFhWqQJ8 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">29/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you think this conflict was necessary？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/M4IIInMkbOc <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">30/74</td>
+<td class="c s2em fSS bg2006SandDollar">Do you think Ukraine is full of nazis？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/0FmtoexSdl8 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">31/74</td>
+<td class="c s2em fSS bg2006SandDollar">Foreigners say we act like Nazis... Can you believe that？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/hbA-RpAVS_E <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">32/74</td>
+<td class="c s2em fSS bg2006SandDollar">How can we stop the war？？？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/HE_qPG37BwQ <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">33/74</td>
+<td class="c s2em fSS bg2006SandDollar">100K of our soldiers died⧸injured. Can you believe that？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/uFd5lu8OqsM <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">34/74</td>
+<td class="c s2em fSS bg2006SandDollar">20-50K of our soldiers have already died. Do you know that？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/0YarNZ5YKNU <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">35/74</td>
+<td class="c s2em fSS bg2006SandDollar">No country＊ recognized referendums that we held in Ukraine. Did you know that？<BR>No country* recognized referendums that we held in Ukraine. Did you know...</td>
+<td class="c s2em fVerdana">Tue Oct 18 23:40:37 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine<BR>https://youtube.com/watch?v=H0V7NTLtZKA&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">36/74</td>
+<td class="c s2em fSS bg2006SandDollar">Question： is the operation going as planned？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/FjRgadPj7UY <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">37/74</td>
+<td class="c s2em fSS bg2006SandDollar">Rural Russians explain why Russians protect the motherland in another country</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/jDTZJM0TriQ <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">38/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians are terrorists now. Reactions.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/XEXk5md_oGs <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">39/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians look at photos of bombed Ukrainian mall</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pNAea_bDHpc <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">40/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians look at photos of destructions in Ukraine #2</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/BMfYE5EK-fQ <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">41/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians look at photos of destructions in Ukraine</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/vFg7AZ1Aajs <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">42/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians look at pictures of destroyed Ukrainian city (Bakhmut)</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/isYkT-mjtEw <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">43/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians react to blue & yellow being cancelled</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/XP7EoQVk1xY <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">44/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians react to losing Kherson</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Tn-jBFbFfGA <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">45/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians react to losing the war</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/XpTWE8ysNn0 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">46/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians react to martial law being declared</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/vI-Lojd4g8s <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">47/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians react to nuclear war threats</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/GWeQAGdvOZs <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">48/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians react to war news</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/xc73wukZx5s <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">49/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians see the news of Ukrainian soldier being tortured</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/H2A7_Paevrc <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">50/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians share feelings on mobilization</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/kRfwkJHGrWo <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">51/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians： thoughts about the future (anonymously)</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/LcCzX5I7tp0 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">52/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians watch a video from Ukrainian city (before & after war)</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/aGUF-RFIhkw <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">53/74</td>
+<td class="c s2em fSS bg2006SandDollar">Russians watch videos from Bucha</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/rFNMaDbJDTk <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">54/74</td>
+<td class="c s2em fSS bg2006SandDollar">Should we nuke Britain？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WBFMd_Cem0g <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">55/74</td>
+<td class="c s2em fSS bg2006SandDollar">Sign this and we will nuke the West</td>
+<td class="c s2em fVerdana">Sat Oct 29 08:39:49 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine<BR>https://youtube.com/watch?v=8cLtk5yCfn8&feature=share<BR>tag.uk</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">56/74</td>
+<td class="c s2em fSS bg2006SandDollar">They say that our government is going to hold another mobilization and close the borders...</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/9UvCM9Xb3Yg <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">57/74</td>
+<td class="c s2em fSS bg2006SandDollar">What are you going to choose between war and jail？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/bNP-jzIa820 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">58/74</td>
+<td class="c s2em fSS bg2006SandDollar">What do Russians think about ＂Z＂？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/c7nhKqWCF88 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">59/74</td>
+<td class="c s2em fSS bg2006SandDollar">What do Russians think now？ 1 month after the start.<BR>Watch "What do Russians think now? 1 month after the start." on YouTube</td>
+<td class="c s2em fVerdana">Mon Apr 11 13:00:02 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine<BR>https://youtu.be/l9PgRHmnBGE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">60/74</td>
+<td class="c s2em fSS bg2006SandDollar">What do Russians think now？ 2 months after the start.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/38-vNNH30iY <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">61/74</td>
+<td class="c s2em fSS bg2006SandDollar">What do Russians think now？ 4 months after the start.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/JdGn6Yz0Mb4 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">62/74</td>
+<td class="c s2em fSS bg2006SandDollar">What do Russians think now？ 3 months after the start.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/dXYnP5gVwD4 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">63/74</td>
+<td class="c s2em fSS bg2006SandDollar">What do Russians think now？ 8 months after the start.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/kvoK02Dt_3c <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">64/74</td>
+<td class="c s2em fSS bg2006SandDollar">What do Russians think now？ 9 months after the start.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pLhqbrCa2zA <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">65/74</td>
+<td class="c s2em fSS bg2006SandDollar">What do Russians think now？ 1 week after the start.<BR>Watch "What do Russians think now? 1 week after the start." on YouTube</td>
+<td class="c s2em fVerdana">Tue Mar 08 02:15:30 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine<BR>https://youtu.be/edyptyXmld8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">66/74</td>
+<td class="c s2em fSS bg2006SandDollar">What do Russians think now？ 2 weeks after the start.</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/x2TGvndDcxE <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">67/74</td>
+<td class="c s2em fSS bg2006SandDollar">What if we're actually the bad guys？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/EX8WYtxDFNw <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">68/74</td>
+<td class="c s2em fSS bg2006SandDollar">What other countries should we denazify？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Oc7G6AE3stg <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">69/74</td>
+<td class="c s2em fSS bg2006SandDollar">What Russians think about «fake news» law？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/3yKJFysG2i0 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">70/74</td>
+<td class="c s2em fSS bg2006SandDollar">What would happen if we lost the war？<BR>What would happen if we lost the war?</td>
+<td class="c s2em fVerdana">Fri Oct 21 14:38:23 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine<BR>https://youtube.com/watch?v=FsqdZR5JdJQ<BR>tag.downloaded</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">71/74</td>
+<td class="c s2em fSS bg2006SandDollar">When is the end of conflict？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Q-FxIEmnZkA <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">72/74</td>
+<td class="c s2em fSS bg2006SandDollar">Who are Nazis and where are they？ Ukraine？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pPsA2BRhu_Y <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">73/74</td>
+<td class="c s2em fSS bg2006SandDollar">Why did we annex Ukrainian regions if it wasn't the goal？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/1M8vBZseFt0 <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">74/74</td>
+<td class="c s2em fSS bg2006SandDollar">Would you rape Ukrainian woman？</td>
+<td class="c s2em fVerdana">Mon Feb 27 13:56:26 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/EgLh23Fv1Dk <BR> tag.user.1420channel tag.war tag.nato tag.short tag.conversation tag.ukraine tag.russia<BR>tag.nato tag.user.1420channel tag.russia tag.ukraine tag.war tag.conversation tag.short<BR>tag.war tag.short tag.nato tag.russia tag.conversation tag.user.1420channel tag.ukraine<BR>tag.russia tag.conversation tag.war tag.short tag.nato tag.user.1420channel tag.ukraine</td></tr>
+</table><BR> </td> </tr>
+</table><BR>
+</body>
+</html>

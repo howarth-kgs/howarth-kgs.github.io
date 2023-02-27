@@ -1,0 +1,899 @@
+
+
+        <!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        
+<html>
+<head>
+<style> .wrap { word-wrap: break-word; } </style>
+<style> .rwo { display: table; } </style>
+<style> .rwi { padding: 50% 0; height: 0; } </style>
+<style> .etr { display: block; transform-origin: top left; transform: rotate(90deg) translate(0, -100%); margin-top: -50%; white-space: nowrap; } </style>
+<style> .r90 { -webkit-transform: translateY(-100%) rotate(90deg); -moz-transform: translateY(-100%) rotate(90deg); -ms-transform: translateY(-100%) rotate(90deg); -o-transform: translateY(-100%) rotate(90deg); transform: translateY(-100%) rotate(90deg); -webkit-transform-origin: left bottom; -moz-transform-origin: left bottom; -ms-transform-origin: left bottom; -o-transform-origin: left bottom; transform-origin: left bottom; } </style>
+<style> .heiaut { height: auto; } </style>
+<style> .w200px { width: 200px; } </style>
+<style> .w300px { width: 300px; } </style>
+<style> .w333px { width: 333px; } </style>
+<style> .widaut { width: auto; } </style>
+<style> .r270 { transform:rotate(270deg); } </style>
+<style> .df { display:flex; } </style>
+<style> .dt { display:table; } </style>
+<style> .dtc { display:table-cell; } </style>
+<style> .dtr { display:table-row; } </style>
+<style> .pr { position: relative; } </style>
+<style> .aic { align-items:center; } </style>
+<style> .vam { vertical-align: middle; } </style>
+<style> .talc { text-align-last: center; } </style>
+<style> .linhei { line-height: 1.5; } </style>
+<style> .dib { display: inline-block; } </style>
+<style> .mla { margin-left:auto; } </style>
+<style> .mra { margin-right:auto; } </style>
+<style> .ma { margin: auto; } </style>
+<style> .ma0 { margin: auto 0; } </style>
+<style> .ma5px { margin: 5px; } </style>
+<style> .clearfix { overflow: auto; } </style>
+<style> .fL { float: left; } </style>
+<style> .fR { float: right; } </style>
+<style> .b1 { border: solid white; border-width: 20px; } </style>
+<style> .topleft { position: relative; top:100px; left:100px; background: yellow; border: solid thin #FFFFFF; width: 2000px; } </style>
+<style> .topright { position: relative; background: blue; top: 100px; } </style>
+<style> .fArial { font-family: Arial; } </style>
+<style> .fSS { font-family: Sans-serif; } </style>
+<style> .fCSMS { font-family: ", C, o, m, i, c,  , S, a, n, s,  , M, S, ", ,,  , ", C, o, m, i, c,  , S, a, n, s, ", ,,  , c, u, r, s, i, v, e; } </style>
+<style> .fVerdana { font-family: Verdana; } </style>
+<style> .fTNR { font-family: "Times New Roman"; } </style>
+<style> .c { text-align: center; } </style>
+<style> .b { font-weight: bold; } </style>
+<style> .s3em { font-size: 3em; } </style>
+<style> .s2aahem { font-size: 2.5em; } </style>
+<style> .s2em { font-size: 2em; } </style>
+<style> .s1aahem { font-size: 1.5em; } </style>
+<style> .s1em { font-size: 1em; } </style>
+<style> 
+ .bgReadingPeach { background: #EDD1B0; }
+.bgReadingOrange { background: #EDDD6E; }
+.bgReadingYellow { background: #F8FD89; }
+.bgRosyDewCream { background: #F9F1F0; }
+.bgCream { background: #FFFDD0; }
+.bgNeonYellow { background: #FBCB0A; }
+.bglightgrey { background: lightgrey; }
+.bgRetroMaroon { background: #C70A80; }
+.bgKidsPurple { background: #590696; }
+.bgRainbowTeal { background: #37E2D5; }
+.bgebebeb { background: #ebebeb; }
+.bgebebeb_Tone1 { background: #ede9e9; }
+.bgebebeb_Tone2 { background: #eee8e8; }
+.bgebebeb_Tone3 { background: #f0e6e6; }
+.bgebebeb_Tone4 { background: #f2e4e4; }
+.bgebebeb_Tone5 { background: #f3e3e3; }
+.bgebebeb_Tone6 { background: #f5e1e1; }
+.bgebebeb_Tone7 { background: #f7dfdf; }
+.bgebebeb_Tone8 { background: #f8dede; }
+.bgebebeb_Tone9 { background: #fadcdc; }
+.bgebebeb_Tone10 { background: #fcdada; }
+.bgebebeb_Tone11 { background: #fdd9d9; }
+.bgebebeb_Tone12 { background: #ffd7d7; }
+.bgJungleGreen { background: #29AB87; }
+.bgMantis { background: ; }
+.bgMiddleGreen { background: #4D8C57; }
+.bgScreaminGreen { background: #66FF66; }
+.bgDartmouthGreen { background: #00703C; }
+.bgSapGreen { background: #507D2A; }
+.bgSlimyGreen { background: #299617; }
+.bgLimeGreen { background: #32CD32; }
+.bgBitterLemon { background: #CAE00D; }
+.bgArtichokeGreen { background: #8F9779; }
+.bgGrannySmithApple { background: #A8E4A0; }
+.bgAppleGreen { background: #8DB600; }
+.bgFrenchLime { background: #9EFD38; }
+.bgAvocadon { background: #568203; }
+.bgPistachio { background: #93C572; }
+.bgOliveGreen { background: #708238; }
+.bgDarkOliveGreen { background: #556B2F; }
+.bgHunterGreen { background: #355E3B; }
+.bgAmazon { background: #3B7A57; }
+.bgDarkJungleGreen { background: #1A2421; }
+.bgDeepJungleGreen { background: #004B49; }
+.bgForestGreen { background: #014421; }
+.bgTropicalRainforest { background: #00755E; }
+.bgMyrtleGreen { background: #317873; }
+.bgPineGreen { background: #01796F; }
+.bgMintGreen { background: #98FB98; }
+.bgLawnGreen { background: #7CFC00; }
+.bgMossGreen { background: #8A9A5B; }
+.bgDarkMossGreen { background: #4A5D23; }
+.bgFernGreen { background: #4F7942; }
+.bgTeaGreen { background: #D0F0C0; }
+.bgSageGreen { background: #BCB88A; }
+.bgShamrockGreen { background: #009E60; }
+.bgLaurelGreen { background: #A9BA9D; }
+.bgSpringGreen { background: #00FF7F; }
+.bgMediumSpringGreen { background: #00FA9A; }
+.bgDarkSpringGreen { background: #177245; }
+.bgLightSeaGreen { background: #20B2AA; }
+.bgSea { background: green crayola; }
+.bgHex { background: #8DD9CC; }
+.bgRGB { background: 141, 217, 204; }
+.bgCMYK { background: 35, 0, 6, 15; }
+.bg. { background: ; }
+.bgMedium { background: aquamarine; }
+.bgDark { background: pastel green; }
+.bgOcean { background: green; }
+.bgGreen { background: cyan; }
+.bgPhthalo { background: green; }
+.bgMaximum { background: green yellow; }
+.bgLight { background: green; }
+.bgMiddle { background: blue green; }
+.bgBud { background: green; }
+.bgKombu { background: green; }
+.bgMalachite { background: ; }
+.bgZomp { background: ; }
+.bgBright { background: green; }
+.bgElectric { background: green; }
+.bgVolt { background: ; }
+.bgScreamin { background: green; }
+.bgSap { background: green; }
+.bgGO { background: green; }
+.bgSlimy { background: green; }
+.bgNeon { background: green; }
+.bgPersian { background: green; }
+.bgSpanish { background: green; }
+.bgParis { background: green; }
+.bgBritish { background: racing green; }
+.bgDartmouth { background: green; }
+.bgEton { background: green; }
+.bgSacramento { background: State green; }
+.bgCharleston { background: green; }
+.bgBrunswick { background: green; }
+.bgIndia { background: green; }
+.bgPakistan { background: green; }
+.bgCaribbean { background: green; }
+.bgRussian { background: green; }
+.bgJade { background: green; }
+.bgEmerald { background: green; }
+.bgTurquoise { background: green; }
+.bgCadmium { background: green; }
+.bgHarlequin { background: ; }
+.bgKelly { background: green; }
+.bgPaolo { background: Veronese green; }
+.bgLincoln { background: green; }
+.bgMay { background: green; }
+.bgArmy { background: green; }
+.bgMichigan { background: State University green; }
+.bgMidnight { background: green; }
+.bgCeladon { background: ; }
+.bgBottle { background: green; }
+.bgAndroid { background: green; }
+.bgViridian { background: green; }
+.bgAcid { background: green; }
+.bgCastleton { background: green; }
+.bgWintergreen { background: dream; }
+.bgYellow { background: green color wheel; }
+.bgBlue { background: green color wheel; }
+.bgGreenSheen { background: #6EAEA1; }
+.bgSheenGreen { background: #8FD400; }
+.bgSummerCloud { background: #c0fff0; }
+.bgPaleTurquoise { background: #a8ffd8; }
+.bgGlowInTheDark { background: #c0ffc0; }
+.bgEasterGreen { background: #90ff78; }
+.bgGoblinWarboss { background: #48ff48; }
+.bgGrapeTaffy { background: #f0d8f0; }
+.bgLightLavender { background: #f0c0ff; }
+.bgShade1 { background: #f2fff2; }
+.bgShade2 { background: #eaffea; }
+.bgShade3 { background: #e2fee2; }
+.bgShade4 { background: #dafeda; }
+.bgShade5 { background: #d2fed2; }
+.bgShade6 { background: #c9fec9; }
+.bgShade7 { background: #c1fec1; }
+.bgShade8 { background: #b9feb9; }
+.bgShade9 { background: #b1feb1; }
+.bgShade10 { background: #a9ffa9; }
+.bgShade11 { background: #a1ffa1; }
+.bgShade12 { background: #9f9; }
+.bgShade13 { background: #90ff90; }
+.bgShade14 { background: #8f8; }
+.bgShade15 { background: #80ff80; }
+.bgShade16 { background: #78ff78; }
+.bgShade17 { background: #70ff70; }
+.bgShade18 { background: #68ff68; }
+.bgShade19 { background: #5fff5f; }
+.bgShade20 { background: #57ff57; }
+.bgShade21 { background: #4fff4f; }
+.bgShade22 { background: #47ff47; }
+.bgShade23 { background: #3fff3f; }
+.bgShade24 { background: #37ff37; }
+.bgShade25 { background: #2eff2e; }
+.bgShade26 { background: #26ff26; }
+.bgShade27 { background: #1eff1e; }
+.bgShade28 { background: #16ff16; }
+.bgShade29 { background: #0eff0e; }
+.bgShade30 { background: #06ff06; }
+.bgShade31 { background: #00fc00; }
+.bgShade32 { background: #00f400; }
+.bgShade33 { background: #00ec00; }
+.bgShade34 { background: #00e400; }
+.bgShade35 { background: #00dc00; }
+.bgShade36 { background: #00d400; }
+.bgShade37 { background: #0c0; }
+.bgShade38 { background: #00c300; }
+.bgShade39 { background: #0b0; }
+.bgShade40 { background: #00b300; }
+.bgShade41 { background: #00ab00; }
+.bgShade42 { background: #00a300; }
+.bgShade43 { background: #009b00; }
+.bgShade44 { background: #009200; }
+.bgShade45 { background: #008a00; }
+.bgShade46 { background: #008200; }
+.bgShade47 { background: #007a00; }
+.bgShade48 { background: #007200; }
+.bgShade49 { background: #006a00; }
+.bgShade50 { background: #006100; }
+.bgShade51 { background: #005900; }
+.bgShade52 { background: #005100; }
+.bgShade53 { background: #004900; }
+.bgShade54 { background: #004100; }
+.bgShade55 { background: #003900; }
+.bgShade56 { background: #003000; }
+.bgShade57 { background: #002800; }
+.bgShade58 { background: #002000; }
+.bgShade59 { background: #001800; }
+.bgShade60 { background: #001000; }
+.bg2020ClassicBlue { background: #34568B; }
+.bg2019LivingCoral { background: #FF6F61; }
+.bg2018UltraViolet { background: #6B5B95; }
+.bg2017Greenery { background: #88B04B; }
+.bg2016RoseQuartz { background: #F7CAC9; }
+.bg2016Serenity { background: #92A8D1; }
+.bg2015Marsala { background: #955251; }
+.bg2014RadiandOrchid { background: #B565A7; }
+.bg2013Emerald { background: #009B77; }
+.bg2012TangerineTango { background: #DD4124; }
+.bg2011Honeysucle { background: #D65076; }
+.bg2010Turquoise { background: #45B8AC; }
+.bg2009Mimosa { background: #EFC050; }
+.bg2008BlueIzis { background: #5B5EA6; }
+.bg2007ChiliPepper { background: #9B2335; }
+.bg2006SandDollar { background: #DFCFBE; }
+.bg2005BlueTurquoise { background: #55B4B0; }
+.bg2004Tigerlily { background: #E15D44; }
+.bg2003AquaSky { background: #7FCDCD; }
+.bg2002TrueRed { background: #BC243C; }
+.bg2001FuchsiaRose { background: #C3447A; }
+.bg2000CeruleanBlue { background: #98B4D4; } 
+ </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<table border=0 class="mla mra">
+<tr> <td> <table border=1 class="mla mra">
+<tr align="top"><td class="c s2em fSS bg2006SandDollar" colspan="3">155 YouTube Video Definitions <BR> are tagged by "tag.user.nhkworldjapan"</td></tr>
+<tr align="top"><th>#</th>
+<th>YouTube-Video</th>
+<th>Saved</th></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">1/155</td>
+<td class="c s2em fSS bg2006SandDollar">Adani Group Saga Rattles India and BeyondーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/CB94K2Bbntc <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">2/155</td>
+<td class="c s2em fSS bg2006SandDollar">Analysis： Japan Inflation Sowing Seeds for GrowthーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/_iutI-kYv5A <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">3/155</td>
+<td class="c s2em fSS bg2006SandDollar">Analysis： Pyongyang Parades Latest Missile TechーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Ekp6o5NkpTc <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">4/155</td>
+<td class="c s2em fSS bg2006SandDollar">Analysis： Xi Urges Better Ties with Eye on Americans ーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/5w-BHrb9-c8 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">5/155</td>
+<td class="c s2em fSS bg2006SandDollar">3 Arrested in Japan over Abuse at Nursery SchoolーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/XjZEVh5Bo1k <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">6/155</td>
+<td class="c s2em fSS bg2006SandDollar">Australia Promoting Eco TourismーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/hHEYPNXG0Rk <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">7/155</td>
+<td class="c s2em fSS bg2006SandDollar">Australia's Wild Animals Fall Victim to Flood FireーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7MY_McbOkK8 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">8/155</td>
+<td class="c s2em fSS bg2006SandDollar">Australia's Wildlife Bouncing Back After FiresーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/DjreDKbzukE <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">9/155</td>
+<td class="c s2em fSS bg2006SandDollar">Ballet Company Shines Light on WasteーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/JQIlQ9cJLx8 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">10/155</td>
+<td class="c s2em fSS bg2006SandDollar">Better off AbroadーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/SHsOrkO5NYU <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">11/155</td>
+<td class="c s2em fSS bg2006SandDollar">Biden Pitches Unity in State of the UnionーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/kMZL1Sy0RYw <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">12/155</td>
+<td class="c s2em fSS bg2006SandDollar">Biden, Scholz Act in Unison on TanksーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Zsol4jDYF9E <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">13/155</td>
+<td class="c s2em fSS bg2006SandDollar">Biden's ResolveーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/szjV2MyKB2s <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">14/155</td>
+<td class="c s2em fSS bg2006SandDollar">Biden, Xi Set Stage for G20ーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/hTUp8y5yydg <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">15/155</td>
+<td class="c s2em fSS bg2006SandDollar">Bigotry Behind Care Home Killings Still Exists in JapanーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Cvt8ltfwNlY <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">16/155</td>
+<td class="c s2em fSS bg2006SandDollar">BOJ Keeps Easy-Money Policy, Defying SpeculationーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/wChG5PP8Nxg <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">17/155</td>
+<td class="c s2em fSS bg2006SandDollar">BOJ Pick Needs to be Ready to Fight Inflation... or DeflationーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/lJeIx76hfQE <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">18/155</td>
+<td class="c s2em fSS bg2006SandDollar">BOJ Surprises with Monetary Policy Tweak</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/5FgNx8wRgus <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">19/155</td>
+<td class="c s2em fSS bg2006SandDollar">Broadway Role Encourages Actor to Explore His IdentityーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/desKTpdi4nE <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">20/155</td>
+<td class="c s2em fSS bg2006SandDollar">BYD Works to Win Trust in Japan's Fledgling EV IndustryーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/47XxmSE1D1g <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">21/155</td>
+<td class="c s2em fSS bg2006SandDollar">China Faces Rocky Road to COVID RecoveryーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7MMBYD8lOaA <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">22/155</td>
+<td class="c s2em fSS bg2006SandDollar">China Protests After Balloon Blows up US RelationsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/bFB8KAVwzV0 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">23/155</td>
+<td class="c s2em fSS bg2006SandDollar">China Ramps Up Pressure on Taiwan</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/L7ESwVECszY <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">24/155</td>
+<td class="c s2em fSS bg2006SandDollar">China Seen Loosening Grip on Tech SectorーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7IJHetO-04M <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">25/155</td>
+<td class="c s2em fSS bg2006SandDollar">CIA： China Preparing to Invade Taiwan by 2027ーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-pGWm6FwZ0s <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">26/155</td>
+<td class="c s2em fSS bg2006SandDollar">Community Values That Cross BordersーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/rIQM3vEs004 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">27/155</td>
+<td class="c s2em fSS bg2006SandDollar">Corn Gives Hope to Japanese FarmersーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Y__w1KLZEfU <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">28/155</td>
+<td class="c s2em fSS bg2006SandDollar">Countries Pledge More Aid As Russia Pours Troops into UkraineーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/5X-MndIJY3g <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">29/155</td>
+<td class="c s2em fSS bg2006SandDollar">COVID Downgrade Not Plain SailingーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/se35qbPGgl0 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">30/155</td>
+<td class="c s2em fSS bg2006SandDollar">Crisis Changes Concept of Energy SecurityーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/weeWGPAWOX8 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">31/155</td>
+<td class="c s2em fSS bg2006SandDollar">Decoding Human History with Ancient GenomesーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/22u9EMNkd64 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">32/155</td>
+<td class="c s2em fSS bg2006SandDollar">Destruction, Anxiety Abundant in Ukraine Nearly One Year OnーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/LZnoHV9DfWo <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">33/155</td>
+<td class="c s2em fSS bg2006SandDollar">Downed Korean Airliner Links Abductee IssueーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/vCUrr-G4Eno <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">34/155</td>
+<td class="c s2em fSS bg2006SandDollar">3D Solution for Ukraine War AmputeesーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/46TzPOBXEbY <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">35/155</td>
+<td class="c s2em fSS bg2006SandDollar">Economist Assesses Kuroda's Decade as BOJ ChiefーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/4_GvOn-UIw0 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">36/155</td>
+<td class="c s2em fSS bg2006SandDollar">Edging China on ChipsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Jh8V7HCWdys <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">37/155</td>
+<td class="c s2em fSS bg2006SandDollar">EV Rivals Start to Appear in Toyota's Rearview MirrorーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/mHQ6pTy8IAU <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">38/155</td>
+<td class="c s2em fSS bg2006SandDollar">Exclusive Interview： Abe Shinzo on Japan’s response to Taiwan ContingencyーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-nOJ2wBcaiA <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">39/155</td>
+<td class="c s2em fSS bg2006SandDollar">Exclusive Interview： Former Japanese PM Abe Shinzo on Taiwan ContingencyーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/JR1923cmsrM <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">40/155</td>
+<td class="c s2em fSS bg2006SandDollar">Expert： China's Population Decline to Hit International Labor ForceーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/5ZoW-nJHBOM <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">41/155</td>
+<td class="c s2em fSS bg2006SandDollar">Ex-Soviet Republic Kazakhstan Forging Ties Beyond RussianーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/x7tVreowN3E <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">42/155</td>
+<td class="c s2em fSS bg2006SandDollar">Families of Soccer Tragedy Fight OnーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/8yuDc8tjnVM <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">43/155</td>
+<td class="c s2em fSS bg2006SandDollar">Four hands, two minds, one goalーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/RBPI8uvbyOA <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">44/155</td>
+<td class="c s2em fSS bg2006SandDollar">From Newspapers to BugsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/T6UOH1Q4Q9M <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">45/155</td>
+<td class="c s2em fSS bg2006SandDollar">Frustrations Rise from RubbleーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/DOgfQRegvP4 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">46/155</td>
+<td class="c s2em fSS bg2006SandDollar">Full Agenda for Kishida-Xi SummitーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/IEFOQtRu9zk <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">47/155</td>
+<td class="c s2em fSS bg2006SandDollar">G20： Indonesia's Diplomatic Balancing ActーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/rHxyaPK7Fqk <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">48/155</td>
+<td class="c s2em fSS bg2006SandDollar">G20： Leaders Break Ice without Reaching BreakthroughsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ndyIxVMPMew <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">49/155</td>
+<td class="c s2em fSS bg2006SandDollar">Going to School During the War in UkraineーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/VvCzZxANogY <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">50/155</td>
+<td class="c s2em fSS bg2006SandDollar">Green Tech Shows Big Growth PotentialーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/k6_NVoVaHqE <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">51/155</td>
+<td class="c s2em fSS bg2006SandDollar">G20 Summit Begins under Cloud of Russia's InvasionーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/VUmIlnUh1mc <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">52/155</td>
+<td class="c s2em fSS bg2006SandDollar">G20： The View from IndonesiaーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/e5ghDz5YoIk <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">53/155</td>
+<td class="c s2em fSS bg2006SandDollar">G20： Why Jakarta Follows Non-Aligned StrategyーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/3uP4_1mlLJs <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">54/155</td>
+<td class="c s2em fSS bg2006SandDollar">Haley to Take on TrumpーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/jj3GGcPCfWQ <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">55/155</td>
+<td class="c s2em fSS bg2006SandDollar">Hardship Endures for Released Foreign DetaineesーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/v3w3raHBHVE <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">56/155</td>
+<td class="c s2em fSS bg2006SandDollar">Heavy snow forecast for Tokyo area and northeastern Japan on FridayーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/zGQqdfr0IrQ <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">57/155</td>
+<td class="c s2em fSS bg2006SandDollar">Heavy snow warnings issued for central Tokyo, SaitamaーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/grJIVCjq4b0 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">58/155</td>
+<td class="c s2em fSS bg2006SandDollar">72 Hours and CountingーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/CCQSt5UiJhw <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">59/155</td>
+<td class="c s2em fSS bg2006SandDollar">Hunger for Crypto Fuels Need for Global RegulationーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/VmynAhqFPF4 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">60/155</td>
+<td class="c s2em fSS bg2006SandDollar">Hunting Matsutake Mushrooms in BhutanーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/_-wQSmpf4m8 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">61/155</td>
+<td class="c s2em fSS bg2006SandDollar">IMF： Japanese Economy at CrossroadsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/PqN4eErxmzs <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">62/155</td>
+<td class="c s2em fSS bg2006SandDollar">India's Diamond Industry Takes a Hit from RussiaーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/fA-Z3Vt4ToM <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">63/155</td>
+<td class="c s2em fSS bg2006SandDollar">Indonesia's Infrastructure Juggling ActーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/f3s6LRub0HQ <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">64/155</td>
+<td class="c s2em fSS bg2006SandDollar">Inflation Tips the Scales at Japan Wage TalksーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/GRPTDP3gr18 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">65/155</td>
+<td class="c s2em fSS bg2006SandDollar">Innovative Fertilizer Harnesses the Power of PestsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/_d4vefFiWgQ <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">66/155</td>
+<td class="c s2em fSS bg2006SandDollar">Issues Around Russian Invasion Overshadow EventーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7CuVV5e5um8 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">67/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan Also Suspects China of Flying Spy BalloonsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/8-xsnh8eDUQ <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">68/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan Approves 3 Key Defense BlueprintsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/xnx-OFXRAEA <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">69/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan at 'Crossroads' for Stagnant Wages, PricesーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/9tq-0a4cnpw <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">70/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan Banks to Benefit from Rate ShiftーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/zdW0c4lx_ag <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">71/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan, Cambodia Train Ukrainians on DeminingーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pNVocQS5P9Q <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">72/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan Eases COVID Funeral Guidelines to Allow Last Goodbye</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7U6NQ3tMyZM <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">73/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japanese Births to Hit Record Low for 7th Straight YearーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/LCcfZvJAoFc <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">74/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japanese Eye Doctor Wins Ramon Magsaysay Award</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pLLhY4hH9Vg <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">75/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japanese IT Firms Switching to English amid Engineer ShortageーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/br9oqGtnBS4 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">76/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japanese Teen Amplifies Young Voices in PoliticsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/j8AuLFrYdsk <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">77/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan Eyes Ability to CounterstrikeーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/oHl3c1CE6f4 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">78/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan Helps Turkey's Evacuees with Disaster LessonsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ZajKGSFofRI <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">79/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan Labor Shortage Poses Challenge amid Tourism SurgeーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/eKAYs5Kqnqc <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">80/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan Scrambles to Recruit for Semiconductor PushーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/iNWFvOeZ-M4 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">81/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan Store's Efforts Against Self-Checkout ShopliftingーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/vQdGRFKcyi4 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">82/155</td>
+<td class="c s2em fSS bg2006SandDollar">Japan to Develop Fighter Jet with UK, ItalyーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/8ARdykcoXyY <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">83/155</td>
+<td class="c s2em fSS bg2006SandDollar">Kishida Says Japan is at a 'Turning Point'ーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/e-lBMbMcVvg <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">84/155</td>
+<td class="c s2em fSS bg2006SandDollar">Kishida's Defense Plan Faces Funding ChallengeーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/QHdBIBhVbg4 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">85/155</td>
+<td class="c s2em fSS bg2006SandDollar">Kishida Sets out Japan's AgendaーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/tL8vn93JrsM <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">86/155</td>
+<td class="c s2em fSS bg2006SandDollar">Kishida, Xi Seek Constructive RelationsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/4zQOAjwQXBI <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">87/155</td>
+<td class="c s2em fSS bg2006SandDollar">Kyoto Tweaks Tourism with TechnologyーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/kCi8n2GX2Qw <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">88/155</td>
+<td class="c s2em fSS bg2006SandDollar">Lens to Asia： India’s Festival of LightsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/rZZNdrVGdIM <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">89/155</td>
+<td class="c s2em fSS bg2006SandDollar">Lviv Lives in Fear One Year After Russian InvasionーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/DYNctVQ615M <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">90/155</td>
+<td class="c s2em fSS bg2006SandDollar">Macao Bets on New Business FutureーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/gh9ph05W-q8 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">91/155</td>
+<td class="c s2em fSS bg2006SandDollar">Marcos Discusses China IssueーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/QVIIiYwPlVU <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">92/155</td>
+<td class="c s2em fSS bg2006SandDollar">Marcos Summons China Envoy over Laser IncidentーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/qluMwWACr58 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">93/155</td>
+<td class="c s2em fSS bg2006SandDollar">Metaverse Positioning to Become Part of Everyday LifeーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/tHBzQutUcvo <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">94/155</td>
+<td class="c s2em fSS bg2006SandDollar">Mexican Communities Seek Common Currency Beyond MoneyーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/UxiAnEGR8x0 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">95/155</td>
+<td class="c s2em fSS bg2006SandDollar">Midterm reactions from key Asian centersーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/B-HL06JytkA <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">96/155</td>
+<td class="c s2em fSS bg2006SandDollar">Mitsubishi Heavy Axes SpaceJetーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Qx-JkmV-VLM <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">97/155</td>
+<td class="c s2em fSS bg2006SandDollar">Myanmar Children Find Refuge in ThailandーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/I1NUKfDNGTQ <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">98/155</td>
+<td class="c s2em fSS bg2006SandDollar">Myanmar's Long Fight for FreedomーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/dgVgI4Wnpfo <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">99/155</td>
+<td class="c s2em fSS bg2006SandDollar">Myanmar Violence Continues Two Years After CoupーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/cjoRwg85Lnk <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">100/155</td>
+<td class="c s2em fSS bg2006SandDollar">New Horizons for AIーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/qr-BasDZczM <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">101/155</td>
+<td class="c s2em fSS bg2006SandDollar">New Skyline vs New NormalーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/W5b5Oy1Hfw0 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">102/155</td>
+<td class="c s2em fSS bg2006SandDollar">New Treatment, New Challenges in Japan's Eighth COVID WaveーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/X6fQFOvH24E <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">103/155</td>
+<td class="c s2em fSS bg2006SandDollar">NHK NEWSLINE： War in Ukraine One Year OnーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/hm2ctMJ328M <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">104/155</td>
+<td class="c s2em fSS bg2006SandDollar">NHK World has launched a push notification system</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/dXPJIMfyElA <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">105/155</td>
+<td class="c s2em fSS bg2006SandDollar">Nickel BoomーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/MxIYLAVGWqw <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">106/155</td>
+<td class="c s2em fSS bg2006SandDollar">Nissan, Renault Edge Apart in Rebalanced AllianceーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/gU48wE_t-pA <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">107/155</td>
+<td class="c s2em fSS bg2006SandDollar">Nobel Prize Winner's Story Shines Spotlight on AbortionーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-RcU-BWTOg8 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">108/155</td>
+<td class="c s2em fSS bg2006SandDollar">'North Korea' Crypto Thefts Fund Missile ProgramーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/45aIDYqtywY <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">109/155</td>
+<td class="c s2em fSS bg2006SandDollar">No substitute for JackfruitーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/5Al2Q9gnUMg <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">110/155</td>
+<td class="c s2em fSS bg2006SandDollar">Officials warn of heavy snowfall for Kanto-Koshin region, including TokyoーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/tSdnVe2IJQc <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">111/155</td>
+<td class="c s2em fSS bg2006SandDollar">Peru’s Potato CrisisーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/oLQajJahxXI <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">112/155</td>
+<td class="c s2em fSS bg2006SandDollar">Philippine Justice Secretary's Interview on Suspects' TransferーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/58WmX8KrjXA <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">113/155</td>
+<td class="c s2em fSS bg2006SandDollar">Poland Explosion Prompts Emergency Meeting in BaliーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ySspjnFcDLo <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">114/155</td>
+<td class="c s2em fSS bg2006SandDollar">Private Firms Shoot for the MoonーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/aYEYs4ycUsI <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">115/155</td>
+<td class="c s2em fSS bg2006SandDollar">Putin Suspends Nuclear TreatyーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/iKiG5Fnn364 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">116/155</td>
+<td class="c s2em fSS bg2006SandDollar">Questions Raised After Fatal Seoul Crowd CrushーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/LnKafJHaSZ4 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">117/155</td>
+<td class="c s2em fSS bg2006SandDollar">Retired Japan Train Finds New Life in ThailandーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/3HwtMhrz8K0 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">118/155</td>
+<td class="c s2em fSS bg2006SandDollar">Return of Sapporo Snow Festival Draws ThousandsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/BVHyNBu8MmA <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">119/155</td>
+<td class="c s2em fSS bg2006SandDollar">Revisiting the Debate over BOJ's Inflation TargetーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/NCW-9jF4qhs <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">120/155</td>
+<td class="c s2em fSS bg2006SandDollar">A Rookie Firefighter's Dedication to FukushimaーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/dl2uRV2qObQ <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">121/155</td>
+<td class="c s2em fSS bg2006SandDollar">Russian Jets for Myanmar Claim More Civilian LivesーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/boHtdhF7G2E <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">122/155</td>
+<td class="c s2em fSS bg2006SandDollar">Sake Brewers Keep Tradition AliveーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/zWSqvDKJzDI <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">123/155</td>
+<td class="c s2em fSS bg2006SandDollar">Shock Lingers, Need Continues in Ukraine as War Hits One-Year MarkーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/LCfEWC-I5IU <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">124/155</td>
+<td class="c s2em fSS bg2006SandDollar">Small-Scale Aquaculture on Land Brings Big BenefitsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/hgnVg6sCrWc <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">125/155</td>
+<td class="c s2em fSS bg2006SandDollar">A Solution to Marine Pollution Lies in the OceanーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/yciZ90zinXo <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">126/155</td>
+<td class="c s2em fSS bg2006SandDollar">Sony-Honda EV Venture Eyes 2025 Sales LaunchーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Ey0MjvxH0II <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">127/155</td>
+<td class="c s2em fSS bg2006SandDollar">Struggling to Help Syrians on Both Side of BorderーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/kCrK1uz1_z4 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">128/155</td>
+<td class="c s2em fSS bg2006SandDollar">Sustainable Aviation Fuel Takes FlightーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/TdZYUE2gZTE <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">129/155</td>
+<td class="c s2em fSS bg2006SandDollar">Swapping Baseball Cleats for Cricket PadsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/9yD4BkAlge4 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">130/155</td>
+<td class="c s2em fSS bg2006SandDollar">Sweet Potato Farmers Taste Success OverseasーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/8F8cxRN3lo0 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">131/155</td>
+<td class="c s2em fSS bg2006SandDollar">Syrian War Damage Worsened Quake's EffectーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/GJCJRGW4feo <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">132/155</td>
+<td class="c s2em fSS bg2006SandDollar">Thailand Cozies up to RussiaーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pF99bhX2fik <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">133/155</td>
+<td class="c s2em fSS bg2006SandDollar">Thailand Hopes for Tourism Recovery as Chinese Trickle BackーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/dlRGkwIaHJo <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">134/155</td>
+<td class="c s2em fSS bg2006SandDollar">Thai Teenagers Learn Ball Skills and Life SkillsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/GIlxXT0VKlc <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">135/155</td>
+<td class="c s2em fSS bg2006SandDollar">Thirsting for an Era of High Wage GrowthーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/B9goweHygIE <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">136/155</td>
+<td class="c s2em fSS bg2006SandDollar">Turning Nuisance Deer into AssetsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/2vg-ERpjSn4 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">137/155</td>
+<td class="c s2em fSS bg2006SandDollar">Ukraine's Ballet Shows 'Power of Art'ーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/dW_nZvrJKV8 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">138/155</td>
+<td class="c s2em fSS bg2006SandDollar">Ukrainians Endure Severe Power Shortage</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/DQPJ6n-BWXE <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">139/155</td>
+<td class="c s2em fSS bg2006SandDollar">UNHCR's Role in Ukraine One Year OnーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7pCHYHM71no <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">140/155</td>
+<td class="c s2em fSS bg2006SandDollar">Uphill Battle to Raise Prices in JapanーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/4wQJoYspQoQ <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">141/155</td>
+<td class="c s2em fSS bg2006SandDollar">US Downs Fourth Unidentified ObjectーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/vaq1hVYDDmg <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">142/155</td>
+<td class="c s2em fSS bg2006SandDollar">US Gets Keys to More Philippine BasesーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/w7p_qZd8EWw <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">143/155</td>
+<td class="c s2em fSS bg2006SandDollar">US Midterm Elections： Analysis of Neck-and-Neck ResultsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/fQaHm0kuaGQ <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">144/155</td>
+<td class="c s2em fSS bg2006SandDollar">US Midterm Elections 2022： Asian Americans have their sayーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Xy0DRNnpxPU <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">145/155</td>
+<td class="c s2em fSS bg2006SandDollar">US Midterm Elections 2022： Balance of Congressional PowerーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Ldtkjz5Tx3I <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">146/155</td>
+<td class="c s2em fSS bg2006SandDollar">US Midterm Elections 2022： Battle for the SenateーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/dcNvUG6kQWY <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">147/155</td>
+<td class="c s2em fSS bg2006SandDollar">US Midterm Elections 2022： Making Sense of the ResultsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7ARf7wSUyks <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">148/155</td>
+<td class="c s2em fSS bg2006SandDollar">US Midterm Elections 2022： New Yorkers Head to PollsーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/FJ6ZmE9b13I <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">149/155</td>
+<td class="c s2em fSS bg2006SandDollar">US Midterm Elections 2022： Young Voters Push for Climate MeasuresーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ELt-4gkf4ks <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">150/155</td>
+<td class="c s2em fSS bg2006SandDollar">Vietnamese Keep History of Japan Ties AliveーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/HQ9yFLn4hJY <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">151/155</td>
+<td class="c s2em fSS bg2006SandDollar">War-Torn Ukraine City Struggles to RecoverーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/gSajaWNIkEk <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">152/155</td>
+<td class="c s2em fSS bg2006SandDollar">Wheels in Motion for ExtraditionーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/cQvjIW8j4aU <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">153/155</td>
+<td class="c s2em fSS bg2006SandDollar">Workshop widens Indian women's hopesーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/3k6LERrQPIk <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">154/155</td>
+<td class="c s2em fSS bg2006SandDollar">Workshop Widens Indian Women's HopesーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/vs7BlO9TXq8 <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">155/155</td>
+<td class="c s2em fSS bg2006SandDollar">Young Tech Firms Modernize India's Milk ProductionーNHK WORLD-JAPAN NEWS</td>
+<td class="c s2em fVerdana">Mon Feb 27 06:13:23 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/5WP2fCgOaas <BR> tag.user.nhkworldjapan tag.news<BR>tag.news tag.user.nhkworldjapan</td></tr>
+</table><BR> </td> </tr>
+</table><BR>
+</body>
+</html>
