@@ -1,0 +1,647 @@
+
+
+        <!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        
+<html>
+<head>
+<style> .wrap { word-wrap: break-word; } </style>
+<style> .rwo { display: table; } </style>
+<style> .rwi { padding: 50% 0; height: 0; } </style>
+<style> .etr { display: block; transform-origin: top left; transform: rotate(90deg) translate(0, -100%); margin-top: -50%; white-space: nowrap; } </style>
+<style> .r90 { -webkit-transform: translateY(-100%) rotate(90deg); -moz-transform: translateY(-100%) rotate(90deg); -ms-transform: translateY(-100%) rotate(90deg); -o-transform: translateY(-100%) rotate(90deg); transform: translateY(-100%) rotate(90deg); -webkit-transform-origin: left bottom; -moz-transform-origin: left bottom; -ms-transform-origin: left bottom; -o-transform-origin: left bottom; transform-origin: left bottom; } </style>
+<style> .heiaut { height: auto; } </style>
+<style> .w200px { width: 200px; } </style>
+<style> .w300px { width: 300px; } </style>
+<style> .w333px { width: 333px; } </style>
+<style> .widaut { width: auto; } </style>
+<style> .r270 { transform:rotate(270deg); } </style>
+<style> .df { display:flex; } </style>
+<style> .dt { display:table; } </style>
+<style> .dtc { display:table-cell; } </style>
+<style> .dtr { display:table-row; } </style>
+<style> .pr { position: relative; } </style>
+<style> .aic { align-items:center; } </style>
+<style> .vam { vertical-align: middle; } </style>
+<style> .talc { text-align-last: center; } </style>
+<style> .linhei { line-height: 1.5; } </style>
+<style> .dib { display: inline-block; } </style>
+<style> .mla { margin-left:auto; } </style>
+<style> .mra { margin-right:auto; } </style>
+<style> .ma { margin: auto; } </style>
+<style> .ma0 { margin: auto 0; } </style>
+<style> .ma5px { margin: 5px; } </style>
+<style> .clearfix { overflow: auto; } </style>
+<style> .fL { float: left; } </style>
+<style> .fR { float: right; } </style>
+<style> .b1 { border: solid white; border-width: 20px; } </style>
+<style> .topleft { position: relative; top:100px; left:100px; background: yellow; border: solid thin #FFFFFF; width: 2000px; } </style>
+<style> .topright { position: relative; background: blue; top: 100px; } </style>
+<style> .fArial { font-family: Arial; } </style>
+<style> .fSS { font-family: Sans-serif; } </style>
+<style> .fCSMS { font-family: ", C, o, m, i, c,  , S, a, n, s,  , M, S, ", ,,  , ", C, o, m, i, c,  , S, a, n, s, ", ,,  , c, u, r, s, i, v, e; } </style>
+<style> .fVerdana { font-family: Verdana; } </style>
+<style> .fTNR { font-family: "Times New Roman"; } </style>
+<style> .c { text-align: center; } </style>
+<style> .b { font-weight: bold; } </style>
+<style> .s3em { font-size: 3em; } </style>
+<style> .s2aahem { font-size: 2.5em; } </style>
+<style> .s2em { font-size: 2em; } </style>
+<style> .s1aahem { font-size: 1.5em; } </style>
+<style> .s1em { font-size: 1em; } </style>
+<style> 
+ .bgReadingPeach { background: #EDD1B0; }
+.bgReadingOrange { background: #EDDD6E; }
+.bgReadingYellow { background: #F8FD89; }
+.bgRosyDewCream { background: #F9F1F0; }
+.bgCream { background: #FFFDD0; }
+.bgNeonYellow { background: #FBCB0A; }
+.bglightgrey { background: lightgrey; }
+.bgRetroMaroon { background: #C70A80; }
+.bgKidsPurple { background: #590696; }
+.bgRainbowTeal { background: #37E2D5; }
+.bgebebeb { background: #ebebeb; }
+.bgebebeb_Tone1 { background: #ede9e9; }
+.bgebebeb_Tone2 { background: #eee8e8; }
+.bgebebeb_Tone3 { background: #f0e6e6; }
+.bgebebeb_Tone4 { background: #f2e4e4; }
+.bgebebeb_Tone5 { background: #f3e3e3; }
+.bgebebeb_Tone6 { background: #f5e1e1; }
+.bgebebeb_Tone7 { background: #f7dfdf; }
+.bgebebeb_Tone8 { background: #f8dede; }
+.bgebebeb_Tone9 { background: #fadcdc; }
+.bgebebeb_Tone10 { background: #fcdada; }
+.bgebebeb_Tone11 { background: #fdd9d9; }
+.bgebebeb_Tone12 { background: #ffd7d7; }
+.bgJungleGreen { background: #29AB87; }
+.bgMantis { background: ; }
+.bgMiddleGreen { background: #4D8C57; }
+.bgScreaminGreen { background: #66FF66; }
+.bgDartmouthGreen { background: #00703C; }
+.bgSapGreen { background: #507D2A; }
+.bgSlimyGreen { background: #299617; }
+.bgLimeGreen { background: #32CD32; }
+.bgBitterLemon { background: #CAE00D; }
+.bgArtichokeGreen { background: #8F9779; }
+.bgGrannySmithApple { background: #A8E4A0; }
+.bgAppleGreen { background: #8DB600; }
+.bgFrenchLime { background: #9EFD38; }
+.bgAvocadon { background: #568203; }
+.bgPistachio { background: #93C572; }
+.bgOliveGreen { background: #708238; }
+.bgDarkOliveGreen { background: #556B2F; }
+.bgHunterGreen { background: #355E3B; }
+.bgAmazon { background: #3B7A57; }
+.bgDarkJungleGreen { background: #1A2421; }
+.bgDeepJungleGreen { background: #004B49; }
+.bgForestGreen { background: #014421; }
+.bgTropicalRainforest { background: #00755E; }
+.bgMyrtleGreen { background: #317873; }
+.bgPineGreen { background: #01796F; }
+.bgMintGreen { background: #98FB98; }
+.bgLawnGreen { background: #7CFC00; }
+.bgMossGreen { background: #8A9A5B; }
+.bgDarkMossGreen { background: #4A5D23; }
+.bgFernGreen { background: #4F7942; }
+.bgTeaGreen { background: #D0F0C0; }
+.bgSageGreen { background: #BCB88A; }
+.bgShamrockGreen { background: #009E60; }
+.bgLaurelGreen { background: #A9BA9D; }
+.bgSpringGreen { background: #00FF7F; }
+.bgMediumSpringGreen { background: #00FA9A; }
+.bgDarkSpringGreen { background: #177245; }
+.bgLightSeaGreen { background: #20B2AA; }
+.bgSea { background: green crayola; }
+.bgHex { background: #8DD9CC; }
+.bgRGB { background: 141, 217, 204; }
+.bgCMYK { background: 35, 0, 6, 15; }
+.bg. { background: ; }
+.bgMedium { background: aquamarine; }
+.bgDark { background: pastel green; }
+.bgOcean { background: green; }
+.bgGreen { background: cyan; }
+.bgPhthalo { background: green; }
+.bgMaximum { background: green yellow; }
+.bgLight { background: green; }
+.bgMiddle { background: blue green; }
+.bgBud { background: green; }
+.bgKombu { background: green; }
+.bgMalachite { background: ; }
+.bgZomp { background: ; }
+.bgBright { background: green; }
+.bgElectric { background: green; }
+.bgVolt { background: ; }
+.bgScreamin { background: green; }
+.bgSap { background: green; }
+.bgGO { background: green; }
+.bgSlimy { background: green; }
+.bgNeon { background: green; }
+.bgPersian { background: green; }
+.bgSpanish { background: green; }
+.bgParis { background: green; }
+.bgBritish { background: racing green; }
+.bgDartmouth { background: green; }
+.bgEton { background: green; }
+.bgSacramento { background: State green; }
+.bgCharleston { background: green; }
+.bgBrunswick { background: green; }
+.bgIndia { background: green; }
+.bgPakistan { background: green; }
+.bgCaribbean { background: green; }
+.bgRussian { background: green; }
+.bgJade { background: green; }
+.bgEmerald { background: green; }
+.bgTurquoise { background: green; }
+.bgCadmium { background: green; }
+.bgHarlequin { background: ; }
+.bgKelly { background: green; }
+.bgPaolo { background: Veronese green; }
+.bgLincoln { background: green; }
+.bgMay { background: green; }
+.bgArmy { background: green; }
+.bgMichigan { background: State University green; }
+.bgMidnight { background: green; }
+.bgCeladon { background: ; }
+.bgBottle { background: green; }
+.bgAndroid { background: green; }
+.bgViridian { background: green; }
+.bgAcid { background: green; }
+.bgCastleton { background: green; }
+.bgWintergreen { background: dream; }
+.bgYellow { background: green color wheel; }
+.bgBlue { background: green color wheel; }
+.bgGreenSheen { background: #6EAEA1; }
+.bgSheenGreen { background: #8FD400; }
+.bgSummerCloud { background: #c0fff0; }
+.bgPaleTurquoise { background: #a8ffd8; }
+.bgGlowInTheDark { background: #c0ffc0; }
+.bgEasterGreen { background: #90ff78; }
+.bgGoblinWarboss { background: #48ff48; }
+.bgGrapeTaffy { background: #f0d8f0; }
+.bgLightLavender { background: #f0c0ff; }
+.bgShade1 { background: #f2fff2; }
+.bgShade2 { background: #eaffea; }
+.bgShade3 { background: #e2fee2; }
+.bgShade4 { background: #dafeda; }
+.bgShade5 { background: #d2fed2; }
+.bgShade6 { background: #c9fec9; }
+.bgShade7 { background: #c1fec1; }
+.bgShade8 { background: #b9feb9; }
+.bgShade9 { background: #b1feb1; }
+.bgShade10 { background: #a9ffa9; }
+.bgShade11 { background: #a1ffa1; }
+.bgShade12 { background: #9f9; }
+.bgShade13 { background: #90ff90; }
+.bgShade14 { background: #8f8; }
+.bgShade15 { background: #80ff80; }
+.bgShade16 { background: #78ff78; }
+.bgShade17 { background: #70ff70; }
+.bgShade18 { background: #68ff68; }
+.bgShade19 { background: #5fff5f; }
+.bgShade20 { background: #57ff57; }
+.bgShade21 { background: #4fff4f; }
+.bgShade22 { background: #47ff47; }
+.bgShade23 { background: #3fff3f; }
+.bgShade24 { background: #37ff37; }
+.bgShade25 { background: #2eff2e; }
+.bgShade26 { background: #26ff26; }
+.bgShade27 { background: #1eff1e; }
+.bgShade28 { background: #16ff16; }
+.bgShade29 { background: #0eff0e; }
+.bgShade30 { background: #06ff06; }
+.bgShade31 { background: #00fc00; }
+.bgShade32 { background: #00f400; }
+.bgShade33 { background: #00ec00; }
+.bgShade34 { background: #00e400; }
+.bgShade35 { background: #00dc00; }
+.bgShade36 { background: #00d400; }
+.bgShade37 { background: #0c0; }
+.bgShade38 { background: #00c300; }
+.bgShade39 { background: #0b0; }
+.bgShade40 { background: #00b300; }
+.bgShade41 { background: #00ab00; }
+.bgShade42 { background: #00a300; }
+.bgShade43 { background: #009b00; }
+.bgShade44 { background: #009200; }
+.bgShade45 { background: #008a00; }
+.bgShade46 { background: #008200; }
+.bgShade47 { background: #007a00; }
+.bgShade48 { background: #007200; }
+.bgShade49 { background: #006a00; }
+.bgShade50 { background: #006100; }
+.bgShade51 { background: #005900; }
+.bgShade52 { background: #005100; }
+.bgShade53 { background: #004900; }
+.bgShade54 { background: #004100; }
+.bgShade55 { background: #003900; }
+.bgShade56 { background: #003000; }
+.bgShade57 { background: #002800; }
+.bgShade58 { background: #002000; }
+.bgShade59 { background: #001800; }
+.bgShade60 { background: #001000; }
+.bg2020ClassicBlue { background: #34568B; }
+.bg2019LivingCoral { background: #FF6F61; }
+.bg2018UltraViolet { background: #6B5B95; }
+.bg2017Greenery { background: #88B04B; }
+.bg2016RoseQuartz { background: #F7CAC9; }
+.bg2016Serenity { background: #92A8D1; }
+.bg2015Marsala { background: #955251; }
+.bg2014RadiandOrchid { background: #B565A7; }
+.bg2013Emerald { background: #009B77; }
+.bg2012TangerineTango { background: #DD4124; }
+.bg2011Honeysucle { background: #D65076; }
+.bg2010Turquoise { background: #45B8AC; }
+.bg2009Mimosa { background: #EFC050; }
+.bg2008BlueIzis { background: #5B5EA6; }
+.bg2007ChiliPepper { background: #9B2335; }
+.bg2006SandDollar { background: #DFCFBE; }
+.bg2005BlueTurquoise { background: #55B4B0; }
+.bg2004Tigerlily { background: #E15D44; }
+.bg2003AquaSky { background: #7FCDCD; }
+.bg2002TrueRed { background: #BC243C; }
+.bg2001FuchsiaRose { background: #C3447A; }
+.bg2000CeruleanBlue { background: #98B4D4; } 
+ </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<table border=0 class="mla mra">
+<tr> <td> <table border=1 class="mla mra">
+<tr align="top"><td class="c s2em fSS bg2006SandDollar" colspan="3">92 YouTube Video Definitions <BR> hash to "ye"</td></tr>
+<tr align="top"><th>#</th>
+<th>YouTube-Video</th>
+<th>Saved</th></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">1/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "A Year after Invasion, Russian Propaganda has gone Insane to Fuel Putins War | Foreign Correspondent" on YouTube</td>
+<td class="c s2em fVerdana">Wed Mar 01 02:25:03 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pHejvoRUjMM <BR> tag.long tag.news <BR> https://youtu.be/pHejvoRUjMM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">2/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yeardley Smith on getting cast as "Lisa Simpson" - EMMYTVLEGENDS.ORG" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 14:33:49 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/GuIscTp-WVM <BR> tag.downloaded <BR> https://youtu.be/GuIscTp-WVM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">3/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Year 2190, Earth Explodes and Only Astronauts Survive" on YouTube</td>
+<td class="c s2em fVerdana">Fri Feb 18 21:17:02 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/iQ0kpudNmfg <BR>  <BR> https://youtu.be/iQ0kpudNmfg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">4/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yearender: 2021 has been a break through year for space tourism | Latest English News | World News" on YouTube</td>
+<td class="c s2em fVerdana">Tue Dec 28 22:40:13 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/XLDqPclxsX0 <BR>  <BR> https://youtu.be/XLDqPclxsX0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">5/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "1916, The Year First World War Should Have Ended" on YouTube</td>
+<td class="c s2em fVerdana">Mon Dec 19 00:50:11 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/2SCyektGKDo <BR>  <BR> https://youtu.be/2SCyektGKDo</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">6/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Year of the Cat" on YouTube</td>
+<td class="c s2em fVerdana">Thu Jan 26 04:18:17 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7bCr3H8MDfM <BR>  <BR> https://youtu.be/7bCr3H8MDfM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">7/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "8000-Year-Old Aleppo City Built on Indian Taxes! |Trump | Elections | USA | Sadhguru | Adiyogi" on YouTube</td>
+<td class="c s2em fVerdana">Mon Apr 25 08:21:36 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/VaIQA_7NuKg <BR>  <BR> https://youtu.be/VaIQA_7NuKg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">8/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "31-year-old Arif Khan, the only Indian to qualify for 2022 Winter Olympics | China | World News" on YouTube</td>
+<td class="c s2em fVerdana">Mon Feb 07 05:12:02 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/X-CU4qrr1ss <BR>  <BR> https://youtu.be/X-CU4qrr1ss</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">9/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "The 76-year-old artist taking on Russia's Vladimir Putin - BBC News" on YouTube</td>
+<td class="c s2em fVerdana">Fri Mar 25 16:27:28 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/1CVRSgC1gVM <BR> tag.downloaded <BR> https://youtu.be/1CVRSgC1gVM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">10/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "8 Year Old Bassist RMG Artist Ellen Alaverdryan Aretha Franklin Inspired Cover." on YouTube</td>
+<td class="c s2em fVerdana">Mon Sep 27 18:36:53 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/g_BNJYO1jJw <BR> tag.downloaded <BR> https://youtu.be/g_BNJYO1jJw d</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">11/92</td>
+<td class="c s2em fSS bg2006SandDollar">6-year-old boy rescued after nearly 48 hours after Indonesia earthquake</td>
+<td class="c s2em fVerdana">Mon Feb 27 15:36:25 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/2sTEV1N1MtA <BR> tag.news tag.playlist.thesun.world_news_2022 tag.user.thesun</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">12/92</td>
+<td class="c s2em fSS bg2006SandDollar">9-year-old boy rescued from Turkey quake rubble by Israeli search team</td>
+<td class="c s2em fVerdana">Mon Feb 27 15:36:25 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/YclOimQVSLk <BR> tag.news tag.playlist.thesun.world_news_2022 tag.user.thesun</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">13/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "95-year-old describes ordeal in wake of Russian invasion of Ukraine: 'Never seen anything as horribl" on YouTube</td>
+<td class="c s2em fVerdana">Thu Mar 24 15:17:02 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/T8G6WElcQbU <BR>  <BR> https://youtu.be/T8G6WElcQbU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">14/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "4 Year Old DOES A JUMP For Her First Time #snowboarding #cute" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 09 21:10:39 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-QyYQQmWxB8 <BR>  <BR> https://youtube.com/shorts/-QyYQQmWxB8?feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">15/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "19-Year-Old Farmer Who Highlighted Farm Life on TikTok Dies" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 09 18:04:05 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/TZtZcHaaZC8 <BR> tag.obituary <BR> https://youtu.be/TZtZcHaaZC8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">16/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "15 Year Old Filipino GENIUS from 1956 Talks about Prejudice during the Exchange Student Program" on YouTube</td>
+<td class="c s2em fVerdana">Mon Aug 09 10:37:22 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-fQvOypsWng <BR> tag.1950s <BR> https://youtu.be/-fQvOypsWng</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">17/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "97-year-old former secretary at a Nazi concentration camp convicted by German court | DW News" on YouTube</td>
+<td class="c s2em fVerdana">Tue Dec 20 18:56:47 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/tdrEqbBtbBg <BR>  <BR> https://youtu.be/tdrEqbBtbBg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">18/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "70-Year-Old French Woman Allegedly Beaten, Raped In Varanasi" on YouTube</td>
+<td class="c s2em fVerdana">Fri Aug 20 00:37:16 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/wz8JNU0gF1U <BR>  <BR> https://youtu.be/wz8JNU0gF1U d</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">19/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "13-Year-Old Gets $20,000 From Doritos for Puffy-Looking Chip" on YouTube</td>
+<td class="c s2em fVerdana">Wed Aug 11 22:59:42 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/4hh_On2dWBQ <BR>  <BR> https://youtu.be/4hh_On2dWBQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">20/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "12 Year Old Girl, Accidentally Saw Gods And Suddenly Gained Supernatural Powers!" on YouTube</td>
+<td class="c s2em fVerdana">Sun Nov 06 06:45:32 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/KEiA4XQKC7A <BR> tag.uk <BR> https://youtu.be/KEiA4XQKC7A</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">21/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "13 year old girl charged with murder after stabbing friend during sleepover" on YouTube</td>
+<td class="c s2em fVerdana">Thu Mar 24 20:21:28 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ENC-i2l8C0c <BR>  <BR> https://youtu.be/ENC-i2l8C0c</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">22/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "A 16-year-old girl's testimony paints a picture of brutality by Russian soldiers" on YouTube</td>
+<td class="c s2em fVerdana">Sat Apr 30 04:08:14 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-TATWFnPOg8 <BR> tag.downloaded <BR> https://youtu.be/-TATWFnPOg8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">23/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "14-Year-Old Golden Retriever Brings Surprises to Neighbors Every Day | The Dodo" on YouTube</td>
+<td class="c s2em fVerdana">Thu Aug 19 21:20:52 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/FbvCphKD3ro <BR>  <BR> https://youtu.be/FbvCphKD3ro</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">24/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "21-year-old Indian student shot dead at Sherbourne subway station in Canada | OneIndia News" on YouTube</td>
+<td class="c s2em fVerdana">Fri Apr 15 05:45:49 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/zZlvBEnnOa0 <BR> tag.downloaded <BR> https://youtu.be/zZlvBEnnOa0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">25/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "107 Year Old Irish Farmer Reflects on Change, 1965" on YouTube</td>
+<td class="c s2em fVerdana">Sun Oct 31 00:28:23 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/daIMIv8perM <BR>  <BR> https://youtu.be/daIMIv8perM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">26/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "93 Year Old Irish Soldier describes World War One, 1988" on YouTube</td>
+<td class="c s2em fVerdana">Sun Feb 20 14:18:18 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/DWnc-ZlIo5s <BR>  <BR> https://youtu.be/DWnc-ZlIo5s</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">27/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "An 18 Year-Old Justin Trudeau on Quebec Sovereignty" on YouTube</td>
+<td class="c s2em fVerdana">Tue Feb 22 05:12:12 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/6B8IrpWVaoE <BR>  <BR> https://youtu.be/6B8IrpWVaoE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">28/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "80 YEAR OLD LOOKS BACK ON LIFE  OF PHYSICAL FITNESS" on YouTube</td>
+<td class="c s2em fVerdana">Tue Apr 26 09:38:33 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/mmzdUChrLDY <BR>  <BR> https://youtu.be/mmzdUChrLDY</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">29/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "10 000 Year Old Man Cursed To Suffer Immortality On Earth" on YouTube</td>
+<td class="c s2em fVerdana">Sun Mar 13 20:08:31 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/20G72tb132w <BR>  <BR> https://youtu.be/20G72tb132w</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">30/92</td>
+<td class="c s2em fSS bg2006SandDollar">30-40 Year Old MODERN WOMEN Hit The WALL Hard, And The BRUTAL Truth Abou...</td>
+<td class="c s2em fVerdana">Fri Nov 11 11:56:19 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/LI-Kgv0BO7Y <BR> tag.uk <BR> https://youtube.com/watch?v=LI-Kgv0BO7Y&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">31/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "60 Year Old Nurse Reaches Out to Long Lost Son | Lost & Found | Real Families with Foxy Games" on YouTube</td>
+<td class="c s2em fVerdana">Wed Jun 30 19:24:43 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/8Bz9ljAkziQ <BR>  <BR> https://youtu.be/8Bz9ljAkziQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">32/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "17 Year Old Pilot Student Lands Plane without WHEELS!" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jan 03 15:00:56 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/zsRUfoynxbs <BR>  <BR> https://youtube.com/shorts/zsRUfoynxbs?feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">33/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "7-Year-Old Says He Was in 9/11 Plane Crash - The Ghost Inside My Child (S1 Flashback) | LMN" on YouTube</td>
+<td class="c s2em fVerdana">Sat Dec 03 04:50:58 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/JVBSiyVElbU <BR>  <BR> https://youtu.be/JVBSiyVElbU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">34/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "16-year-old's body found dumped on Los Angeles freeway" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 28 03:50:44 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/JTS4qdWxr1g <BR> tag.downloaded <BR> https://youtu.be/JTS4qdWxr1g</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">35/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "8 Year Old's Endgame Defense is Legendary! Golan vs Komodo" on YouTube</td>
+<td class="c s2em fVerdana">Wed Jun 30 18:29:49 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/eJdhxVLENA4 <BR>  <BR> https://youtu.be/eJdhxVLENA4</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">36/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "15-year-old's fascination for fossils | Paleontology | Chennai | India News | Latest English News" on YouTube</td>
+<td class="c s2em fVerdana">Fri Feb 04 08:25:33 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/fQOXWuJ_Sn4 <BR>  <BR> https://youtu.be/fQOXWuJ_Sn4</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">37/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "13-year-old's father confronts teacher who sexually abused his son" on YouTube</td>
+<td class="c s2em fVerdana">Sat Apr 02 06:51:57 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/zgWsy7R8KRI <BR> tag.downloaded <BR> https://youtu.be/zgWsy7R8KRI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">38/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "The 30 year old Sherman Mystery" on YouTube</td>
+<td class="c s2em fVerdana">Fri Mar 18 07:52:04 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/TEXneyrHOyQ <BR>  <BR> https://youtu.be/TEXneyrHOyQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">39/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "84-Year-Old SHOCKS America With Age-Defying Act! WHAT?! | America's Got Talent 2019" on YouTube</td>
+<td class="c s2em fVerdana">Tue Aug 17 22:57:40 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/6zvUDiyxaYQ <BR>  <BR> https://youtu.be/6zvUDiyxaYQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">40/92</td>
+<td class="c s2em fSS bg2006SandDollar">16-Year-Old SHOCKS everyone with her UNIQUE sound in The Voice | #Journey 145 - YouTube</td>
+<td class="c s2em fVerdana">Wed Jan 12 16:55:31 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/mtT_w4gegsY <BR> tag.downloaded <BR> https://m.youtube.com/watch?v=mtT_w4gegsY</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">41/92</td>
+<td class="c s2em fSS bg2006SandDollar">20-year-old shot and killed on Long Island Rail Road train at Ronkonkoma station - ABC7 New York</td>
+<td class="c s2em fVerdana">Thu Feb 17 10:54:57 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/20-year-old <BR>  <BR> https://abc7ny.com/lirr-shooting-person-shot-on-train-ronkonkoma-suffolk-county/11570070/<BR><br>LOG IN<br>20-year-old shot and killed on LIRR train at Ronkonkoma station<br>By Eyewitness News<br>Thursday, February 17, 2022 2:31AM<br>SHARE:<br><br><br>EMBED <>MORE VIDEOS <br>Kristin Thorne reports from the scene of the deadly shooting, which shut down an LIRR platform through the morning commute.<br><br>RONKONKOMA, Suffolk County (WABC) -- A man was fatally shot on an LIRR train in Ronkonkoma, closing a platform at the station through the morning commute on Wednesday.<br><br>The shot was fired around 1:45 a.m. on the 1:51 a.m. train to Penn Station. Someone called 911 to report the shooting.<br><br>Witnesses reported seeing a man in a hoodie running from the scene following the shooting.<br><br>"The two people involved, the shooter and the victim, appear to have been traveling together, and they appear to have known each other," Suffolk County police Det. Lt. Kevin Beyrer said. "I'd like to stress this is not a random event. No other passengers were in danger. There were only two or three other passengers on the train. They were not in danger. This appears to be an isolated event. It does not appear to have any connection to any other incidents in the past."<br><br><br>The victim, identified as 20-year-old Yusef Staine, was pronounced dead on arrival to the hospital. His mother, Pamela Usher, spoke to Eyewitness News Reporter Kristin Thorne.<br>Get breaking news alerts from Eyewitness News delivered to your inbox<br>Sign up for our breaking newsletter<br>Email Address<br>Sorry, this campaign is not available in your area<br><br>"He was killed, and we need the person who did it to come forward," she said.<br><br>The shooting happened while the train was in the Ronkonkoma station and had not yet started its scheduled trip to Penn Station in New York City.<br><br>It was taken out of service while police investigated and one platform was closed for the morning commute, causing delays on the rest of the branch as a result.<br><br><br>Detectives are asking anyone with information on this shooting to call the Homicide Squad at 631-852-6392 or Crime Stoppers at 1-800-220-TIPS.<br><br>ALSO READ | Outrage and grief in wake of grisly Chinatown apartment murder<br><br><br>EMBED <>MORE VIDEOS <br>NJ Burkett reports from the second vigil held in as many days following the terrifying murder.<br><br><br>----------<br>* More Long Island news<br>* Send us a news tip<br>* Download the abc7NY app for breaking news alerts<br>* Follow us on YouTube<br>Report a correction or typo<br>RELATED TOPICS:<br>ronkonkomasuffolk countylirrshooting<br>SHARE:<br>Copyright © 2022 WABC-TV. All Rights Reserved.<br>by TaboolaSponsored LinksFROM THE WEB<br>HDFC Bank lists all tax changes after Budget 2022-23<br>HDFC Bank<br>‘The spell of Modi has been broken’<br>Frontline<br>TOP STORIES<br><br>NAACP calls for officers in NJ mall fight video to be disciplined<br><br>Tanker slams into business on LI, sparks massive fire<br><br>Plainsboro police shooting under investigation<br>NYC Mayor Adams outlines first budget proposal<br>Judge blocks release of additional records in Bob Saget death<br>Mother pistol whipped, car beaten with bats with kids inside in NYC<br>Murder charge in NJ wrong-way crash that killed 95-year-old woman<br>SHOW MORE <br>Home<br>AccuWeather<br>Traffic<br>Local News<br>Categories<br>Station Info<br>Shows<br>Apps<br>ABC7 New York<br>Follow Us:<br>Privacy PolicyDo Not Sell My Personal InformationChildren's Privacy PolicyYour California Privacy RightsTerms of UseInterest-Based AdsPublic Inspection FileFCC Applications<br>Copyright © 2022 ABC, Inc., WABC-TV New York. All Rights Reserved.<br></td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">42/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "19-year-old spends months as wanted fugitive, now charged with murder in death of man set on fire" on YouTube</td>
+<td class="c s2em fVerdana">Tue Mar 22 06:42:09 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/rWeRnD_q_gg <BR> tag.downloaded <BR> https://youtu.be/rWeRnD_q_gg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">43/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "80 Year Olds Share Their BIGGEST Mistakes" on YouTube</td>
+<td class="c s2em fVerdana">Sat Dec 31 20:32:55 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/zWrwPr1OEuk <BR>  <BR> https://youtu.be/zWrwPr1OEuk</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">44/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "13-year-old survivor of ambush in Mexico that killed 9 describes harrowing ordeal | Nightline" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jul 06 10:30:06 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/H1UxnQ0CUAA <BR>  <BR> https://youtu.be/H1UxnQ0CUAA</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">45/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "The 85-year-old TikTok singing sensation - BBC News" on YouTube</td>
+<td class="c s2em fVerdana">Mon Feb 21 10:50:56 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/P1kxxR0lgMc <BR>  <BR> https://youtu.be/P1kxxR0lgMc</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">46/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "19-Year-Old TikTok Star Dies From Gunshot Wound" on YouTube</td>
+<td class="c s2em fVerdana">Wed Jul 07 21:38:28 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/SNDpf4iquz0 <BR>  <BR> https://youtu.be/SNDpf4iquz0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">47/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "The 40 Year Old Virgin - Just Ask Questions (1080p)" on YouTube</td>
+<td class="c s2em fVerdana">Sun May 29 12:08:12 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/YOUg956XHpY <BR>  <BR> https://youtu.be/YOUg956XHpY</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">48/92</td>
+<td class="c s2em fSS bg2006SandDollar">46 Year Old Woman Breaks Down In Tears Because She’s Single & Alone</td>
+<td class="c s2em fVerdana">Fri Nov 11 11:28:58 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7ToFHdiz7nU <BR> tag.uk <BR> https://youtube.com/watch?v=7ToFHdiz7nU&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">49/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "1 year, 3 PMs: Change of guard in India's key ally against China. Who's front-runner in Japan race?" on YouTube</td>
+<td class="c s2em fVerdana">Tue Sep 14 09:59:25 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Tk9eQPsvyw0 <BR>  <BR> https://youtu.be/Tk9eQPsvyw0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">50/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "75 Years After 2-Year-Old and Mother Separated at Auschwitz, Their Families Find Each Other" on YouTube</td>
+<td class="c s2em fVerdana">Sat Mar 19 19:47:04 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/isZeVW2_U0o <BR> tag.downloaded <BR> https://youtu.be/isZeVW2_U0o</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">51/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "3 YEARS ALONE & OFF GRID in the CANADIAN WILDERNESS | SELF BUILT CABIN, YURT, & OVEN (FULL BUILD)" on YouTube</td>
+<td class="c s2em fVerdana">Thu Jun 02 15:19:34 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/NMMOv_md-14 <BR> tag.downloaded <BR> https://youtu.be/NMMOv_md-14</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">52/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "25 Years Alone with no dates and what I learned from this." on YouTube</td>
+<td class="c s2em fVerdana">Wed Jan 25 15:12:01 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/_AAOhwXQquI <BR>  <BR> https://youtu.be/_AAOhwXQquI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">53/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "10 Years Forward: The Ninth Ward (Part 1)" on YouTube</td>
+<td class="c s2em fVerdana">Sun Sep 19 22:26:38 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/gBckpNlMfP4 <BR>  <BR> https://youtu.be/gBckpNlMfP4</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">54/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Years in the 2030s decade." on YouTube</td>
+<td class="c s2em fVerdana">Thu Jan 12 23:28:53 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/a86Y4k9u7GY <BR>  <BR> https://youtube.com/shorts/a86Y4k9u7GY?feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">55/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "9/11 20 Years Later and Biden's Vaccine Mandate, with Rep. Dan Crenshaw, Frank Siller, and More." on YouTube</td>
+<td class="c s2em fVerdana">Sun Sep 12 22:55:32 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/R4nm5eabVpM <BR>  <BR> https://youtu.be/R4nm5eabVpM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">56/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "99 Years Later... We Solved It" on YouTube</td>
+<td class="c s2em fVerdana">Tue Apr 05 03:06:20 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/JFFhD5HeByM <BR>  <BR> https://youtu.be/JFFhD5HeByM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">57/92</td>
+<td class="c s2em fSS bg2006SandDollar">100 Years of Bras | Glamour</td>
+<td class="c s2em fVerdana">Wed Nov 16 20:30:34 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/b1yFedPTZ5A <BR> tag.uk <BR> https://youtube.com/watch?v=b1yFedPTZ5A&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">58/92</td>
+<td class="c s2em fSS bg2006SandDollar">100 Years of Controversial Fashion | Glamour</td>
+<td class="c s2em fVerdana">Wed Nov 16 20:26:21 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/KyJYfn8Q5tU <BR> tag.uk <BR> https://youtube.com/watch?v=KyJYfn8Q5tU&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">59/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "40 Years of Music Formats" on YouTube</td>
+<td class="c s2em fVerdana">Sat Dec 10 01:25:09 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7JeBwYxzH94 <BR>  <BR> https://youtube.com/shorts/7JeBwYxzH94?feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">60/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "77 years of  Nagasaki Bombings | August 9, 1945: 'Fat Man' dropped on Nagasaki | World News | WION" on YouTube</td>
+<td class="c s2em fVerdana">Wed Aug 10 14:23:22 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/51tmYa6VbLc <BR> tag.downloaded <BR> https://youtu.be/51tmYa6VbLc</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">61/92</td>
+<td class="c s2em fSS bg2006SandDollar">100 Years of Periods | Allure</td>
+<td class="c s2em fVerdana">Wed Nov 16 20:28:50 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/hc-mEXEumy0 <BR> tag.uk <BR> https://youtube.com/watch?v=hc-mEXEumy0&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">62/92</td>
+<td class="c s2em fSS bg2006SandDollar">32 years old: I have NO friends - Is it social anxiety?</td>
+<td class="c s2em fVerdana">Thu Oct 27 10:02:42 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/HRoYAY7yU68 <BR>  <BR> https://youtube.com/watch?v=HRoYAY7yU68&feature=share<BR>tag.us</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">63/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "70 years old man" on YouTube</td>
+<td class="c s2em fVerdana">Sat Dec 03 01:31:08 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/IzvUHR0NAnw <BR>  <BR> https://youtu.be/IzvUHR0NAnw</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">64/92</td>
+<td class="c s2em fSS bg2006SandDollar">25 Years On： Is Britain's bond with Hong Kong lost forever？ ｜ Mark Clifford</td>
+<td class="c s2em fVerdana">Tue Feb 28 00:23:20 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/y9S1OWOsX6Q <BR> tag.news tag.timesradio</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">65/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "100 Years on the Lincoln Highway" on YouTube</td>
+<td class="c s2em fVerdana">Thu Sep 23 12:56:21 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/SIW2-bH84u4 <BR>  <BR> https://youtu.be/SIW2-bH84u4 d</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">66/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "20 Years, 4 Presidents: The Words That Shaped the War in Afghanistan | NYT" on YouTube</td>
+<td class="c s2em fVerdana">Sun Aug 29 19:45:55 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/YhyN0ve1PYI <BR>  <BR> https://youtu.be/YhyN0ve1PYI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">67/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "73 Years Young Annette Larkins Visits Organic Market and Talks with Young Vegans" on YouTube</td>
+<td class="c s2em fVerdana">Wed Apr 06 07:05:43 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/if_vjDnlwHE <BR>  <BR> https://youtu.be/if_vjDnlwHE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">68/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "1066 A Year to Conquer England 3/3 (Non Politically Correct version)" on YouTube</td>
+<td class="c s2em fVerdana">Mon Feb 07 06:51:54 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/O_uxKEMh47M <BR> tag.downloaded <BR> https://youtu.be/O_uxKEMh47M</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">69/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "1066 A Year to Conquer England 2/3 (Non Politically Correct version)" on YouTube</td>
+<td class="c s2em fVerdana">Mon Feb 07 06:46:11 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/SPunBs9CGKM <BR> tag.downloaded <BR> https://youtu.be/SPunBs9CGKM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">70/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "1066 A Year to Conquer England 1/3 (Non Politically Correct version)" on YouTube</td>
+<td class="c s2em fVerdana">Mon Feb 07 06:45:19 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/oTC70sNJVOU <BR> tag.downloaded <BR> https://youtu.be/oTC70sNJVOU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">71/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Year 536 Was the Worst Year to Be Alive - What Happened?" on YouTube</td>
+<td class="c s2em fVerdana">Mon Feb 21 18:02:40 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/s3YTfhJmh1I <BR>  <BR> https://youtu.be/s3YTfhJmh1I</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">72/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "യേശു നല്ല ഇടയൻ | Yesu Nalla Idayan (1999) | Christian Devotional Songs | KJ Yesudas" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 23 18:59:56 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/T3rpgZRwK_o <BR>  <BR> https://youtu.be/T3rpgZRwK_o</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">73/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch ""Yeh Dil Maange More": Kargil Hero Captain Vikram Batra's Story" on YouTube</td>
+<td class="c s2em fVerdana">Mon Aug 16 23:34:56 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/yHdNtfieIMo <BR>  <BR> https://youtu.be/yHdNtfieIMo</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">74/92</td>
+<td class="c s2em fSS bg2006SandDollar">Yeh Jism Hai Toh Kya - Jism 2 ｜｜ Ali Azmat mp3</td>
+<td class="c s2em fVerdana">Mon Feb 27 18:37:17 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ECvGtQjhjy0 <BR> tag.music</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">75/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yeh Jo India Hai Na | We Preach Peace for Ukraine But Practice Hate and Hypocrisy in India" on YouTube</td>
+<td class="c s2em fVerdana">Sun Apr 10 14:26:06 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/gHefOrYa3Ps <BR>  <BR> https://youtu.be/gHefOrYa3Ps</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">76/92</td>
+<td class="c s2em fSS bg2006SandDollar">Yeh Shaam Phir Nahi ~ Vital Signs</td>
+<td class="c s2em fVerdana">Mon Feb 27 18:37:17 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/BeypyDfEhnM <BR> tag.music</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">77/92</td>
+<td class="c s2em fSS bg2006SandDollar">Ye Jo Halka Halka by Nusrat Fateh Ali Khan With Lyrics ｜ Romantic Qawwali Songs ｜ Nupur Audio</td>
+<td class="c s2em fVerdana">Mon Feb 27 18:37:17 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/INs3aYu4Q9g <BR> tag.music</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">78/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yellowstone Park Ranger Has Revealed That Something Chilling Has Happened Inside The National Park" on YouTube</td>
+<td class="c s2em fVerdana">Mon Nov 07 04:35:15 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/9Ba-Oj6ObIY <BR> tag.us <BR> https://youtu.be/9Ba-Oj6ObIY</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">79/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yellowstone Shaken by Earthquake: one hour before sunset, as earth rises, rumb sound crosses plains." on YouTube</td>
+<td class="c s2em fVerdana">Wed Jan 26 03:42:47 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/PGb4xMrhlmc <BR> tag.downloaded <BR> https://youtu.be/PGb4xMrhlmc</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">80/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yelp's Top 100: 3 OC and 1 Malibu restaurants make the cut for 2022" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 21 20:59:58 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/61boAGBN09g <BR> tag.downloaded <BR> https://youtu.be/61boAGBN09g</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">81/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yemen - 28 years of history on a Map" on YouTube</td>
+<td class="c s2em fVerdana">Thu Feb 03 05:04:32 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/M1Am70v8y5A <BR> tag.downloaded <BR> https://youtu.be/M1Am70v8y5A</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">82/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yeonmi Park on The Heavies, North Korean Rat Stew & Dating Black Guys" on YouTube</td>
+<td class="c s2em fVerdana">Thu Feb 23 01:54:20 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/6FbR9c2n6e8 <BR>  <BR> https://youtu.be/6FbR9c2n6e8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">83/92</td>
+<td class="c s2em fSS bg2006SandDollar">Ye's antisemitic comments spark outrage, fear | Nightline</td>
+<td class="c s2em fVerdana">Thu Oct 27 06:59:28 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pIJngssxUlU <BR> tag.us <BR> https://youtube.com/watch?v=pIJngssxUlU&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">84/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yeshuvine kannenam" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 23 19:15:59 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ywPt1WrFIHk <BR>  <BR> https://youtu.be/ywPt1WrFIHk</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">85/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yes I have horses #Ballin" on YouTube</td>
+<td class="c s2em fVerdana">Sun Dec 11 15:37:49 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Z_k9HznTTiE <BR>  <BR> https://youtu.be/Z_k9HznTTiE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">86/92</td>
+<td class="c s2em fSS bg2006SandDollar">YES OR E-YES?</td>
+<td class="c s2em fVerdana">Mon Oct 17 01:16:22 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/HxuDLNP_TrA <BR>  <BR> https://youtube.com/shorts/HxuDLNP_TrA?feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">87/92</td>
+<td class="c s2em fSS bg2006SandDollar">YESTERDAY WHEN I WAS YOUNG - Shirley Bassey (Lyrics)</td>
+<td class="c s2em fVerdana">Mon Feb 27 18:37:17 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/xLcBNJnckHs <BR> tag.music</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">88/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yesterday When We Were Young - (1968)" on YouTube</td>
+<td class="c s2em fVerdana">Sun May 15 04:26:10 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/UuShSsPL6zE <BR>  <BR> https://youtu.be/UuShSsPL6zE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">89/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yes to conversation with Putin, no to compromise | Lt. Gen. Ben Hodges" on YouTube</td>
+<td class="c s2em fVerdana">Sun Dec 04 04:46:43 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/FBme3RsuKe0 <BR>  <BR> https://youtu.be/FBme3RsuKe0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">90/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Yes, We Are At A Tipping Point: ChatGPT Is Just The Beginning Of How AI Will Soon Change Everything" on YouTube</td>
+<td class="c s2em fVerdana">Mon Feb 13 05:14:59 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/tcnvSQZ6rFo <BR>  <BR> https://youtu.be/tcnvSQZ6rFo</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">91/92</td>
+<td class="c s2em fSS bg2006SandDollar">Yet Another Week Of Tory Chaos | The Russell Howard Hour</td>
+<td class="c s2em fVerdana">Sat Oct 15 01:13:45 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/wHBW2I6sa_M <BR>  <BR> https://youtube.com/watch?v=wHBW2I6sa_M&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">92/92</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "YEW ENGLISH LONGBOW ELEVATION FROM PAPER PLATE TO THE CASTLE GATE NON REALITY TV WITH GARE" on YouTube</td>
+<td class="c s2em fVerdana">Mon Dec 12 01:54:43 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/W9QyOkj2JKg <BR>  <BR> https://youtu.be/W9QyOkj2JKg</td></tr>
+</table><BR> </td> </tr>
+</table><BR>
+</body>
+</html>

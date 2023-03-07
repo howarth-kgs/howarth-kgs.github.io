@@ -1,0 +1,583 @@
+
+
+        <!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        
+<html>
+<head>
+<style> .wrap { word-wrap: break-word; } </style>
+<style> .rwo { display: table; } </style>
+<style> .rwi { padding: 50% 0; height: 0; } </style>
+<style> .etr { display: block; transform-origin: top left; transform: rotate(90deg) translate(0, -100%); margin-top: -50%; white-space: nowrap; } </style>
+<style> .r90 { -webkit-transform: translateY(-100%) rotate(90deg); -moz-transform: translateY(-100%) rotate(90deg); -ms-transform: translateY(-100%) rotate(90deg); -o-transform: translateY(-100%) rotate(90deg); transform: translateY(-100%) rotate(90deg); -webkit-transform-origin: left bottom; -moz-transform-origin: left bottom; -ms-transform-origin: left bottom; -o-transform-origin: left bottom; transform-origin: left bottom; } </style>
+<style> .heiaut { height: auto; } </style>
+<style> .w200px { width: 200px; } </style>
+<style> .w300px { width: 300px; } </style>
+<style> .w333px { width: 333px; } </style>
+<style> .widaut { width: auto; } </style>
+<style> .r270 { transform:rotate(270deg); } </style>
+<style> .df { display:flex; } </style>
+<style> .dt { display:table; } </style>
+<style> .dtc { display:table-cell; } </style>
+<style> .dtr { display:table-row; } </style>
+<style> .pr { position: relative; } </style>
+<style> .aic { align-items:center; } </style>
+<style> .vam { vertical-align: middle; } </style>
+<style> .talc { text-align-last: center; } </style>
+<style> .linhei { line-height: 1.5; } </style>
+<style> .dib { display: inline-block; } </style>
+<style> .mla { margin-left:auto; } </style>
+<style> .mra { margin-right:auto; } </style>
+<style> .ma { margin: auto; } </style>
+<style> .ma0 { margin: auto 0; } </style>
+<style> .ma5px { margin: 5px; } </style>
+<style> .clearfix { overflow: auto; } </style>
+<style> .fL { float: left; } </style>
+<style> .fR { float: right; } </style>
+<style> .b1 { border: solid white; border-width: 20px; } </style>
+<style> .topleft { position: relative; top:100px; left:100px; background: yellow; border: solid thin #FFFFFF; width: 2000px; } </style>
+<style> .topright { position: relative; background: blue; top: 100px; } </style>
+<style> .fArial { font-family: Arial; } </style>
+<style> .fSS { font-family: Sans-serif; } </style>
+<style> .fCSMS { font-family: ", C, o, m, i, c,  , S, a, n, s,  , M, S, ", ,,  , ", C, o, m, i, c,  , S, a, n, s, ", ,,  , c, u, r, s, i, v, e; } </style>
+<style> .fVerdana { font-family: Verdana; } </style>
+<style> .fTNR { font-family: "Times New Roman"; } </style>
+<style> .c { text-align: center; } </style>
+<style> .b { font-weight: bold; } </style>
+<style> .s3em { font-size: 3em; } </style>
+<style> .s2aahem { font-size: 2.5em; } </style>
+<style> .s2em { font-size: 2em; } </style>
+<style> .s1aahem { font-size: 1.5em; } </style>
+<style> .s1em { font-size: 1em; } </style>
+<style> 
+ .bgReadingPeach { background: #EDD1B0; }
+.bgReadingOrange { background: #EDDD6E; }
+.bgReadingYellow { background: #F8FD89; }
+.bgRosyDewCream { background: #F9F1F0; }
+.bgCream { background: #FFFDD0; }
+.bgNeonYellow { background: #FBCB0A; }
+.bglightgrey { background: lightgrey; }
+.bgRetroMaroon { background: #C70A80; }
+.bgKidsPurple { background: #590696; }
+.bgRainbowTeal { background: #37E2D5; }
+.bgebebeb { background: #ebebeb; }
+.bgebebeb_Tone1 { background: #ede9e9; }
+.bgebebeb_Tone2 { background: #eee8e8; }
+.bgebebeb_Tone3 { background: #f0e6e6; }
+.bgebebeb_Tone4 { background: #f2e4e4; }
+.bgebebeb_Tone5 { background: #f3e3e3; }
+.bgebebeb_Tone6 { background: #f5e1e1; }
+.bgebebeb_Tone7 { background: #f7dfdf; }
+.bgebebeb_Tone8 { background: #f8dede; }
+.bgebebeb_Tone9 { background: #fadcdc; }
+.bgebebeb_Tone10 { background: #fcdada; }
+.bgebebeb_Tone11 { background: #fdd9d9; }
+.bgebebeb_Tone12 { background: #ffd7d7; }
+.bgJungleGreen { background: #29AB87; }
+.bgMantis { background: ; }
+.bgMiddleGreen { background: #4D8C57; }
+.bgScreaminGreen { background: #66FF66; }
+.bgDartmouthGreen { background: #00703C; }
+.bgSapGreen { background: #507D2A; }
+.bgSlimyGreen { background: #299617; }
+.bgLimeGreen { background: #32CD32; }
+.bgBitterLemon { background: #CAE00D; }
+.bgArtichokeGreen { background: #8F9779; }
+.bgGrannySmithApple { background: #A8E4A0; }
+.bgAppleGreen { background: #8DB600; }
+.bgFrenchLime { background: #9EFD38; }
+.bgAvocadon { background: #568203; }
+.bgPistachio { background: #93C572; }
+.bgOliveGreen { background: #708238; }
+.bgDarkOliveGreen { background: #556B2F; }
+.bgHunterGreen { background: #355E3B; }
+.bgAmazon { background: #3B7A57; }
+.bgDarkJungleGreen { background: #1A2421; }
+.bgDeepJungleGreen { background: #004B49; }
+.bgForestGreen { background: #014421; }
+.bgTropicalRainforest { background: #00755E; }
+.bgMyrtleGreen { background: #317873; }
+.bgPineGreen { background: #01796F; }
+.bgMintGreen { background: #98FB98; }
+.bgLawnGreen { background: #7CFC00; }
+.bgMossGreen { background: #8A9A5B; }
+.bgDarkMossGreen { background: #4A5D23; }
+.bgFernGreen { background: #4F7942; }
+.bgTeaGreen { background: #D0F0C0; }
+.bgSageGreen { background: #BCB88A; }
+.bgShamrockGreen { background: #009E60; }
+.bgLaurelGreen { background: #A9BA9D; }
+.bgSpringGreen { background: #00FF7F; }
+.bgMediumSpringGreen { background: #00FA9A; }
+.bgDarkSpringGreen { background: #177245; }
+.bgLightSeaGreen { background: #20B2AA; }
+.bgSea { background: green crayola; }
+.bgHex { background: #8DD9CC; }
+.bgRGB { background: 141, 217, 204; }
+.bgCMYK { background: 35, 0, 6, 15; }
+.bg. { background: ; }
+.bgMedium { background: aquamarine; }
+.bgDark { background: pastel green; }
+.bgOcean { background: green; }
+.bgGreen { background: cyan; }
+.bgPhthalo { background: green; }
+.bgMaximum { background: green yellow; }
+.bgLight { background: green; }
+.bgMiddle { background: blue green; }
+.bgBud { background: green; }
+.bgKombu { background: green; }
+.bgMalachite { background: ; }
+.bgZomp { background: ; }
+.bgBright { background: green; }
+.bgElectric { background: green; }
+.bgVolt { background: ; }
+.bgScreamin { background: green; }
+.bgSap { background: green; }
+.bgGO { background: green; }
+.bgSlimy { background: green; }
+.bgNeon { background: green; }
+.bgPersian { background: green; }
+.bgSpanish { background: green; }
+.bgParis { background: green; }
+.bgBritish { background: racing green; }
+.bgDartmouth { background: green; }
+.bgEton { background: green; }
+.bgSacramento { background: State green; }
+.bgCharleston { background: green; }
+.bgBrunswick { background: green; }
+.bgIndia { background: green; }
+.bgPakistan { background: green; }
+.bgCaribbean { background: green; }
+.bgRussian { background: green; }
+.bgJade { background: green; }
+.bgEmerald { background: green; }
+.bgTurquoise { background: green; }
+.bgCadmium { background: green; }
+.bgHarlequin { background: ; }
+.bgKelly { background: green; }
+.bgPaolo { background: Veronese green; }
+.bgLincoln { background: green; }
+.bgMay { background: green; }
+.bgArmy { background: green; }
+.bgMichigan { background: State University green; }
+.bgMidnight { background: green; }
+.bgCeladon { background: ; }
+.bgBottle { background: green; }
+.bgAndroid { background: green; }
+.bgViridian { background: green; }
+.bgAcid { background: green; }
+.bgCastleton { background: green; }
+.bgWintergreen { background: dream; }
+.bgYellow { background: green color wheel; }
+.bgBlue { background: green color wheel; }
+.bgGreenSheen { background: #6EAEA1; }
+.bgSheenGreen { background: #8FD400; }
+.bgSummerCloud { background: #c0fff0; }
+.bgPaleTurquoise { background: #a8ffd8; }
+.bgGlowInTheDark { background: #c0ffc0; }
+.bgEasterGreen { background: #90ff78; }
+.bgGoblinWarboss { background: #48ff48; }
+.bgGrapeTaffy { background: #f0d8f0; }
+.bgLightLavender { background: #f0c0ff; }
+.bgShade1 { background: #f2fff2; }
+.bgShade2 { background: #eaffea; }
+.bgShade3 { background: #e2fee2; }
+.bgShade4 { background: #dafeda; }
+.bgShade5 { background: #d2fed2; }
+.bgShade6 { background: #c9fec9; }
+.bgShade7 { background: #c1fec1; }
+.bgShade8 { background: #b9feb9; }
+.bgShade9 { background: #b1feb1; }
+.bgShade10 { background: #a9ffa9; }
+.bgShade11 { background: #a1ffa1; }
+.bgShade12 { background: #9f9; }
+.bgShade13 { background: #90ff90; }
+.bgShade14 { background: #8f8; }
+.bgShade15 { background: #80ff80; }
+.bgShade16 { background: #78ff78; }
+.bgShade17 { background: #70ff70; }
+.bgShade18 { background: #68ff68; }
+.bgShade19 { background: #5fff5f; }
+.bgShade20 { background: #57ff57; }
+.bgShade21 { background: #4fff4f; }
+.bgShade22 { background: #47ff47; }
+.bgShade23 { background: #3fff3f; }
+.bgShade24 { background: #37ff37; }
+.bgShade25 { background: #2eff2e; }
+.bgShade26 { background: #26ff26; }
+.bgShade27 { background: #1eff1e; }
+.bgShade28 { background: #16ff16; }
+.bgShade29 { background: #0eff0e; }
+.bgShade30 { background: #06ff06; }
+.bgShade31 { background: #00fc00; }
+.bgShade32 { background: #00f400; }
+.bgShade33 { background: #00ec00; }
+.bgShade34 { background: #00e400; }
+.bgShade35 { background: #00dc00; }
+.bgShade36 { background: #00d400; }
+.bgShade37 { background: #0c0; }
+.bgShade38 { background: #00c300; }
+.bgShade39 { background: #0b0; }
+.bgShade40 { background: #00b300; }
+.bgShade41 { background: #00ab00; }
+.bgShade42 { background: #00a300; }
+.bgShade43 { background: #009b00; }
+.bgShade44 { background: #009200; }
+.bgShade45 { background: #008a00; }
+.bgShade46 { background: #008200; }
+.bgShade47 { background: #007a00; }
+.bgShade48 { background: #007200; }
+.bgShade49 { background: #006a00; }
+.bgShade50 { background: #006100; }
+.bgShade51 { background: #005900; }
+.bgShade52 { background: #005100; }
+.bgShade53 { background: #004900; }
+.bgShade54 { background: #004100; }
+.bgShade55 { background: #003900; }
+.bgShade56 { background: #003000; }
+.bgShade57 { background: #002800; }
+.bgShade58 { background: #002000; }
+.bgShade59 { background: #001800; }
+.bgShade60 { background: #001000; }
+.bg2020ClassicBlue { background: #34568B; }
+.bg2019LivingCoral { background: #FF6F61; }
+.bg2018UltraViolet { background: #6B5B95; }
+.bg2017Greenery { background: #88B04B; }
+.bg2016RoseQuartz { background: #F7CAC9; }
+.bg2016Serenity { background: #92A8D1; }
+.bg2015Marsala { background: #955251; }
+.bg2014RadiandOrchid { background: #B565A7; }
+.bg2013Emerald { background: #009B77; }
+.bg2012TangerineTango { background: #DD4124; }
+.bg2011Honeysucle { background: #D65076; }
+.bg2010Turquoise { background: #45B8AC; }
+.bg2009Mimosa { background: #EFC050; }
+.bg2008BlueIzis { background: #5B5EA6; }
+.bg2007ChiliPepper { background: #9B2335; }
+.bg2006SandDollar { background: #DFCFBE; }
+.bg2005BlueTurquoise { background: #55B4B0; }
+.bg2004Tigerlily { background: #E15D44; }
+.bg2003AquaSky { background: #7FCDCD; }
+.bg2002TrueRed { background: #BC243C; }
+.bg2001FuchsiaRose { background: #C3447A; }
+.bg2000CeruleanBlue { background: #98B4D4; } 
+ </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<table border=0 class="mla mra">
+<tr> <td> <table border=1 class="mla mra">
+<tr align="top"><td class="c s2em fSS bg2006SandDollar" colspan="3">76 YouTube Video Definitions <BR> hash to "va"</td></tr>
+<tr align="top"><th>#</th>
+<th>YouTube-Video</th>
+<th>Saved</th></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">1/76</td>
+<td class="c s2em fSS bg2006SandDollar">Vaani First Birthday Video Montage</td>
+<td class="c s2em fVerdana">Sun Oct 23 07:27:22 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/AhAhnMQB170 <BR>  <BR> https://youtube.com/watch?v=AhAhnMQB170&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">2/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vaastu Expert Chandrashekhar Guru Stabbed To Death In Karnataka; Brutal Killing Caught On Cam" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jul 05 20:42:48 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/jsu3nfJ0I34 <BR>  <BR> https://youtu.be/jsu3nfJ0I34</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">3/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vaccine Developed At A TX Children’s Hospital Could Be The Silver Bullet For Taking Down Covid" on YouTube</td>
+<td class="c s2em fVerdana">Sat Jan 29 04:59:05 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/_e0V0rUbbBM <BR> tag.downloaded <BR> https://youtu.be/_e0V0rUbbBM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">4/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vaccines: Last Week Tonight with John Oliver (HBO)" on YouTube</td>
+<td class="c s2em fVerdana">Mon Feb 14 12:42:14 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7VG_s2PCH_c <BR> tag.downloaded <BR> https://youtu.be/7VG_s2PCH_c</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">5/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vaccine vs. Natural Immunity, and Parents Fighting Back, with Dr. Joseph Ladapo and Brian Echevarria" on YouTube</td>
+<td class="c s2em fVerdana">Fri Mar 18 04:35:27 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/xAts8wZpkxI <BR> tag.downloaded <BR> https://youtu.be/xAts8wZpkxI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">6/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch ""Vacuum Bomb" Thermobaric Weapons Assessment" on YouTube</td>
+<td class="c s2em fVerdana">Sun Mar 13 19:22:44 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ZwScTlCf5IQ <BR>  <BR> https://youtu.be/ZwScTlCf5IQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">7/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vacuum the baby out" on YouTube</td>
+<td class="c s2em fVerdana">Mon Sep 13 12:21:34 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/I1HqUrClOBE <BR>  <BR> https://youtube.com/shorts/I1HqUrClOBE?feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">8/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "VADER ABRAHAM LOOPT WEG (1978)" on YouTube</td>
+<td class="c s2em fVerdana">Wed Aug 03 03:56:12 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/tLzxmQ0RXPQ <BR> tag.downloaded <BR> https://youtu.be/tLzxmQ0RXPQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">9/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vadodara - crocodile fight to eat human floating body" on YouTube</td>
+<td class="c s2em fVerdana">Wed Feb 23 06:12:16 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/MOOAlTymGQA <BR>  <BR> https://youtu.be/MOOAlTymGQA</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">10/76</td>
+<td class="c s2em fSS bg2006SandDollar">VA - [ ENFOLD 01 ] ultimae records compilation FULL ALBUM</td>
+<td class="c s2em fVerdana">Wed Jan 18 19:07:45 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/dtLd7iajGQw <BR>  <BR> https://youtube.com/watch?v=dtLd7iajGQw&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">11/76</td>
+<td class="c s2em fSS bg2006SandDollar">VA Ex Astris Scientia (mixed by Onaro)</td>
+<td class="c s2em fVerdana">Sun Nov 06 22:48:39 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/4BkUcbc28mc <BR> tag.uk <BR> https://youtube.com/watch?v=4BkUcbc28mc&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">12/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vaginoplastika emeliyatinan sonra /Vagina daraltma 055-481-06-12 #vaginoplastika #ginekoloq" on YouTube</td>
+<td class="c s2em fVerdana">Sun Dec 18 04:00:45 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/FPDAZuA9l_c <BR>  <BR> https://youtube.com/shorts/FPDAZuA9l_c?feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">13/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vāgīśvarastotra: In praise of the Lord of Speech" on YouTube</td>
+<td class="c s2em fVerdana">Sun Feb 05 04:39:53 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/TgCBtcL1wRg <BR>  <BR> https://youtu.be/TgCBtcL1wRg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">14/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vài Điều Chia Sẻ Về Tuổi Mậu Thìn 1988??? 📿🙏💖" on YouTube</td>
+<td class="c s2em fVerdana">Sun Feb 20 14:09:21 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/nu81AghnhaU <BR>  <BR> https://youtu.be/nu81AghnhaU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">15/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vaishnava (Raag Khamaj) (feat. Alex Baba & Praashekh Borkar)" on YouTube</td>
+<td class="c s2em fVerdana">Wed Dec 28 22:52:37 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/t07bY_rf9kk <BR>  <BR> https://youtu.be/t07bY_rf9kk</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">16/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vaiva Kalinauskaitė - Now we are free(from Gladiator movie)" on YouTube</td>
+<td class="c s2em fVerdana">Sat Apr 16 06:36:49 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/sjO6Ff3xLpU <BR>  tag.uk <BR> https://youtube.com/watch?v=sjO6Ff3xLpU&feature=share<BR>https://youtu.be/sjO6Ff3xLpU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">17/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Väktarna kom" on YouTube</td>
+<td class="c s2em fVerdana">Sat Dec 31 19:26:14 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/L35xbhZuMYM <BR> tag.downloaded <BR> L35xbhZuMYM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">18/76</td>
+<td class="c s2em fSS bg2006SandDollar">Valentines day makeup look</td>
+<td class="c s2em fVerdana">Thu Oct 20 07:41:22 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Oz-0ki6TuZo <BR>  <BR> https://youtube.com/watch?v=Oz-0ki6TuZo&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">19/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Biden Owens: ‘I Had A PhD In Joe Biden’" on YouTube</td>
+<td class="c s2em fVerdana">Fri Apr 15 20:15:41 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/sOXqCDAj1gI <BR>  <BR> https://youtu.be/sOXqCDAj1gI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">20/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Biden Owens on "Growing Up Biden"" on YouTube</td>
+<td class="c s2em fVerdana">Fri Apr 08 00:37:11 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/wxY4sHcan0k <BR>  <BR> https://youtu.be/wxY4sHcan0k</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">21/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "#120. Valerie Harper - Backstage #5" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 13:26:34 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7Pcx-F50FZY <BR> tag.downloaded <BR> https://youtu.be/7Pcx-F50FZY</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">22/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper Discusses Her Cancer Journey" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 02:50:02 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/EjrzEbw4QHc <BR> tag.downloaded <BR> https://youtu.be/EjrzEbw4QHc</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">23/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper discusses the series "Valerie" - TelevisionAcademy.com/Interviews" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 02:43:43 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/DoDaN2nfTnA <BR> tag.downloaded <BR> https://youtu.be/DoDaN2nfTnA</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">24/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper discusses what she brought to the character Rhoda - TelevisionAcademy.com/Interviews" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 13:59:49 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/DNdo20ZiXYs <BR> tag.downloaded <BR> https://youtu.be/DNdo20ZiXYs</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">25/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper Explains Her Reaction When Cloris Leachman Did Not Win An Emmy | The Dick Cavett Show" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 02:45:03 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/OBcWaH7zgLI <BR> tag.downloaded <BR> https://youtu.be/OBcWaH7zgLI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">26/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper: How I became "Rhoda"" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 02:50:54 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/6bN4x22IyNM <BR> tag.downloaded <BR> https://youtu.be/6bN4x22IyNM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">27/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper Interview about her cancer, careeer and moe" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 15:13:42 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/KKPRsm59xx0 <BR> tag.downloaded <BR> https://youtu.be/KKPRsm59xx0<BR>https://youtu.be/_cpIbRimgOI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">28/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper @ Kinetic Content's Party for Betty White" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 14:38:30 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/6R3mmaNlZD8 <BR> tag.downloaded <BR> https://youtu.be/6R3mmaNlZD8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">29/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper on going through a good divorce, 1978: CBC Archives | CBC" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 02:47:16 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/_a6j0kuR-sg <BR> tag.downloaded <BR> https://youtu.be/_a6j0kuR-sg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">30/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper on Golda Meir & war from Russia @ NYC Salute to Israel Parade 2008" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 15:10:56 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/wImIz2yoQBo <BR> tag.downloaded <BR> https://youtu.be/wImIz2yoQBo</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">31/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper on "Rhoda"'s bluntness - EMMYTVLEGENDS.ORG" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 02:51:43 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/9KSWddcrV-8 <BR> tag.downloaded <BR> https://youtu.be/9KSWddcrV-8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">32/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper on "The Ainsley Harriott Show" February 7, 2000" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 14:19:24 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/yqQAN6SU4lw <BR> tag.downloaded <BR> https://youtu.be/yqQAN6SU4lw</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">33/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "VALERIE HARPER - Rhoda from Mary Tyler Moore" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 14:20:39 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/SEaOGHzB6H0 <BR> tag.downloaded <BR> https://youtu.be/SEaOGHzB6H0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">34/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper's Brave Goodbye | People" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 13:59:01 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/vbbRG1Me9KA <BR> tag.downloaded <BR> https://youtu.be/vbbRG1Me9KA</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">35/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper, TV's sassy, lovable Rhoda, dies at 80" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 13:27:08 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/mAfd9xaQD5M <BR> tag.downloaded <BR> https://youtu.be/mAfd9xaQD5M</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">36/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie Harper wins Best Actress Emmy Award for "Rhoda"" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 29 14:30:51 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/BPlAaiXkgho <BR> tag.downloaded <BR> https://youtu.be/BPlAaiXkgho</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">37/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valerie (1986-1991) Opening Credits (The Hogan Family)" on YouTube</td>
+<td class="c s2em fVerdana">Fri Aug 05 22:26:45 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/rLYy8sat-qo <BR> tag.downloaded <BR> https://youtu.be/rLYy8sat-qo</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">38/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Val Kilmer Reacts to His 1985 Top Gun ET Interview (Exclusive)" on YouTube</td>
+<td class="c s2em fVerdana">Tue May 31 23:48:31 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/F6uoHe4V9M4 <BR>  <BR> https://youtu.be/F6uoHe4V9M4</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">39/76</td>
+<td class="c s2em fSS bg2006SandDollar">Välkommen till svenska rummet!<br><br>✽ Svenska goförbundets hemsida med bland annat forum och nyheter: http://www.goforbundet.se<br><br>[21:41:42] arndt: öl i skuggan<br>[21:43:15] pem: 33,7 noterade väderstationen idag.<br>[21:43:33] pem: Just nu är det "bara" 32.3<br>[21:43:49] pem: men inte så varmt som de skrämdes med i prognosen tidigare i alla fall<br>[21:45:40] pem: lite för varmt även i skugga... men man kanske borde ta en öl på balkongen ändå, av principskäl...<br>[21:48:52] pem: Weihenstephaner<br>[21:49:16] arndt: 31 ute och 27 inne<br>[21:49:27] arndt: aha<br>[21:49:32] pem: inne är det svala 25<br>[21:49:46] arndt: Dugges Bite<br>[21:51:37] pem: gör de dugligt öl fortfarande. De hade en av mina favoriter förr i tiden, men sedan verkade de som om de övergick till en massa smaksatt trams.<br>[21:59:08] pem: oklart varför man skulle vilja grilla i den här värmen, men tycks vara en betingad reflex hos en del.<br>[21:59:22] pem: *ser grill släpas ut på bakgården*<br>[22:00:36] arndt: den här fungerar, innehåller bara det den ska<br>[22:01:27] pem: Avenyn tror jag det var jag brukade dricka, om jag minns rätt. Försvann från bolaget för flera år sedan.<br>[22:02:19] arndt: just det ja, jag beställde hit den en gång<br>[22:03:24] pem: Gustafs finger var också ok tror jag. Också borta.<br>[22:04:34] pem: nu blir det oftast Oppigårds, Uppsala brygghus, och ibland Sigtuna.<br>[22:05:15] pem: De senare har gjort ett taktiskt misstag förresten. Bytt typ av flaska och utseende. Tog ett par besök på bolaget innan jag upptäckte att de fortfarande fanns.<br>[22:08:19] arndt: flygmyror<br>[22:10:28] pem: varför tycker youtube att jag ska titta på videor om klättring? jag förstår inte...<br>[22:13:34] pem: inne igen. Det var för varmt ute. :-P<br></td>
+<td class="c s2em fVerdana">Thu Jul 21 22:29:00 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/fortfarande <BR> </td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">40/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Valley of Adventure (Complete Audiobook)" on YouTube</td>
+<td class="c s2em fVerdana">Wed Sep 01 01:19:10 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/3qoYLEg9Mhw <BR>  <BR> https://youtu.be/3qoYLEg9Mhw d tag.audio</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">41/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vampire Killed The Boy When She Realized That He's No Longer A Virgin !!" on YouTube</td>
+<td class="c s2em fVerdana">Fri Mar 25 20:23:51 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/sy34fM2IT0g <BR>  <BR> https://youtu.be/sy34fM2IT0g</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">42/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "The Vampire Movie They Don't Want You to See" on YouTube</td>
+<td class="c s2em fVerdana">Fri Aug 06 01:14:25 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pyFT7usSROU <BR>  <BR> https://youtu.be/pyFT7usSROU d</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">43/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vampires, Pirates, Billionaires: Q and A on the Female MIND" on YouTube</td>
+<td class="c s2em fVerdana">Sat Feb 25 18:15:55 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/IDQd8bWHr74 <BR>  <BR> https://www.youtube.com/live/IDQd8bWHr74?feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">44/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vampire (1979-TV)" on YouTube</td>
+<td class="c s2em fVerdana">Sat Aug 21 01:32:45 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ThSFpaAdUYU <BR>  <BR> https://youtu.be/ThSFpaAdUYU d</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">45/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Van allen radiation belt||#shorts" on YouTube</td>
+<td class="c s2em fVerdana">Wed Dec 14 05:49:35 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/sxnpaM4fs4k <BR>  <BR> https://youtube.com/shorts/sxnpaM4fs4k?feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">46/76</td>
+<td class="c s2em fSS bg2006SandDollar">Vancouver is Dying | Full Movie</td>
+<td class="c s2em fVerdana">Thu Oct 27 21:53:26 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/PT8OU8Yhs_s <BR> tag.us <BR> https://youtube.com/watch?v=PT8OU8Yhs_s&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">47/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "VAN DAMME EN BODOG FIGHT" on YouTube</td>
+<td class="c s2em fVerdana">Wed Mar 16 14:43:41 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/4lC0Ojd2hXQ <BR>  <BR> https://youtu.be/4lC0Ojd2hXQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">48/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "VANDENBERG - Burning Heart (live Texel 1984)" on YouTube</td>
+<td class="c s2em fVerdana">Wed Jan 11 21:25:02 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/YR9prnwHkVY <BR>  <BR> https://youtu.be/YR9prnwHkVY</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">49/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vandenberg   Live Oude Markt   Enschede   1985" on YouTube</td>
+<td class="c s2em fVerdana">Wed Jan 11 21:25:10 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ihoMgDavexg <BR>  <BR> https://youtu.be/ihoMgDavexg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">50/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vandenberg's Moonkings Live@Le Divan Du Monde Paris Le 26/04/2014" on YouTube</td>
+<td class="c s2em fVerdana">Wed Jan 11 21:24:51 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/YyMVCx_e7Rc <BR> tag.conversation <BR> https://youtu.be/YyMVCx_e7Rc</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">51/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vangelis - Abraham's theme" on YouTube</td>
+<td class="c s2em fVerdana">Tue May 24 05:32:11 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/F6iS5zGLWhE <BR>  <BR> https://youtu.be/F6iS5zGLWhE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">52/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vangelis - Chariots Of Fire" on YouTube</td>
+<td class="c s2em fVerdana">Wed Aug 18 22:39:54 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/8a-HfNE3EIo <BR>  <BR> https://youtube.com/watch?v=8a-HfNE3EIo&feature=share<BR>https://youtu.be/8a-HfNE3EIo d</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">53/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vangelis - Conquest of paradise" on YouTube</td>
+<td class="c s2em fVerdana">Tue May 24 04:39:35 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WYeDsa4Tw0c <BR>  <BR> https://youtu.be/WYeDsa4Tw0c</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">54/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vangelis - 1492 Conquest of Paradise" on YouTube</td>
+<td class="c s2em fVerdana">Sun May 29 12:01:06 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/aCynyt9z8CQ <BR>  <BR> https://youtu.be/aCynyt9z8CQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">55/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "VANGELIS -Demostración" on YouTube</td>
+<td class="c s2em fVerdana">Tue May 24 04:40:47 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/GWggDMDhwIA <BR>  <BR> https://youtu.be/GWggDMDhwIA</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">56/76</td>
+<td class="c s2em fSS bg2006SandDollar">Vangelis - Full Album - Heaven And Hell Part 1 & 2 -</td>
+<td class="c s2em fVerdana">Tue Oct 25 20:56:49 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/R9QHqpdczH0 <BR> tag.us <BR> https://youtube.com/watch?v=R9QHqpdczH0&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">57/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vangelis, Greek composer renowned for 'Chariots of Fire' score, dies at 79 • FRANCE 24 English" on YouTube</td>
+<td class="c s2em fVerdana">Tue May 24 05:32:34 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/PmQqlaiTQjI <BR>  <BR> https://youtu.be/PmQqlaiTQjI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">58/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vangelis - Light and Shadow" on YouTube</td>
+<td class="c s2em fVerdana">Sun Dec 25 21:46:28 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Uj0i_H3lzEU <BR>  <BR> https://youtu.be/Uj0i_H3lzEU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">59/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vangelis - Missing (Opening Theme)" on YouTube</td>
+<td class="c s2em fVerdana">Fri May 20 21:04:15 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Xg4fjNL0328 <BR> tag.log <BR> https://youtu.be/Xg4fjNL0328<BR>vangelis passed</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">60/76</td>
+<td class="c s2em fSS bg2006SandDollar">Vangelis - Opening, Closing & Alternate Titles from The Bounty</td>
+<td class="c s2em fVerdana">Mon Oct 24 18:45:09 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/XLgUOiZUbTk <BR> tag.short <BR> https://youtube.com/watch?v=XLgUOiZUbTk&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">61/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vangelis - Vangelis: Rosetta Timeline (Rosetta)" on YouTube</td>
+<td class="c s2em fVerdana">Wed Apr 13 06:29:47 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WSa3kkMQ574 <BR>  <BR> https://youtu.be/WSa3kkMQ574</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">62/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vanguard - The 8 Trillion Dollar Financial Empire | 2023 Documentary" on YouTube</td>
+<td class="c s2em fVerdana">Thu Feb 23 01:38:50 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/aYpZmOXZ0pY <BR>  <BR> https://youtu.be/aYpZmOXZ0pY</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">63/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Van Halen - Full Concert - 06/12/81 - Oakland Coliseum Stadium (OFFICIAL)" on YouTube</td>
+<td class="c s2em fVerdana">Wed Jan 11 21:24:43 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/VQgHvOvujNE <BR>  <BR> https://youtu.be/VQgHvOvujNE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">64/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vanishing COIN TRICK - TUTORIAL | TheRussianGenius" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 02 00:20:45 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/5n4ocBp3K0A <BR> tag.downloaded <BR> https://youtu.be/5n4ocBp3K0A</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">65/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "The Vanishing of Flight 370" on YouTube</td>
+<td class="c s2em fVerdana">Mon Sep 20 22:38:52 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/kd2KEHvK-q8 <BR> tag.downloaded <BR> https://youtu.be/kd2KEHvK-q8 d</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">66/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vanjlis Garafolo Speaks The Truth About Today's Gangsters" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 10 05:51:56 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/0gdNDSy83wo <BR> tag.downloaded <BR> https://youtu.be/0gdNDSy83wo</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">67/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Van Morrison - Into The Mystic (Official Vinyl Video)" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 27 19:24:25 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/syIUmrSJWAU <BR>  <BR> https://youtu.be/syIUmrSJWAU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">68/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Van Morrison - Wavelength - 6/18/1980 - Montreux (OFFICIAL)" on YouTube</td>
+<td class="c s2em fVerdana">Sun Dec 04 19:19:00 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/l6oZK004AWM <BR> tag.downloaded tag.music tag.short tag.usa <BR> https://youtu.be/l6oZK004AWM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">69/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vantage with Palki Sharma | China's Covid Megawave: A virus threatens Xi Jinping's reign" on YouTube</td>
+<td class="c s2em fVerdana">Sat Jan 28 08:09:02 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-Edy5VMsGVI <BR> tag.downloaded <BR> https://youtu.be/-Edy5VMsGVI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">70/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vantage with Palki Sharma: Your new destination for Global News" on YouTube</td>
+<td class="c s2em fVerdana">Thu Jan 26 23:51:21 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/TDDGZJOZBFI <BR>  <BR> https://youtu.be/TDDGZJOZBFI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">71/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vardaat : एक ही परिवार के 4 लोगों की हत्या। Family Murder। Murder Case" on YouTube</td>
+<td class="c s2em fVerdana">Sat Sep 25 22:02:06 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7mUoiRhl9w4 <BR>  <BR> https://youtu.be/7mUoiRhl9w4</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">72/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Varney on AOC's 'startling' reality over Texas turning blue" on YouTube</td>
+<td class="c s2em fVerdana">Wed Feb 16 21:10:45 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/dxtwgc-amqU <BR>  <BR> https://youtu.be/dxtwgc-amqU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">73/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Varney: Trump warned Europeans against relying on Russia for their oil, gas supplies" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 28 00:07:23 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/v0YRgzOFPjg <BR> tag.downloaded <BR> https://youtu.be/v0YRgzOFPjg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">74/76</td>
+<td class="c s2em fSS bg2006SandDollar">Vår på Saltkråkan</td>
+<td class="c s2em fVerdana">Wed Jan 18 22:30:37 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/h9Hy0Bl7bHk <BR>  <BR> https://youtube.com/watch?v=h9Hy0Bl7bHk&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">75/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Varun Gandhi, The Rebel Within Modi-Shah’s BJP, To Switch Sides Ahead Of UP Polls?" on YouTube</td>
+<td class="c s2em fVerdana">Sun Dec 26 02:23:29 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/M8MKfa94koc <BR>  <BR> https://youtu.be/M8MKfa94koc</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">76/76</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Vastu expert Chandrashekhar Guruji fatally stabbed in Hubballi; Horrifying CCTV footage goes viral" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jul 22 17:39:18 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/wyRdBGi4uMA <BR> tag.downloaded <BR> https://youtu.be/wyRdBGi4uMA</td></tr>
+</table><BR> </td> </tr>
+</table><BR>
+</body>
+</html>

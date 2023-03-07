@@ -1,0 +1,803 @@
+
+
+        <!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        
+<html>
+<head>
+<style> .wrap { word-wrap: break-word; } </style>
+<style> .rwo { display: table; } </style>
+<style> .rwi { padding: 50% 0; height: 0; } </style>
+<style> .etr { display: block; transform-origin: top left; transform: rotate(90deg) translate(0, -100%); margin-top: -50%; white-space: nowrap; } </style>
+<style> .r90 { -webkit-transform: translateY(-100%) rotate(90deg); -moz-transform: translateY(-100%) rotate(90deg); -ms-transform: translateY(-100%) rotate(90deg); -o-transform: translateY(-100%) rotate(90deg); transform: translateY(-100%) rotate(90deg); -webkit-transform-origin: left bottom; -moz-transform-origin: left bottom; -ms-transform-origin: left bottom; -o-transform-origin: left bottom; transform-origin: left bottom; } </style>
+<style> .heiaut { height: auto; } </style>
+<style> .w200px { width: 200px; } </style>
+<style> .w300px { width: 300px; } </style>
+<style> .w333px { width: 333px; } </style>
+<style> .widaut { width: auto; } </style>
+<style> .r270 { transform:rotate(270deg); } </style>
+<style> .df { display:flex; } </style>
+<style> .dt { display:table; } </style>
+<style> .dtc { display:table-cell; } </style>
+<style> .dtr { display:table-row; } </style>
+<style> .pr { position: relative; } </style>
+<style> .aic { align-items:center; } </style>
+<style> .vam { vertical-align: middle; } </style>
+<style> .talc { text-align-last: center; } </style>
+<style> .linhei { line-height: 1.5; } </style>
+<style> .dib { display: inline-block; } </style>
+<style> .mla { margin-left:auto; } </style>
+<style> .mra { margin-right:auto; } </style>
+<style> .ma { margin: auto; } </style>
+<style> .ma0 { margin: auto 0; } </style>
+<style> .ma5px { margin: 5px; } </style>
+<style> .clearfix { overflow: auto; } </style>
+<style> .fL { float: left; } </style>
+<style> .fR { float: right; } </style>
+<style> .b1 { border: solid white; border-width: 20px; } </style>
+<style> .topleft { position: relative; top:100px; left:100px; background: yellow; border: solid thin #FFFFFF; width: 2000px; } </style>
+<style> .topright { position: relative; background: blue; top: 100px; } </style>
+<style> .fArial { font-family: Arial; } </style>
+<style> .fSS { font-family: Sans-serif; } </style>
+<style> .fCSMS { font-family: ", C, o, m, i, c,  , S, a, n, s,  , M, S, ", ,,  , ", C, o, m, i, c,  , S, a, n, s, ", ,,  , c, u, r, s, i, v, e; } </style>
+<style> .fVerdana { font-family: Verdana; } </style>
+<style> .fTNR { font-family: "Times New Roman"; } </style>
+<style> .c { text-align: center; } </style>
+<style> .b { font-weight: bold; } </style>
+<style> .s3em { font-size: 3em; } </style>
+<style> .s2aahem { font-size: 2.5em; } </style>
+<style> .s2em { font-size: 2em; } </style>
+<style> .s1aahem { font-size: 1.5em; } </style>
+<style> .s1em { font-size: 1em; } </style>
+<style> 
+ .bgReadingPeach { background: #EDD1B0; }
+.bgReadingOrange { background: #EDDD6E; }
+.bgReadingYellow { background: #F8FD89; }
+.bgRosyDewCream { background: #F9F1F0; }
+.bgCream { background: #FFFDD0; }
+.bgNeonYellow { background: #FBCB0A; }
+.bglightgrey { background: lightgrey; }
+.bgRetroMaroon { background: #C70A80; }
+.bgKidsPurple { background: #590696; }
+.bgRainbowTeal { background: #37E2D5; }
+.bgebebeb { background: #ebebeb; }
+.bgebebeb_Tone1 { background: #ede9e9; }
+.bgebebeb_Tone2 { background: #eee8e8; }
+.bgebebeb_Tone3 { background: #f0e6e6; }
+.bgebebeb_Tone4 { background: #f2e4e4; }
+.bgebebeb_Tone5 { background: #f3e3e3; }
+.bgebebeb_Tone6 { background: #f5e1e1; }
+.bgebebeb_Tone7 { background: #f7dfdf; }
+.bgebebeb_Tone8 { background: #f8dede; }
+.bgebebeb_Tone9 { background: #fadcdc; }
+.bgebebeb_Tone10 { background: #fcdada; }
+.bgebebeb_Tone11 { background: #fdd9d9; }
+.bgebebeb_Tone12 { background: #ffd7d7; }
+.bgJungleGreen { background: #29AB87; }
+.bgMantis { background: ; }
+.bgMiddleGreen { background: #4D8C57; }
+.bgScreaminGreen { background: #66FF66; }
+.bgDartmouthGreen { background: #00703C; }
+.bgSapGreen { background: #507D2A; }
+.bgSlimyGreen { background: #299617; }
+.bgLimeGreen { background: #32CD32; }
+.bgBitterLemon { background: #CAE00D; }
+.bgArtichokeGreen { background: #8F9779; }
+.bgGrannySmithApple { background: #A8E4A0; }
+.bgAppleGreen { background: #8DB600; }
+.bgFrenchLime { background: #9EFD38; }
+.bgAvocadon { background: #568203; }
+.bgPistachio { background: #93C572; }
+.bgOliveGreen { background: #708238; }
+.bgDarkOliveGreen { background: #556B2F; }
+.bgHunterGreen { background: #355E3B; }
+.bgAmazon { background: #3B7A57; }
+.bgDarkJungleGreen { background: #1A2421; }
+.bgDeepJungleGreen { background: #004B49; }
+.bgForestGreen { background: #014421; }
+.bgTropicalRainforest { background: #00755E; }
+.bgMyrtleGreen { background: #317873; }
+.bgPineGreen { background: #01796F; }
+.bgMintGreen { background: #98FB98; }
+.bgLawnGreen { background: #7CFC00; }
+.bgMossGreen { background: #8A9A5B; }
+.bgDarkMossGreen { background: #4A5D23; }
+.bgFernGreen { background: #4F7942; }
+.bgTeaGreen { background: #D0F0C0; }
+.bgSageGreen { background: #BCB88A; }
+.bgShamrockGreen { background: #009E60; }
+.bgLaurelGreen { background: #A9BA9D; }
+.bgSpringGreen { background: #00FF7F; }
+.bgMediumSpringGreen { background: #00FA9A; }
+.bgDarkSpringGreen { background: #177245; }
+.bgLightSeaGreen { background: #20B2AA; }
+.bgSea { background: green crayola; }
+.bgHex { background: #8DD9CC; }
+.bgRGB { background: 141, 217, 204; }
+.bgCMYK { background: 35, 0, 6, 15; }
+.bg. { background: ; }
+.bgMedium { background: aquamarine; }
+.bgDark { background: pastel green; }
+.bgOcean { background: green; }
+.bgGreen { background: cyan; }
+.bgPhthalo { background: green; }
+.bgMaximum { background: green yellow; }
+.bgLight { background: green; }
+.bgMiddle { background: blue green; }
+.bgBud { background: green; }
+.bgKombu { background: green; }
+.bgMalachite { background: ; }
+.bgZomp { background: ; }
+.bgBright { background: green; }
+.bgElectric { background: green; }
+.bgVolt { background: ; }
+.bgScreamin { background: green; }
+.bgSap { background: green; }
+.bgGO { background: green; }
+.bgSlimy { background: green; }
+.bgNeon { background: green; }
+.bgPersian { background: green; }
+.bgSpanish { background: green; }
+.bgParis { background: green; }
+.bgBritish { background: racing green; }
+.bgDartmouth { background: green; }
+.bgEton { background: green; }
+.bgSacramento { background: State green; }
+.bgCharleston { background: green; }
+.bgBrunswick { background: green; }
+.bgIndia { background: green; }
+.bgPakistan { background: green; }
+.bgCaribbean { background: green; }
+.bgRussian { background: green; }
+.bgJade { background: green; }
+.bgEmerald { background: green; }
+.bgTurquoise { background: green; }
+.bgCadmium { background: green; }
+.bgHarlequin { background: ; }
+.bgKelly { background: green; }
+.bgPaolo { background: Veronese green; }
+.bgLincoln { background: green; }
+.bgMay { background: green; }
+.bgArmy { background: green; }
+.bgMichigan { background: State University green; }
+.bgMidnight { background: green; }
+.bgCeladon { background: ; }
+.bgBottle { background: green; }
+.bgAndroid { background: green; }
+.bgViridian { background: green; }
+.bgAcid { background: green; }
+.bgCastleton { background: green; }
+.bgWintergreen { background: dream; }
+.bgYellow { background: green color wheel; }
+.bgBlue { background: green color wheel; }
+.bgGreenSheen { background: #6EAEA1; }
+.bgSheenGreen { background: #8FD400; }
+.bgSummerCloud { background: #c0fff0; }
+.bgPaleTurquoise { background: #a8ffd8; }
+.bgGlowInTheDark { background: #c0ffc0; }
+.bgEasterGreen { background: #90ff78; }
+.bgGoblinWarboss { background: #48ff48; }
+.bgGrapeTaffy { background: #f0d8f0; }
+.bgLightLavender { background: #f0c0ff; }
+.bgShade1 { background: #f2fff2; }
+.bgShade2 { background: #eaffea; }
+.bgShade3 { background: #e2fee2; }
+.bgShade4 { background: #dafeda; }
+.bgShade5 { background: #d2fed2; }
+.bgShade6 { background: #c9fec9; }
+.bgShade7 { background: #c1fec1; }
+.bgShade8 { background: #b9feb9; }
+.bgShade9 { background: #b1feb1; }
+.bgShade10 { background: #a9ffa9; }
+.bgShade11 { background: #a1ffa1; }
+.bgShade12 { background: #9f9; }
+.bgShade13 { background: #90ff90; }
+.bgShade14 { background: #8f8; }
+.bgShade15 { background: #80ff80; }
+.bgShade16 { background: #78ff78; }
+.bgShade17 { background: #70ff70; }
+.bgShade18 { background: #68ff68; }
+.bgShade19 { background: #5fff5f; }
+.bgShade20 { background: #57ff57; }
+.bgShade21 { background: #4fff4f; }
+.bgShade22 { background: #47ff47; }
+.bgShade23 { background: #3fff3f; }
+.bgShade24 { background: #37ff37; }
+.bgShade25 { background: #2eff2e; }
+.bgShade26 { background: #26ff26; }
+.bgShade27 { background: #1eff1e; }
+.bgShade28 { background: #16ff16; }
+.bgShade29 { background: #0eff0e; }
+.bgShade30 { background: #06ff06; }
+.bgShade31 { background: #00fc00; }
+.bgShade32 { background: #00f400; }
+.bgShade33 { background: #00ec00; }
+.bgShade34 { background: #00e400; }
+.bgShade35 { background: #00dc00; }
+.bgShade36 { background: #00d400; }
+.bgShade37 { background: #0c0; }
+.bgShade38 { background: #00c300; }
+.bgShade39 { background: #0b0; }
+.bgShade40 { background: #00b300; }
+.bgShade41 { background: #00ab00; }
+.bgShade42 { background: #00a300; }
+.bgShade43 { background: #009b00; }
+.bgShade44 { background: #009200; }
+.bgShade45 { background: #008a00; }
+.bgShade46 { background: #008200; }
+.bgShade47 { background: #007a00; }
+.bgShade48 { background: #007200; }
+.bgShade49 { background: #006a00; }
+.bgShade50 { background: #006100; }
+.bgShade51 { background: #005900; }
+.bgShade52 { background: #005100; }
+.bgShade53 { background: #004900; }
+.bgShade54 { background: #004100; }
+.bgShade55 { background: #003900; }
+.bgShade56 { background: #003000; }
+.bgShade57 { background: #002800; }
+.bgShade58 { background: #002000; }
+.bgShade59 { background: #001800; }
+.bgShade60 { background: #001000; }
+.bg2020ClassicBlue { background: #34568B; }
+.bg2019LivingCoral { background: #FF6F61; }
+.bg2018UltraViolet { background: #6B5B95; }
+.bg2017Greenery { background: #88B04B; }
+.bg2016RoseQuartz { background: #F7CAC9; }
+.bg2016Serenity { background: #92A8D1; }
+.bg2015Marsala { background: #955251; }
+.bg2014RadiandOrchid { background: #B565A7; }
+.bg2013Emerald { background: #009B77; }
+.bg2012TangerineTango { background: #DD4124; }
+.bg2011Honeysucle { background: #D65076; }
+.bg2010Turquoise { background: #45B8AC; }
+.bg2009Mimosa { background: #EFC050; }
+.bg2008BlueIzis { background: #5B5EA6; }
+.bg2007ChiliPepper { background: #9B2335; }
+.bg2006SandDollar { background: #DFCFBE; }
+.bg2005BlueTurquoise { background: #55B4B0; }
+.bg2004Tigerlily { background: #E15D44; }
+.bg2003AquaSky { background: #7FCDCD; }
+.bg2002TrueRed { background: #BC243C; }
+.bg2001FuchsiaRose { background: #C3447A; }
+.bg2000CeruleanBlue { background: #98B4D4; } 
+ </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<table border=0 class="mla mra">
+<tr> <td> <table border=1 class="mla mra">
+<tr align="top"><td class="c s2em fSS bg2006SandDollar" colspan="3">131 YouTube Video Definitions <BR> hash to "je"</td></tr>
+<tr align="top"><th>#</th>
+<th>YouTube-Video</th>
+<th>Saved</th></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">1/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jean-Claude Van Damme Helps Conan Limber Up | CONAN on TBS" on YouTube</td>
+<td class="c s2em fVerdana">Fri Oct 01 11:30:41 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/JDsYDTqZtv4 <BR>  <BR> https://youtu.be/JDsYDTqZtv4</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">2/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jean-Luc Godard on Subtitles And Scripts | The Dick Cavett Show" on YouTube</td>
+<td class="c s2em fVerdana">Mon Aug 23 23:24:26 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/eQQH00Rg-Ds <BR>  <BR> https://youtu.be/eQQH00Rg-Ds</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">3/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jean-Michel Jarre - Fourth Rendez-Vous</td>
+<td class="c s2em fVerdana">Wed Oct 26 02:25:48 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/vCLEZM_N0K8 <BR> tag.us <BR> https://youtube.com/watch?v=vCLEZM_N0K8&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">4/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jedi Mind Tricks Presents: Army Of The Pharaohs - "Seven" [Official Audio]" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jan 10 17:25:12 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/TlZgiK6FiO0 <BR>  <BR> https://youtu.be/TlZgiK6FiO0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">5/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeena Jeena Badlapur Lyrics</td>
+<td class="c s2em fVerdana">Mon Feb 27 18:37:17 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/TP7_PZ1kIeU <BR> tag.music</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">6/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeena Jeena - Tere naam pe Meri Zindagi ｜ Atif Aslam HD song ｜ Badlapur</td>
+<td class="c s2em fVerdana">Mon Feb 27 18:37:17 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/mbAhyj9OVIo <BR> tag.music</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">7/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeene Laga Hoon Lyrical - Ramaiya Vastavaiya ｜ Girish Kumar, Shruti Haasan ｜ Atif Aslam</td>
+<td class="c s2em fVerdana">Mon Feb 27 18:37:17 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/qpIdoaaPa6U <BR> tag.music</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">8/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeepers Creepers! The True Crime Story of Marilyn & Dennis Depue" on YouTube</td>
+<td class="c s2em fVerdana">Mon Nov 07 04:37:37 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/d3i1AJPPjCE <BR> tag.us <BR> https://youtu.be/d3i1AJPPjCE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">9/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeep With Family Inside Struck by Lightning on Highway" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jul 06 23:06:41 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/2nFff3H2BpQ <BR>  <BR> https://youtu.be/2nFff3H2BpQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">10/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeevana Tarangaalu | Episode 01 | 'TESTOSTERONE'" on YouTube</td>
+<td class="c s2em fVerdana">Mon Mar 28 03:01:17 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/DuMdHTRHwZ4 <BR>  <BR> https://youtu.be/DuMdHTRHwZ4</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">11/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeff Beck, Rod Stewart - People Get Ready" on YouTube</td>
+<td class="c s2em fVerdana">Thu Jan 12 05:57:52 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/yC_j_dzkaVE <BR>  <BR> https://youtu.be/yC_j_dzkaVE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">12/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeff Bezos and White House bicker over inflation" on YouTube</td>
+<td class="c s2em fVerdana">Tue May 17 14:16:57 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WS6rL5Y8mcM <BR>  <BR> https://youtu.be/WS6rL5Y8mcM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">13/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeff Bezos finally realizes Why many HATE Blue Origin... but adore Space...</td>
+<td class="c s2em fVerdana">Fri Nov 18 17:10:43 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/XtjWo4weP1E <BR> tag.uk <BR> https://youtube.com/watch?v=XtjWo4weP1E&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">14/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeff Bezos's GREEDY Plan to Bring Down Tesla" on YouTube</td>
+<td class="c s2em fVerdana">Mon Oct 25 06:16:04 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/JlOhMl_VCM0 <BR>  <BR> https://youtu.be/JlOhMl_VCM0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">15/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeff Bezos support Elon Musk’s idea for converting Twitter HQ to homeless shelter| World News | WION" on YouTube</td>
+<td class="c s2em fVerdana">Mon Apr 11 12:59:28 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/hqaJKv7zpfc <BR> tag.conversation <BR> https://youtu.be/hqaJKv7zpfc</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">16/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeffery Sachs | EUROPE is DOOMED" on YouTube</td>
+<td class="c s2em fVerdana">Wed Feb 22 07:40:19 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WBbpXMz0Kx8 <BR>  <BR> https://youtu.be/WBbpXMz0Kx8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">17/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeff Goldblum's Undercover Childhood Christmases | Late Night with Conan O’Brien" on YouTube</td>
+<td class="c s2em fVerdana">Thu Sep 30 10:01:11 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/nV-skKLDGF4 <BR>  <BR> https://youtu.be/nV-skKLDGF4</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">18/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "JeffMAC LIVE: Peaceful Truckers vs Police | Ottawa Ontario | Canada |" on YouTube</td>
+<td class="c s2em fVerdana">Sun Feb 20 13:19:06 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/D9OnoGZH9qQ <BR>  <BR> https://youtu.be/D9OnoGZH9qQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">19/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeff Oster - Beautiful Silence" on YouTube</td>
+<td class="c s2em fVerdana">Wed Apr 13 06:40:50 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ie2cEP9HdE4 <BR>  <BR> https://youtu.be/ie2cEP9HdE4</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">20/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeffrey Brenzel: The Essential Value of a Classic Education | Big Think" on YouTube</td>
+<td class="c s2em fVerdana">Sat Sep 18 20:59:53 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/cVLpdzhcU0g <BR>  <BR> https://youtu.be/cVLpdzhcU0g</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">21/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeffrey Dahmer is a Real Jerk!" on YouTube</td>
+<td class="c s2em fVerdana">Mon Sep 27 15:06:28 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ycY_4cgjOuE <BR>  <BR> https://youtu.be/ycY_4cgjOuE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">22/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeffrey Dahmer's Victims" on YouTube</td>
+<td class="c s2em fVerdana">Thu Dec 15 05:57:41 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ScCARgeUfZQ <BR>  <BR> https://youtu.be/ScCARgeUfZQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">23/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeffrey Sachs: America Is Making World Fall Apart - America Is Threat To...</td>
+<td class="c s2em fVerdana">Mon Oct 24 02:11:42 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/cSyZNMR1lNg <BR> tag.us <BR> https://youtube.com/watch?v=cSyZNMR1lNg&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">24/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeffrey Sachs: America Is Making World Fall Apart...America Is Threat To...</td>
+<td class="c s2em fVerdana">Tue Nov 15 20:13:32 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/hze2Me8wSCg <BR> tag.downloaded <BR> https://youtube.com/watch?v=hze2Me8wSCg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">25/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeffrey Sachs: A Negotiated End to Fighting in Ukraine Is the Only Real Way to End the Bloodshed" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jan 24 07:41:06 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/QrmWpI_s7rc <BR>  <BR> https://youtu.be/QrmWpI_s7rc</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">26/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeffrey Sachs: "I'm Really Shocked! Chinese Won't Survive By What's Comi...</td>
+<td class="c s2em fVerdana">Mon Oct 24 02:11:32 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/5pZwA6Lc2To <BR> tag.us <BR> https://youtube.com/watch?v=5pZwA6Lc2To&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">27/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeffrey Sachs: The Speech That Broke The Internet And Media !! [Everyone Is Pure Russian Propaganda]" on YouTube</td>
+<td class="c s2em fVerdana">Wed Nov 02 18:09:45 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Gss21S1MTU8 <BR> tag.uk <BR> https://youtu.be/Gss21S1MTU8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">28/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeffrey Sachs: The War in Ukraine and the Missing Context & Perspective" on YouTube</td>
+<td class="c s2em fVerdana">Sun Jan 22 18:12:03 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/C1EwmYbK7QA <BR>  <BR> https://youtu.be/C1EwmYbK7QA</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">29/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeffrey Sachs: US biotech cartel behind Covid origins and cover-up" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 16 03:47:25 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/morj-3rdWwM <BR> tag.downloaded <BR> morj-3rdWwM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">30/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeffrey Sachs: US Will Turn Ukraine Into Next Afghanistan, This Will Hur...</td>
+<td class="c s2em fVerdana">Sun Nov 13 22:29:18 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/f0aKL3uG_1w <BR> tag.downloaded <BR> https://youtube.com/watch?v=f0aKL3uG_1w</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">31/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeff Ross Loved Roasting “Awful” Ann Coulter | CONAN on TBS" on YouTube</td>
+<td class="c s2em fVerdana">Tue Feb 21 23:50:22 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/NrMiy8LMaPQ <BR>  <BR> https://youtu.be/NrMiy8LMaPQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">32/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeff Steitzer (Halo Announcer) - NFT screenshotted" on YouTube</td>
+<td class="c s2em fVerdana">Sat Jun 25 16:10:54 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Lh9AY1Chuko <BR>  <BR> https://youtu.be/Lh9AY1Chuko</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">33/131</td>
+<td class="c s2em fSS bg2006SandDollar">jellyfish2010movie.avi</td>
+<td class="c s2em fVerdana">Wed Oct 19 18:55:38 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/lNsf_RlyKiQ <BR>  <BR> https://youtube.com/watch?v=lNsf_RlyKiQ&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">34/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Je Mai Ditch Kita Tu Vi dhokhebaaz Ve | Resso Ad" on YouTube</td>
+<td class="c s2em fVerdana">Mon Feb 28 23:11:43 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/braRYJfJ4l4 <BR>  <BR> https://youtu.be/braRYJfJ4l4</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">35/131</td>
+<td class="c s2em fSS bg2006SandDollar">JEM'HADAR: Cultural Index</td>
+<td class="c s2em fVerdana">Wed Oct 19 06:07:52 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/qyhPpzvI2go <BR>  <BR> https://youtube.com/watch?v=qyhPpzvI2go&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">36/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jemma Mitchell convicted of murder after decapitating friend & caught on...</td>
+<td class="c s2em fVerdana">Sat Oct 29 01:08:12 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/rycPjWik5Lw <BR> tag.downloaded tag.uk <BR> https://youtube.com/watch?v=rycPjWik5Lw</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">37/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "JENDERAL RUSIA Dikabarkan Tewas Dalam Serangan Rudal Ukraina, Inilah Sosok Letjen Yakov Rezantsev" on YouTube</td>
+<td class="c s2em fVerdana">Thu Mar 31 04:17:03 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/W5Pz_PI44T0 <BR> tag.downloaded <BR> https://youtu.be/W5Pz_PI44T0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">38/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jen & Dominik-How we met (Part 2)" on YouTube</td>
+<td class="c s2em fVerdana">Sat Apr 16 07:14:35 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/yg_fPbzsSTs <BR> tag.downloaded <BR> https://youtu.be/yg_fPbzsSTs</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">39/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jen & Dominik-Part 3—FINNALLY!" on YouTube</td>
+<td class="c s2em fVerdana">Sat Apr 16 07:13:30 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/2GaoG556DoY <BR> tag.downloaded <BR> https://youtu.be/2GaoG556DoY<BR>https://youtu.be/2F2ZxfpsQjk</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">40/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jen Fishburne Refuted: Who is God?" on YouTube</td>
+<td class="c s2em fVerdana">Fri Aug 20 05:11:12 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/0gGW9aOlgCo <BR>  <BR> https://youtu.be/0gGW9aOlgCo</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">41/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jenna Fischer Broke The Glass Ceiling At Long John Silver's | CONAN on TBS" on YouTube</td>
+<td class="c s2em fVerdana">Wed Jan 12 19:53:36 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/IWnS4bT7_Ac <BR> tag.downloaded <BR> https://youtu.be/IWnS4bT7_Ac</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">42/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jennifer Connelly -  No Vacation" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 14 03:19:50 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/grMPi9PTCaA <BR>  <BR> https://youtu.be/grMPi9PTCaA</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">43/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jennifer Garner Finally Speaks How Ben Affleck's Kids Talk About Jennifer Lopez" on YouTube</td>
+<td class="c s2em fVerdana">Thu Nov 03 15:06:50 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/yHNuLoMB4gU <BR> tag.short <BR> https://youtu.be/yHNuLoMB4gU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">44/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jennifer Lawrence's Sex Toy Stash Got Busted | CONAN on TBS" on YouTube</td>
+<td class="c s2em fVerdana">Mon Sep 27 23:57:46 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/o8KjKFyROaU <BR> tag.downloaded <BR> https://youtu.be/o8KjKFyROaU d</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">45/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jennifer Lopez And Ray Liotta Discuss The TV Show, "Shades Of Blue" | BUILD Series" on YouTube</td>
+<td class="c s2em fVerdana">Tue May 31 23:44:01 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/6wZ6GtehfBc <BR> tag.downloaded <BR> https://youtu.be/6wZ6GtehfBc</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">46/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jennifer Lopez - On The Floor ft. Pitbull</td>
+<td class="c s2em fVerdana">Mon Feb 27 18:37:17 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/t4H_Zoh7G5A <BR> tag.music</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">47/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jennifer Lopez (2005) The Late Show with David Letterman (part 1 of 3)" on YouTube</td>
+<td class="c s2em fVerdana">Tue Dec 13 00:35:49 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/YmTKCiZZXto <BR>  <BR> https://youtu.be/YmTKCiZZXto</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">48/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jennifer Love Hewitt gets Flirtatious with Craig Ferguson (Interview Compilations)" on YouTube</td>
+<td class="c s2em fVerdana">Fri Sep 17 20:39:50 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/m-8Ffv2RqYs <BR>  <BR> https://youtu.be/m-8Ffv2RqYs</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">49/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jennifer Rush - The Power Of Love (Official Video) (VOD)" on YouTube</td>
+<td class="c s2em fVerdana">Mon Aug 22 02:33:53 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/b_zHQ6kFuQ0 <BR>  <BR> https://youtu.be/b_zHQ6kFuQ0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">50/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "JENNIFER’S HIV/AIDS Story (in Pictures)" on YouTube</td>
+<td class="c s2em fVerdana">Wed Jun 30 19:44:10 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/NgtaU9GKNHg <BR>  <BR> https://youtu.be/NgtaU9GKNHg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">51/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jen Psaki Defends Filibuster Strategy" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 28 13:08:45 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/PfOKMjyFRbc <BR> tag.downloaded <BR> https://youtu.be/PfOKMjyFRbc</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">52/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jen Psaki holds White House press briefing l 1/27/22" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 28 03:30:04 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ITVxwMOGb40 <BR> tag.downloaded <BR> https://youtu.be/ITVxwMOGb40</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">53/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jen Psaki holds White House press briefing | 4/20/22" on YouTube</td>
+<td class="c s2em fVerdana">Sun May 29 12:27:42 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/7oLwTQJEDR0 <BR> tag.downloaded <BR> https://youtu.be/7oLwTQJEDR0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">54/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jen Psaki holds White House press briefing 9/27/21" on YouTube</td>
+<td class="c s2em fVerdana">Tue Sep 28 21:59:24 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/To9t_YtVlWo <BR>  <BR> https://youtu.be/To9t_YtVlWo</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">55/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jen Psaki LIGHTS UP Ted Cruz And Kari Lake" on YouTube</td>
+<td class="c s2em fVerdana">Sun Dec 04 23:52:36 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/qGErUlQVzpA <BR> tag.downloaded <BR> https://youtu.be/qGErUlQVzpA<BR>https://youtu.be/g4dZZXM_MW8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">56/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jen Psaki makes MAJOR admission" on YouTube</td>
+<td class="c s2em fVerdana">Sun Dec 04 23:59:13 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/_RpNo5N7Hzk <BR> tag.downloaded <BR> https://youtu.be/_RpNo5N7Hzk<BR>https://youtu.be/mryN2bLTKq4</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">57/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jen Psaki responds to Joe Rogan Spotify controversy" on YouTube</td>
+<td class="c s2em fVerdana">Fri Feb 04 08:37:40 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/a3x3ZxVEqNI <BR>  <BR> https://youtu.be/a3x3ZxVEqNI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">58/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jen Psaki: This is complicated" on YouTube</td>
+<td class="c s2em fVerdana">Tue Apr 12 04:02:27 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/pXE7YFWQwes <BR>  <BR> https://youtu.be/pXE7YFWQwes</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">59/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeopardy! Champion Brayden Smith's Tragic Cause Of Death Revealed" on YouTube</td>
+<td class="c s2em fVerdana">Sat Jan 15 23:28:18 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/oeZMS0A39VU <BR> tag.downloaded <BR> https://youtu.be/oeZMS0A39VU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">60/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremih - Don't Tell 'Em (Official Audio) ft. YG" on YouTube</td>
+<td class="c s2em fVerdana">Wed Mar 30 19:57:10 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/MqyCoAgiGnI <BR>  <BR> https://youtu.be/MqyCoAgiGnI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">61/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremy Brett: A Journey Through Time" on YouTube</td>
+<td class="c s2em fVerdana">Fri Apr 08 02:13:42 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WQcwkjUmqzU <BR>  <BR> https://youtu.be/WQcwkjUmqzU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">62/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremy Brett/Edward Hardwicke Interview" on YouTube</td>
+<td class="c s2em fVerdana">Fri Apr 08 02:11:04 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/eBI_5Rzf1aI <BR> tag.downloaded <BR> https://youtu.be/eBI_5Rzf1aI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">63/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremy Brett Interview" on YouTube</td>
+<td class="c s2em fVerdana">Fri Apr 08 02:13:18 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/h4SSyopdTd8 <BR>  <BR> https://youtu.be/h4SSyopdTd8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">64/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremy Clarkson emails Prince Harry and Meghan to apologise for column" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jan 17 00:20:01 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/m71iTa-L3RM <BR>  <BR> https://youtu.be/m71iTa-L3RM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">65/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremy Clarkson ‘hates Meghan Markle more than Rose West’ | Mark Dolan BACKS right to free speech" on YouTube</td>
+<td class="c s2em fVerdana">Wed Dec 21 09:12:46 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-b7dflqXS3I <BR>  <BR> https://youtu.be/-b7dflqXS3I</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">66/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremy Clarkson 'horrified’ at response to his Meghan Markle column | 9 News Australia" on YouTube</td>
+<td class="c s2em fVerdana">Wed Dec 21 02:18:00 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/gB7GCt58yIE <BR>  <BR> https://youtu.be/gB7GCt58yIE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">67/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremy Clarkson’s ‘Honest’ Application for Farmer of The Year | Clarkson’s Farm | Prime Video" on YouTube</td>
+<td class="c s2em fVerdana">Mon Sep 13 21:25:24 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/esTr4IqnXro <BR>  <BR> https://youtu.be/esTr4IqnXro tag.video.small</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">68/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Watch: Jeremy Corbyn appears to call the PM a "stupid woman"" on YouTube</td>
+<td class="c s2em fVerdana">Fri Dec 02 00:51:56 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/1edfyaJ4YrA <BR>  <BR> https://youtu.be/1edfyaJ4YrA</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">69/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeremy Corbyn DESTROYS The Establishment</td>
+<td class="c s2em fVerdana">Mon Oct 10 18:03:12 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/i5Uhqyfk1pY <BR>  <BR> https://youtube.com/watch?v=i5Uhqyfk1pY&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">70/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremy Corbyn tells Boris Johnson his legacy will be of ‘poverty, inequality and insecurity’" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jul 19 07:48:56 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/fuaVtltvMz0 <BR>  <BR> https://youtu.be/fuaVtltvMz0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">71/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeremy Corbyn WARNS Rishi Sunak and Liz Truss to not bring in laws again...</td>
+<td class="c s2em fVerdana">Thu Oct 20 22:54:15 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/IWnAoc2iDvw <BR>  <BR> https://youtube.com/watch?v=IWnAoc2iDvw&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">72/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeremy Hunt addresses the House of Commons</td>
+<td class="c s2em fVerdana">Mon Feb 27 23:39:19 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/angTfOs1qss <BR> tag.news tag.timesradio</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">73/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeremy Hunt is 'de-facto Prime Minister' - Tory MP</td>
+<td class="c s2em fVerdana">Mon Oct 17 15:37:37 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/PJuVH5ekKGI <BR>  <BR> https://youtube.com/watch?v=PJuVH5ekKGI&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">74/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeremy Hunt replaces Kwasi Kwarteng as chancellor of the exchequer</td>
+<td class="c s2em fVerdana">Fri Oct 14 19:05:31 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ItoZ-0giHbo <BR>  <BR> https://youtube.com/watch?v=ItoZ-0giHbo&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">75/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeremy Hunt shreds Liz Truss' tax cuts</td>
+<td class="c s2em fVerdana">Mon Feb 27 23:39:19 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/CG9MHguKXs8 <BR> tag.news tag.timesradio</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">76/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeremy Hunt’s statement is a ‘political trick’</td>
+<td class="c s2em fVerdana">Mon Feb 27 23:39:19 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/m7KY--PzQos <BR> tag.news tag.timesradio</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">77/131</td>
+<td class="c s2em fSS bg2006SandDollar">'Jeremy Hunt went further than all of us thought he would'</td>
+<td class="c s2em fVerdana">Mon Oct 17 20:10:56 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/GCXCwMFVU_I <BR>  <BR> https://youtube.com/watch?v=GCXCwMFVU_I&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">78/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeremy Hunt won't run for PM after Truss resignation</td>
+<td class="c s2em fVerdana">Thu Oct 20 19:36:39 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/TT9x68TyxGc <BR>  <BR> https://youtube.com/watch?v=TT9x68TyxGc&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">79/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremy Irons talks about Eurocrisis - Do anyone understand to who we owe so much money? (legendado)" on YouTube</td>
+<td class="c s2em fVerdana">Sat Apr 16 21:28:05 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/DKBY-fcc9jU <BR>  <BR> https://youtu.be/DKBY-fcc9jU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">80/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremy Miller "Growing Pains" talks Alan Thicke death, Kirk Cameron backlash & Private Chef Work" on YouTube</td>
+<td class="c s2em fVerdana">Wed Nov 02 21:58:06 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WbTMnyboEjE <BR> tag.downloaded <BR> https://youtu.be/WbTMnyboEjE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">81/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jeremy Piven DEFENDS Chris Rock After Will Smith Oscar Moment (Exclusive)" on YouTube</td>
+<td class="c s2em fVerdana">Wed Mar 30 08:27:47 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/WioCJQnKrx8 <BR> tag.downloaded <BR> https://youtu.be/WioCJQnKrx8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">82/131</td>
+<td class="c s2em fSS bg2006SandDollar">☾ Je rénove une zone commerciale avec des apparts ! | Vos créas 2.0 - Si...</td>
+<td class="c s2em fVerdana">Wed Nov 16 21:50:21 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/0mEqBBgoglA <BR> tag.uk <BR> https://youtube.com/watch?v=0mEqBBgoglA&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">83/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerking Off Old Men - Natasha Leggero Stand Up Comedy" on YouTube</td>
+<td class="c s2em fVerdana">Sun May 29 12:06:26 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/m03GM7YDzyA <BR>  <BR> https://youtu.be/m03GM7YDzyA</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">84/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jerry Lee Lewis - Great Balls Of Fire! (1957) 4K</td>
+<td class="c s2em fVerdana">Fri Oct 28 22:54:09 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/F569_t2jCio <BR> tag.1950s tag.music <BR> https://youtube.com/watch?v=F569_t2jCio&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">85/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerry Lewis on the Martin-Lewis Reunion & Dean's Death" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jun 25 23:48:54 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ar0iRUj_uww <BR>  <BR> https://youtu.be/ar0iRUj_uww</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">86/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerry Lewis & Sammy Davis Jr. -  "Scatting" & "Come Rain Or Come Shine" (1981) - MDA Telethon" on YouTube</td>
+<td class="c s2em fVerdana">Wed Aug 04 07:40:21 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/CH1zhinKmw0 <BR>  <BR> https://youtu.be/CH1zhinKmw0 d</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">87/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerry O'Connell Says He Was Called the 'Fat Kid From Stand By Me' For Years! (Exclusive)" on YouTube</td>
+<td class="c s2em fVerdana">Fri Sep 17 20:35:38 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/uE6VX5VQuRM <BR>  <BR> https://youtu.be/uE6VX5VQuRM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">88/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerry Reed - East Bound and Down (Audio)" on YouTube</td>
+<td class="c s2em fVerdana">Sun Apr 10 08:21:35 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/IOgUaFkpS3Y <BR>  <BR> https://youtu.be/IOgUaFkpS3Y</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">89/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerry Seinfeld & Cardi B: Between Two Ferns With Zach Galifianakis" on YouTube</td>
+<td class="c s2em fVerdana">Sun Oct 03 02:25:05 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Qp25FOn37nA <BR>  <BR> https://youtu.be/Qp25FOn37nA</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">90/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerry Seinfeld Does Not Want to Be Here - Late Night with Seth Meyers" on YouTube</td>
+<td class="c s2em fVerdana">Sun Oct 03 02:24:00 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ZbmEjz9t0AE <BR>  <BR> https://youtu.be/ZbmEjz9t0AE</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">91/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerry Seinfeld: My Fans Have Done Nothing For Me!!! They owe me!" on YouTube</td>
+<td class="c s2em fVerdana">Sat Oct 02 00:54:42 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/44gS_HDme-U <BR>  <BR> https://youtu.be/44gS_HDme-U</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">92/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerry Seinfeld on reunions, why he hates Newman" on YouTube</td>
+<td class="c s2em fVerdana">Tue Apr 05 03:05:29 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/o5ddyj0RAHs <BR>  <BR> https://youtu.be/o5ddyj0RAHs</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">93/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerry Seinfeld's Comedy Made Anthony Jeselnik Furious | Joe Rogan" on YouTube</td>
+<td class="c s2em fVerdana">Sat Oct 02 01:08:35 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/41MNCnppwQs <BR>  <BR> https://youtu.be/41MNCnppwQs</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">94/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerry Springer: I JUST JOINED THE KKK" on YouTube</td>
+<td class="c s2em fVerdana">Fri Sep 24 21:23:24 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Z7HTAB6Kp9I <BR>  <BR> https://youtu.be/Z7HTAB6Kp9I</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">95/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jerusalem in 1897 Restored Footage" on YouTube</td>
+<td class="c s2em fVerdana">Tue Dec 27 21:34:49 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/NDZBsW8yLqg <BR>  <BR> https://youtube.com/shorts/NDZBsW8yLqg?feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">96/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters: Anti-racist speakers paid thousands for their talks" on YouTube</td>
+<td class="c s2em fVerdana">Thu Feb 24 05:46:51 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/93X9J39uRhs <BR>  <BR> https://youtu.be/93X9J39uRhs</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">97/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jesse Watters: Elon Musk's Twitter takeover is a doomsday scenario for D...</td>
+<td class="c s2em fVerdana">Sun Oct 30 03:55:27 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/VX5TwDvVoTk <BR> tag.us <BR> https://youtube.com/watch?v=VX5TwDvVoTk</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">98/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters: Hillary's web of lies" on YouTube</td>
+<td class="c s2em fVerdana">Wed Feb 16 03:51:51 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/G0EGI2axxKc <BR>  <BR> https://youtu.be/G0EGI2axxKc</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">99/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters Primetime 4/15/22 FULL HD | BREAKING FOX NEWS April 15, 2022" on YouTube</td>
+<td class="c s2em fVerdana">Sat Apr 16 06:58:02 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/HfAedIdscmU <BR> tag.downloaded <BR> https://youtu.be/HfAedIdscmU</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">100/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jesse Watters Primetime 10/20/22 FULL HD | FOX BREAKING NEWS TRUMP Octob...</td>
+<td class="c s2em fVerdana">Fri Oct 21 06:38:53 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/a7MdvFwRR0E <BR> tag.downloaded <BR> https://youtube.com/watch?v=a7MdvFwRR0E</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">101/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters Primetime 4/25/22 Today | FOX BREAKING NEWS  April 25, 22" on YouTube</td>
+<td class="c s2em fVerdana">Tue Apr 26 06:20:18 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/XrT9Dvu0XQY <BR> tag.downloaded <BR> https://youtu.be/XrT9Dvu0XQY</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">102/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters roasts Gutfeld in a special monologue" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jan 03 14:57:44 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/5rWHw6OeM9g <BR>  <BR> https://youtu.be/5rWHw6OeM9g</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">103/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters: The Five Families of the Democrat Party" on YouTube</td>
+<td class="c s2em fVerdana">Fri Jan 28 09:15:00 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/BBpvvHethg0 <BR> tag.downloaded <BR> https://youtu.be/BBpvvHethg0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">104/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters: The media made a terrible mistake" on YouTube</td>
+<td class="c s2em fVerdana">Fri Feb 25 02:48:11 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/LNzWuzKlh-0 <BR>  <BR> https://youtu.be/LNzWuzKlh-0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">105/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters: They're losing voters faster than CNN is losing viewers" on YouTube</td>
+<td class="c s2em fVerdana">Fri Feb 18 21:50:25 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/9dQQq_ltOuw <BR>  <BR> https://youtu.be/9dQQq_ltOuw</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">106/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters: This is just the beginning" on YouTube</td>
+<td class="c s2em fVerdana">Sat Feb 05 21:19:01 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Tshv1AeiLu0 <BR> tag.downloaded <BR> https://youtu.be/Tshv1AeiLu0</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">107/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters: This is the Left's warped perception of reality" on YouTube</td>
+<td class="c s2em fVerdana">Wed Mar 30 19:24:17 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/LkwH3RPtgQI <BR>  <BR> https://youtu.be/LkwH3RPtgQI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">108/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters: We have a president who can't own up to anything" on YouTube</td>
+<td class="c s2em fVerdana">Sat Jul 09 06:28:11 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/4skMRr07F6k <BR> tag.downloaded <BR> https://youtu.be/4skMRr07F6k</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">109/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesse Watters: Why is Biden betraying us?" on YouTube</td>
+<td class="c s2em fVerdana">Sat Jan 29 18:33:13 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/efkARlNJeyI <BR> tag.downloaded <BR> https://youtu.be/efkARlNJeyI</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">110/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jessica Chastain’s Grandma Wants Her To Show Some Skin | CONAN on TBS" on YouTube</td>
+<td class="c s2em fVerdana">Thu Sep 30 18:36:03 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/wWzJxTX6WRQ <BR>  <BR> https://youtu.be/wWzJxTX6WRQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">111/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "JESSICA SIMPSON IN AN EXCLUSIVE INTERVIEW WITH DR. OZ | BEST CLIPS" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jan 17 21:51:35 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/kaGmTerH814 <BR>  <BR> https://youtu.be/kaGmTerH814</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">112/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jessie Buckley & Bernard Butler - Seven Red Rose Tattoos" on YouTube</td>
+<td class="c s2em fVerdana">Thu May 19 12:13:22 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/nlPKfarwsyM <BR>  <BR> https://youtu.be/nlPKfarwsyM</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">113/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jesu, Joy Of Man's Desiring</td>
+<td class="c s2em fVerdana">Sun Feb 19 15:54:02 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/HdZupwvlqCQ <BR> tag.christmas tag.music tag.playlist.randbarrett8706.christmas tag.short tag.user.randbarrett8706</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">114/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jesus Born on This Day</td>
+<td class="c s2em fVerdana">Sun Feb 19 15:54:02 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/r8uUEcQBLIE <BR> tag.christmas tag.music tag.playlist.randbarrett8706.christmas tag.short tag.user.randbarrett8706</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">115/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesus is Better than Trauma" on YouTube</td>
+<td class="c s2em fVerdana">Mon Jun 20 22:38:15 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/yJ_aH2Fn9dk <BR> tag.downloaded <BR> https://youtu.be/yJ_aH2Fn9dk</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">116/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jesus Oh What a Wonderful Child</td>
+<td class="c s2em fVerdana">Sun Feb 19 15:54:02 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ZBAIfUbdDXY <BR> tag.christmas tag.music tag.playlist.randbarrett8706.christmas tag.short tag.user.randbarrett8706</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">117/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jesus Oh What a Wonderful Child</td>
+<td class="c s2em fVerdana">Sun Feb 19 15:54:02 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/jKVK8XH1ulY <BR> tag.christmas tag.music tag.playlist.randbarrett8706.christmas tag.short tag.user.randbarrett8706</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">118/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesus on the cross||Sadhguru V/S Ravi zacharias" on YouTube</td>
+<td class="c s2em fVerdana">Fri Dec 03 23:22:04 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/vFoqgEgn4Yg <BR> tag.downloaded <BR> https://youtu.be/vFoqgEgn4Yg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">119/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesus: Person of Interest by J. Warner Wallace" on YouTube</td>
+<td class="c s2em fVerdana">Mon Apr 04 14:56:58 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/ZmhPsqjDuQg <BR>  <BR> https://youtu.be/ZmhPsqjDuQg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">120/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "‘Jesus ... this is just awful’: See haunting report about children fleeing Ukraine" on YouTube</td>
+<td class="c s2em fVerdana">Sun Mar 06 03:27:51 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/lkbbI0vAh-k <BR>  <BR> https://youtu.be/lkbbI0vAh-k</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">121/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jesus was a Buddhist Monk BBC Documentary" on YouTube</td>
+<td class="c s2em fVerdana">Tue Jan 03 07:21:19 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/l5rn5ZL9eWQ <BR>  <BR> https://youtu.be/l5rn5ZL9eWQ</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">122/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jet doesn’t miss" on YouTube</td>
+<td class="c s2em fVerdana">Thu Jan 05 02:44:58 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/XRxBhqOgNpw <BR>  <BR> https://youtube.com/shorts/XRxBhqOgNpw?feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">123/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jets to Ukraine decision ‘not easy’, Poland’s president says - BBC News" on YouTube</td>
+<td class="c s2em fVerdana">Mon Feb 13 03:56:33 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/mpaE8HdxwJg <BR>  <BR> https://youtu.be/mpaE8HdxwJg</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">124/131</td>
+<td class="c s2em fSS bg2006SandDollar">Jeux Sans Frontieres 1975 Engelburg (CH) English commentary Full Show</td>
+<td class="c s2em fVerdana">Sun Nov 20 06:09:51 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/OXT--BbK2v8 <BR> tag.downloaded <BR> https://youtube.com/watch?v=OXT--BbK2v8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">125/131</td>
+<td class="c s2em fSS bg2006SandDollar">10 Jewish Business Secrets You MUST Know</td>
+<td class="c s2em fVerdana">Sat Nov 12 07:21:01 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/RCvecnJ8bOY <BR> tag.uk <BR> https://youtube.com/watch?v=RCvecnJ8bOY&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">126/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "The JEWISH ECONOMY explained." on YouTube</td>
+<td class="c s2em fVerdana">Thu Dec 08 06:34:45 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/_RyeYiBu3EA <BR>  <BR> https://youtu.be/_RyeYiBu3EA</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">127/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jewish History Explained In 16 Minutes" on YouTube</td>
+<td class="c s2em fVerdana">Tue Feb 28 19:55:32 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/v7E0Dvmfa2A <BR>  <BR> https://youtu.be/v7E0Dvmfa2A</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">128/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "A Jewish Look at Islam" on YouTube</td>
+<td class="c s2em fVerdana">Thu Jan 26 05:24:30 2023</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/nQ_f-QMs7qs <BR>  <BR> https://youtu.be/nQ_f-QMs7qs</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">129/131</td>
+<td class="c s2em fSS bg2006SandDollar">The Jewish Messiah is here and doing miracles?</td>
+<td class="c s2em fVerdana">Wed Nov 16 20:26:06 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/Xl96f1QIOaE <BR> tag.uk <BR> https://youtube.com/watch?v=Xl96f1QIOaE&feature=share</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">130/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch "Jewish quotes and Sayings that are full of wisdom | Jewish wisdom, proverbs, aphorisms" on YouTube</td>
+<td class="c s2em fVerdana">Fri May 27 05:42:23 2022</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/-UuZIGFX9R8 <BR>  <BR> https://youtu.be/-UuZIGFX9R8</td></tr>
+<tr align="top"><td class="c s2em fVerdana bg2000CeruleanBlue" rowspan="2">131/131</td>
+<td class="c s2em fSS bg2006SandDollar">Watch ""Jews were persecuted throughout Europe & the Middle East, but never in India." Israel's Mark Regev" on YouTube</td>
+<td class="c s2em fVerdana">Fri Dec 03 20:38:42 2021</td></tr>
+<tr align="top"><td class="c s2em fTNR bgReadingOrange" colspan="2">https://youtu.be/IKxINZOREus <BR>  <BR> https://youtu.be/IKxINZOREus</td></tr>
+</table><BR> </td> </tr>
+</table><BR>
+</body>
+</html>
